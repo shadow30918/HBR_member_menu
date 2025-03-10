@@ -1,0 +1,30 @@
+<!-- 提醒填寫報名資料-->
+<div class="modal sqlModal remind fade" id="remind">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="successBox">
+          <h4 class="title">
+            <span><i class="icon-tip"></i></span>
+            提醒您
+          </h4>
+          <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+          <div class="detail">
+
+            <p>您尚未完成報名資料填寫。</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <button class="btn btn-white-line btn-full" title="close" data-dismiss="modal">下次再填</button>
+
+            </div>
+            <div class="col-md-6 col-12">
+              <a class="btn btn-black btn-full" href="" title="返回填寫">返回填寫</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,155 @@
+<footer>
+    <div class="container-fluid">
+        <div class="topFooter">
+            <div class="left">
+                <a href="https://www.hbrtaiwan.com/" target="_blank">
+                    <img src="assets/img/logo_white.png" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <div id="accordion" class="accordionItemBox">
+                    <div class="item">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseThree">
+                            HBR全服務
+                        </a>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="https://www.hbrtaiwan.com" title="內容訂閱" target="_blank">內容訂閱</a></li>
+                                    <li><a href="https://linktr.ee/hbrtaiwan_podcast" title="Podcast"
+                                            target="_blank">Podcast</a></li>
+                                    <li><a href="coursePLC.html" title="企業學習服務">企業學習服務</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="title collapsed" data-toggle="collapse" href="#collapseOne">
+                            領導者學程
+                        </a>
+                        <div id="collapseOne" class="collapse " data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="courseIntro.html?id=new-class" title="報名學程">報名學程</a></li>
+                                    <li>
+                                        <a href="courseIntro.html" title="學程介紹">
+                                            學程介紹
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="courseTeacher.html" title="黃金導師">
+                                            黃金導師
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="courseStudent.html" title="學員見證">
+                                            學員見證
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="courseIntro.html?id=enter-club" title="領導者俱樂部">
+                                            領導者俱樂部
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="item">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseTwo">
+                            俱樂部
+                        </a>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="courseIntro.html?id=enter-club" title="">領導者俱樂部</a></li>
+                                    <li><a href="" title="">VIP讀者俱樂部</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="item special">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseFour">
+                            關於我們
+                        </a>
+                        <div id="collapseFour" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="https://www.hbrtaiwan.com/" title="HBR 數位版" target="_blank">HBR 數位版</a>
+                                    </li>
+                                    <li><a href="https://event.hbrtaiwan.com/2022twleader/" title="台灣CEO 100強"
+                                            target="_blank">台灣CEO 100強</a></li>
+                                    <li><a href="https://event.hbrtaiwan.com/2022_hbrdx/" title="數位轉型鼎革獎"
+                                            target="_blank">數位轉型鼎革獎</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://service.hbrtaiwan.com/about" title="" target="_blank">關於我們</a>
+                                    </li>
+                                    <li><a href="https://service.hbrtaiwan.com/privacy-policy/A" title=""
+                                            target="_blank">著作權聲明</a></li>
+                                    <!-- <li><a href="" title="">隱私權政策</a></li> -->
+                                    <li><a href="https://service.hbrtaiwan.com/privacy-policy/B" title=""
+                                            target="_blank">個資保護聲明</a>
+                                    </li>
+                                    <li><a href="https://service.hbrtaiwan.com/contact" title=""
+                                            target="_blank">讀者信箱</a></li>
+                                    <li><a href="https://service.hbrtaiwan.com/saleskit" title=""
+                                            target="_blank">廣告合作</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <div class="left">
+                <div class="logoBox">
+                    <a href="https://www.cwgv.com.tw/" target="_blank">
+                        <img src="assets/img/cause.png" alt="">
+                    </a>
+                    <span class="desktopNone">Copyright©1999~2021 All rights reserved.</span>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li>哈佛商業評論全球繁體中文版</li>
+                        <li class="mobileNone">Copyright©1999~2021 </li>
+                        <li>遠見天下文化出版股份有限公司.</li>
+                        <li class="mobileNone">All rights reserved.</li>
+
+                    </ul>
+                    <ul>
+                        <li>讀者服務專線</li>
+                        <li><a href="tel:0226620012">電話：+886 2 2662 0012 </a></li>
+                        <li>時間：週一至週五9:00～12:30；13:30～17:00</li>
+                        <li><a href="mailto:hbrtaiwan@cwgv.com.tw">信箱：hbrtaiwan@cwgv.com.tw</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <a href="https://service.hbrtaiwan.com/member/newsletter" title="" class="subscription"
+                        target="_blank">
+                        <img src="assets/img/footerSbscription.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="https://www.facebook.com/hbrtaiwan" title="" target="_blank"><i
+                                class="icon-facebook"></i></a></li>
+                    <li><a href="https://line.me/R/ti/p/%40zfc8021l" title="" target="_blank"><i
+                                class="icon-line"></i></a></li>
+                    <li><a href="https://www.instagram.com/hbrtaiwan/" title="" target="_blank"><i
+                                class="icon-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCNY32GQOXDAV20ziNZLyXnA" title="" target="_blank"><i
+                                class="icon-youtube"></i></a></li>
+                    <li><a href="https://tw.linkedin.com/company/hbrtaiwan" title="" target="_blank"><i
+                                class="icon-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

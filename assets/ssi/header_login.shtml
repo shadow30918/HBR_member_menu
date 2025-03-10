@@ -1,0 +1,12 @@
+<nav>
+    <div class="navBox header_login">
+        <div class="logoBox">
+            <h1>
+                <a href="" title="哈佛商業評論‧與世界一流管理接軌">
+                    <img src="assets/img/logo.png" alt="哈佛商業論" class="deskImg">
+                    <img src="assets/img/logo_Horizontal.png" alt="哈佛商業論" class="mobileImg">
+                </a>
+            </h1>
+        </div>
+    </div>
+</nav>

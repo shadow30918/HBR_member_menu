@@ -1,0 +1,196 @@
+<nav>
+    <div class="navBox">
+        <div class="fullAd adBox">
+            <div class="container-fluid">
+                <!--廣告版位 m-1 / d-1-->
+                <img src="https://dummyimage.com/970x250/777/ccc" alt="">
+                <!-- <div id='div-gpt-ad-1612838374752-0'>
+                    <script>
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1612838374752-0');
+                        });
+                    </script>
+                </div>
+                <div id='div-gpt-ad-1612838698123-0'>
+                    <script>
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1612838698123-0');
+                        });
+                    </script>
+                </div> -->
+            </div>
+        </div>
+        <div class="navB">
+
+            <div class="logoBox">
+                <a href="hp.html" title="哈佛商業評論‧與世界一流管理接軌">
+                    <!-- <img src="assets/img/logo.png" alt="哈佛商業論" class="deskImg"> -->
+                    <img src="assets/img/logo_Horizontal.png" alt="哈佛商業論" class="mobileImg">
+                </a>
+            </div>
+            <div class="topMenuBox">
+                <ul class="menuList">
+                    <li>
+                        <a href="" title="領導者學程">領導者學程</a>
+                        <ul class="menuLv2">
+                            <li>
+                                <a href="" title="報名學程">
+                                    報名學程
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="學程介紹">
+                                    學程介紹
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="黃金導師">
+                                    黃金導師
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="學員見證">
+                                    學員見證
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" title="領導者俱樂部">
+                                    領導者俱樂部
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" title="企業學習服務">企業學習服務</a>
+                    </li>
+                    <li>
+                        <a href="" title="合作洽詢">合作洽詢</a>
+                    </li>
+                </ul>
+                <ul class="topMenu">
+                    <li class="apply">
+                        <a href="" title="報名學程" target="_blank">報名學程</a>
+                    </li>
+                    <!-- <li class="login"><a href="" title="登入">登入</a></li> -->
+                    <li class="dropdownBoxSet login dropdownTriangle">
+                        <a href="javascript:void(0)" title="個人専區" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-Account-Menu"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <ul>
+                                <li class="name">王小明<span>數位版訂閱會員</span></li>
+                                <li><a href="membersLibrary.html" title="">個人圖書館</a></li>
+                                <li><a href="membersData.html" title="">文章主題訂閱</a></li>
+                                <li><a href="membersGeneral.html" title="">帳戶管理</a></li>
+                                <li><a href="membersRecord.html" title="">文章購買紀錄</a></li>
+                                <li><a href="membersNewsletter.html" title="">電子報訂閱</a></li>
+                                <li class="signOut"><a href="membersSignIn.html" title="">登出</a></li>
+                            </ul>
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="dropdownBoxSet shopCart dropdownTriangle">
+                        <a href="javascript:void(0)" title="購物車" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-shopping-cart"></i>
+                            <span>99</span>
+                        </a>
+                        <a href="shopping.html" title="購物車" class="shopCart-mb">
+                            <i class="icon-shopping-cart"></i>
+                            <span>99</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <!-- 有資料的狀態 -->
+                            <div class="ctn">
+                                <h5>購物車</h5>
+                                <div class="listBox">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/125487_source_1592657663.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>領導者學程第七期</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $31,000
+                                                    </li>
+                                                </ol>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/89826_source_1573204195.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>成功人士與眾不同的九個做法</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $500
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/125487_source_1592657663.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>領導者學程第七期</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $31,000
+                                                    </li>
+                                                </ol>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/89826_source_1573204195.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>成功人士與眾不同的九個做法</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $500
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="total">
+                                    <li>總計</li>
+                                    <li>$31,500</li>
+                                </ul>
+                                <a href="shopping.html" class="navBtn  view">查看購物車</a>
+                            </div>
+                            <!-- 無的狀態 -->
+                            <!-- <div class="ctn">
+                                <div class="none">
+                                    你的購物車是空的
+                                </div>
+                            </div> -->
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</nav>

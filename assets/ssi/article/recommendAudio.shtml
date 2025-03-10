@@ -1,0 +1,229 @@
+<section class="recommendAudioBox">
+    <div class="container-xl">
+        <div class="audiovisualContainer">
+            <h5>關聯推薦音頻</h5>
+            <div class="audioList">
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">09</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        一個人住的自在美好！
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">10</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        如何和漸行漸遠的團體好好說再見
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">11</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        僅三個策略絕招，讓反對你的人轉而支持你
+
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">09</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        一個人住的自在美好！
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">10</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        如何和漸行漸遠的團體好好說再見
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="audioListItem">
+                    <div class="articleItem audioItem">
+                        <div class="audioEpisode">
+                            <span>Episode</span>
+                            <p class="num">11</p>
+                        </div>
+                        <div class="audioInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualCtn.html" title="">
+                                        僅三個策略絕招，讓反對你的人轉而支持你
+
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                        <div class="audioImg">
+                            <div class="imgBox itemthumb">
+                                <a href="audiovisualCtn.html" title="">
+                                    <i class="icon-icon-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moreBtn moreBtnB ">
+                <a href="javascript:void(0)" title="">
+                    <div class="txt">
+                        <i class="icon-icon-load-more"></i>收聽所有主題音頻
+                    </div>
+                    <div class="loader"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

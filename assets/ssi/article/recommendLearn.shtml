@@ -1,0 +1,57 @@
+<section class="recommendLearnBox">
+    <div class="container-xl">
+        <div class="otherTitle">
+            推薦學習
+        </div>
+        <div class="recommendLearnItemBox">
+            <div class="recommendLearnItem">
+                <div class="left">
+                    <div class="imgBox itemthumb">
+                        <a href="collegeArticle.html" title="">
+                            <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010127.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="heighH4">
+                        <h4><a href="college.html" title="">個人學院</a></h4>
+                    </div>
+                    <div class="heighH3">
+                        <h3><a href="collegeArticle.html" title=""> 紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口</a></h3>
+                    </div>
+                    <div class="heighP">
+                        <p>
+                            <a href="collegeArticle.html" title="">
+                            紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口
+                    </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="recommendLearnItem">
+                <div class="left">
+                    <div class="imgBox itemthumb">
+                        <a href="" title="">
+                            <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010219.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="heighH4">
+                        <h4><a href="teacher.html" title="">導師講座</a></h4>
+                    </div>
+                    <div class="heighH3">
+                        <h3><a href="teacherArticle.html" title=""> 紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口</a></h3>
+                    </div>
+                    <div class="heighP">
+                        <p>
+                            <a href="teacherArticle.html" title="">
+                            紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口
+                    </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

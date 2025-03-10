@@ -1,0 +1,446 @@
+<nav>
+    <div class="navBox">
+        <div class="fullAd adBox">
+            <div class="container-fluid">
+                <!--廣告版位 m-1 / d-1-->
+                <img src="https://dummyimage.com/970x250/777/ccc" alt="">
+                <!-- <div id='div-gpt-ad-1612838374752-0'>
+                    <script>
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1612838374752-0');
+                        });
+                    </script>
+                </div>
+                <div id='div-gpt-ad-1612838698123-0'>
+                    <script>
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1612838698123-0');
+                        });
+                    </script>
+                </div> -->
+            </div>
+        </div>
+        <div class="navB">
+
+            <div class="leftMenu">
+                <div class="dropdownBoxSet">
+                    <a href="javascript:void(0)" title="選單" data-toggle="dropdown" class="dropdownToggle leftMenuIcon">
+                        <i class="icon-icon_icon-fixed"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menuSet">
+                        <div class="leftMenuCtn ">
+                            <ul>
+                                <li>
+                                    <a href="subject.html" title="趨勢文章">趨勢文章</a>
+                                </li>
+                                <li>
+                                    <a href="new.html" title="最新文章">最新文章</a>
+                                </li>
+                                <li>
+                                    <a href="sort.html" title="主題分類">主題分類</a>
+                                </li>
+                                <li>
+                                    <a href="teacher.html" title="導師講座">導師講座</a>
+                                </li>
+                                <li>
+                                    <a href="college.html" title="個人學院">個人學院</a>
+                                </li>
+                                <li>
+                                    <a href="choice.html" title="精選専題">精選専題</a>
+                                </li>
+                                <li>
+                                    <a href="audiovisual.html" title="影音">影&nbsp;&nbsp;音</a>
+                                </li>
+                                <li>
+                                    <a href="study.html" title="個案研究">個案研究</a>
+                                </li>
+                                <li>
+                                    <a href="idea.html" title="觀念研究">觀念研究</a>
+                                </li>
+                                <li>
+                                    <a href="magazine.html" title="雜誌/書籍">雜誌/書籍</a>
+                                </li>
+                                <li>
+                                    <a href="sortList.html" title="台灣CEO">台灣CEO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logoBox">
+
+                <a href="hp.html" title="哈佛商業評論‧與世界一流管理接軌">
+                    <img src="assets/img/logo.png" alt="哈佛商業論" class="deskImg">
+                    <img src="assets/img/logo_Horizontal.png" alt="哈佛商業論" class="mobileImg">
+                </a>
+
+            </div>
+            <div class="topMenuBox">
+                <div class="lastest">
+                    <div class="dropdownBoxSet">
+                        <a href="javascript:void(0)" title="最新出版" data-toggle="dropdown" class="dropdownToggle">
+                            <img src="assets/img/LatestPublication.png" alt="" />
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <div class="ctn">
+                                <div class="info">
+                                    <a href="magazineArticle.html" title="">
+                                        <p><span>最新出版</span><b><i>2020</i>年<i>12</i>月號</b></p>
+                                        <h2>ESG永續新浪潮</h2>
+                                    </a>
+                                    <div class="navBtnGroup">
+                                        <a href="magazineArticle.html" class="navBtn navBtnW">看最新刊</a>
+                                        <a href="https://hbrshop.cwgv.com.tw/print?_ga=2.112655876.1416143263.1614146182-220332607.1609124418"
+                                            class="navBtn navBtnB" target="_blank">訂閱雜誌</a>
+                                    </div>
+                                </div>
+                                <div class="imgBox ">
+                                    <a href="magazineArticle.html" title="">
+                                        <div class="imgBoxB ">
+                                            <img src="https://www.hbrtaiwan.com/images/cover_images/HBR173.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <ul class="topMenu">
+                    <li class="sub">
+                        <a href="https://hbrshop.cwgv.com.tw/print?_ga=2.112655876.1416143263.1614146182-220332607.1609124418"
+                            title="我要訂閱" target="_blank">我要訂閱</a>
+                    </li>
+
+                    <li class="dropdownBoxSet login dropdownTriangle">
+                        <!-- <a href="javascript:void(0)" title="登入">登入</a> -->
+                        <a href="javascript:void(0)" title="個人専區" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-Account-Menu"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <ul>
+                                <li class="name">王小明<span>數位版訂閱會員</span></li>
+                                <li><a href="membersLibrary.html" title="">個人圖書館</a></li>
+                                <li><a href="membersData.html" title="">文章主題訂閱</a></li>
+                                <li><a href="membersGeneral.html" title="">帳戶管理</a></li>
+                                <li><a href="membersRecord.html" title="">文章購買紀錄</a></li>
+                                <li><a href="membersNewsletter.html" title="">電子報訂閱</a></li>
+                                <li class="signOut"><a href="membersSignIn.html" title="">登出</a></li>
+                            </ul>
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="dropdownBoxSet shopCart dropdownTriangle">
+                        <a href="javascript:void(0)" title="購物車" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-shopping-cart"></i>
+                            <span>99</span>
+                        </a>
+                        <a href="shopping.html" title="購物車" class="shopCart-mb">
+                            <i class="icon-shopping-cart"></i>
+                            <span>99</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <!-- 有資料的狀態 -->
+                            <div class="ctn">
+                                <h5>購物車</h5>
+                                <div class="listBox">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="digit.html" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/125487_source_1592657663.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>利用「黑客松」激發新構想</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $500
+                                                    </li>
+                                                </ol>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="digit.html" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/89826_source_1573204195.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>合力終結棘手問題</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $500
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="digit.html" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/129059_source_1609317872.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>利用「黑客松」激發新構想</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $250
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="digit.html" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/129024_source_1601452022.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>企業的董事會成員常說，執行長接任計畫是首要任務，但上市公司董事很少將那項計畫付諸實現</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $250
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="digit.html" title="">
+                                                <ol>
+                                                    <li><img src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/127065_source_1604997710.png"
+                                                            alt=""></li>
+                                                    <li>
+                                                        <h2>腦力匯集：因為腦力激盪沒有效</h2>
+                                                        <p>數量:5</p>
+                                                    </li>
+                                                    <li>
+                                                        $250
+                                                    </li>
+                                                </ol>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="total">
+                                    <li>總計</li>
+                                    <li>$1,250</li>
+                                </ul>
+                                <a href="shopping.html" class="navBtn  view">查看購物車</a>
+                            </div>
+                            <!-- 無的狀態 -->
+                            <!-- <div class="ctn">
+                                <div class="none">
+                                    你的購物車是空的
+                                </div>
+                            </div> -->
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="mobileSearch">
+                        <a href="javascript:void(0)" title="搜尋" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-Search-Menu"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <div class="searchBox">
+                                <div class="input-group ">
+                                    <input type="text" class="form-control" placeholder="Search hbrtaiwan.com">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary" type="submit"
+                                            onclick="location.href='search.html'">搜尋</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="search dropdownBoxSet">
+                        <a href="javascript:void(0)" title="搜尋" data-toggle="dropdown" class="dropdownToggle">
+                            <i class="icon-Search-Menu"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menuSet">
+                            <div class="container">
+                                <div class="searchTagBox">
+                                    <div class="searchBox">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search hbrtaiwan.com"
+                                                aria-label="Search hbrtaiwan.com" />
+                                            <div class="input-group-append">
+                                                <button class="btn" type="submit"
+                                                    onclick="location.href='search.html'"><i
+                                                        class="icon-Search-Menu"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="otherSearh">
+                                        <span>推薦關鍵字：</span>
+                                        <ul>
+                                            <li><a href="search.html" title="">台積電</a></li>
+                                            <li><a href="search.html" title="">領導力</a></li>
+                                            <li><a href="search.html" title="">OKR</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tagBox">
+                                        <div class="tagBoxItemBox">
+                                            <div class="tagBoxItem">
+                                                <span>內容分類</span>
+                                                <ul>
+                                                    <li><a href="new.html" title="">最新文章</a></li>
+                                                    <li><a href="hot.html" title="">熱門文章</a></li>
+                                                    <li><a href="magazine.html" title="">雜誌/特刊/書籍</a></li>
+                                                    <li><a href="study.html" title="">個案研究</a></li>
+                                                    <li><a href="teacher.html" title="">導師講座</a></li>
+                                                    <li><a href="choice.html" title="">精選專題</a></li>
+                                                    <li><a href="audiovisual.html" title="">影音專區</a></li>
+                                                    <li><a href="" title="">台灣CEO</a></li>
+                                                    <li><a href="" title="">職場新手進修</a></li>
+                                                    <li><a href="" title="">人資專區</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tagBoxItem">
+                                                <span>熱門主題</span>
+                                                <ul>
+                                                    <li><a href="sortList.html" title="">領導</a></li>
+                                                    <li><a href="sortList.html" title="">創新</a></li>
+                                                    <li><a href="sortList.html" title="">自我管理</a></li>
+                                                    <li><a href="sortList.html" title="">溝通</a></li>
+                                                    <li><a href="sortList.html" title="">行銷</a></li>
+                                                    <li><a href="sortList.html" title="">策略</a></li>
+                                                    <li><a href="sortList.html" title="">管理員工</a></li>
+                                                    <li><a href="sortList.html" title="">所有主題</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tagBoxItem">
+                                                <span>訂戶限定</span>
+                                                <ul>
+                                                    <li><a href="college.html" title="">個人學院</a></li>
+                                                    <li><a href="idea.html" title="">觀念圖解</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tagBoxItem">
+                                                <span>我的帳戶</span>
+                                                <ul>
+                                                    <li><a href="membersLibrary.html" title="">個人圖書館</a></li>
+                                                    <li><a href="membersData.html" title="">文章主題訂閱</a></li>
+                                                    <li><a href="membersGeneral.html" title="">帳戶管理</a></li>
+                                                    <li><a href="membersRecord.html" title="">文章購買紀錄</a></li>
+                                                    <li><a href="membersNewsletter.html" title="">電子報訂閱</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <ul class="shareList">
+                                            <li>
+                                                <a href="" title=""><i class="icon-facebook1"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="" title=""><i class="icon-line"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="" title=""><i class="icon-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="" title=""><i class="icon-youtube"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="" title=""><i class="icon-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="closeBtn">
+                                <i class="icon-icon-times"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="menuList">
+                <li>
+                    <a href="subject.html" title="趨勢文章">趨勢文章</a>
+                </li>
+                <li>
+                    <a href="new.html" title="最新文章">最新文章</a>
+                </li>
+                <li>
+                    <a href="sort.html" title="主題分類">主題分類</a>
+                </li>
+                <li>
+                    <a href="teacher.html" title="導師講座">導師講座</a>
+                </li>
+                <li>
+                    <a href="college.html" title="個人學院">個人學院</a>
+                </li>
+                <li>
+                    <a href="choice.html" title="精選専題">精選専題</a>
+                </li>
+                <li>
+                    <a href="audiovisual.html" title="影音">影&nbsp;&nbsp;音</a>
+                </li>
+                <li>
+                    <a href="study.html" title="個案研究">個案研究</a>
+                </li>
+                <li>
+                    <a href="idea.html" title="觀念研究">觀念研究</a>
+                </li>
+                <li>
+                    <a href="magazine.html" title="雜誌/書籍">雜誌/書籍</a>
+                </li>
+                <li>
+                    <a href="sortList.html" title="台灣CEO">台灣CEO</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mobileNav">
+        <div class="navBottom">
+            <div class="item active">
+                <a href="hp.html" title="">
+                    <img src="assets/img/svg/m-home.svg" alt="" class="svg">
+                    <span>&nbsp;&nbsp;&nbsp;首頁&nbsp;&nbsp;&nbsp;</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="new.html" title="">
+                    <img src="assets/img/svg/send.svg" alt="" class="svg">
+                    <span>最新文章</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="subject.html" title="">
+                    <img src="assets/img/svg/rec.svg" alt="" class="svg">
+                    <span>主題分類</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="magazineList.html" title="">
+                    <img src="assets/img/svg/book.svg" alt="" class="svg">
+                    <span>本期雜誌</span>
+                </a>
+            </div>
+            <div class="item">
+                <a href="membersSignIn.html" title="">
+                    <img src="assets/img/svg/m-area.svg" alt="" class="svg">
+                    <span>個人專區</span>
+                </a>
+            </div>
+            <div class="item menu " data-toggle="modal" data-target="#myMenu">
+                <a href="javascript:void(0)" title="">
+                    <img src="assets/img/svg/m-menu.svg" alt="" class="svg">
+                    <span>&nbsp;&nbsp;&nbsp;選單&nbsp;&nbsp;&nbsp;</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,143 @@
+<div class="articleMenu mobileArticleMenu">
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="line" class="dropdownToggle">
+                <img src="assets/img/svg/line2.svg">
+            </a>
+        </div>
+    </div>
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="facebook" class="dropdownToggle">
+                <img src="assets/img/svg/fb2.svg">
+            </a>
+        </div>
+    </div>
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="" class="dropdownToggle copyLink">
+                <img src="assets/img/svg/copy_link.svg">
+            </a>
+        </div>
+    </div>
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="" class="dropdownToggle fontBtn">
+                <img src="assets/img/svg/word-2.svg"><span class="big">放大</span><span
+                    class="small">縮小</span>
+            </a>
+        </div>
+    </div>
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet dropright">
+            <a href="javascript:void(0)" title="" data-toggle="dropdown"
+                class="dropdownToggle">
+                <img src="assets/img/svg/keep.svg"><span>收藏</span>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+                <div class="modal lightBoxModal mySave fade show">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">收藏至</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="saveBox">
+                                    <ul>
+                                        <li class="check">
+                                            <i class="icon-later"></i>稍後再讀
+                                        </li>
+                                        <li>
+                                            測試資料夾
+                                        </li>
+                                        <li>
+                                            未分類
+                                        </li>
+                                        <li class="add ">新增資料夾 <i class="icon-add"></i>
+
+                                        </li>
+                                    </ul>
+                                    <div class="addForm">
+                                        <form>
+                                            <div class="form-group">
+                                                <div class="input-item">
+                                                    <input class="form-control" type="text"
+                                                        placeholder="資料夾名稱">
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-item">
+                                                    <textarea class="form-control" rows="2"
+                                                        placeholder="資料夾描述"></textarea>
+
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- 資料夾名稱若無輸入文字 屬性請加 disabled-->
+                                    <button type="button" class="lightBoxBtn ">收藏</button>
+                                </div>
+                                <div class="saveTo">
+                                    <a href="" title="">查看個人圖書館</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="closeBtn">
+                    <i class="icon-icon-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="articleMenuItem shopping-cart">
+        <div class="dropdownBoxSet dropright">
+            <a href="javascript:void(0)" title="" data-toggle="dropdown"
+                class="dropdownToggle">
+                <img src="assets/img/svg/buy.svg"><span>購買</span>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+                <div class="modal lightBoxModal myBuy fade show">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">團體授課購買</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="buyBox">
+                                    <div class="priceBox">
+                                        <div class="left">
+                                           <!--頁面有加account_teacher 時顯示全部/沒有加 只顯示original-->
+                                           <div class="original"> NT$<span>100</span></div>
+                                           <div class="discount"> NT$<span>50</span></div>
+                                           <span class="txt">教師專屬優惠價</span>
+                                        </div>
+                                        <div class="right">
+
+                                            <input class="form-control inputNumber"
+                                                type="number" value="5" min="5" max="" />
+
+                                        </div>
+                                    </div>
+                                    <h2>版權所有，請勿影印重製</h2>
+                                    <p>若欲團體授課，請依據使用數購買（最低購買篇數為５篇）</p>
+                                    <button type="button" class="lightBoxBtn">加入購物車</button>
+                                    <p class="spp">
+                                        付款完成後，即可至<a href="membersRecord.html"
+                                            title="">文章購買紀錄</a>列印文章。<span>有效可列印時間為付款完成後三日內。</span>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="closeBtn">
+                    <i class="icon-icon-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

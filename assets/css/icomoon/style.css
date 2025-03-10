@@ -1,0 +1,699 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?tvrif9');
+  src:  url('fonts/icomoon.eot?tvrif9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tvrif9') format('truetype'),
+    url('fonts/icomoon.woff?tvrif9') format('woff'),
+    url('fonts/icomoon.svg?tvrif9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-more:before {
+  content: "\e98f";
+}
+.icon-cancel:before {
+  content: "\e939";
+}
+.icon-wall-clock:before {
+  content: "\e93f";
+}
+.icon-font:before {
+  content: "\e941";
+}
+.icon-cart:before {
+  content: "\e968";
+}
+.icon-shield:before {
+  content: "\e969";
+}
+.icon-google:before {
+  content: "\e96a";
+}
+.icon-twitter:before {
+  content: "\e96b";
+}
+.icon-diagonal-line:before {
+  content: "\e96c";
+}
+.icon-bachelors-degree:before {
+  content: "\e96d";
+}
+.icon-calendar1:before {
+  content: "\e96e";
+}
+.icon-double-quotes:before {
+  content: "\e96f";
+}
+.icon-double-quotes1:before {
+  content: "\e974";
+}
+.icon-play-button1:before {
+  content: "\e979";
+}
+.icon-video-camera1:before {
+  content: "\e97c";
+}
+.icon-facebook1:before {
+  content: "\e97d";
+}
+.icon-add:before {
+  content: "\e97e";
+}
+.icon-play-button:before {
+  content: "\e97f";
+}
+.icon-shopping-cart:before {
+  content: "\e980";
+}
+.icon-facebook:before {
+  content: "\e982";
+}
+.icon-Account-Menu:before {
+  content: "\e93e";
+}
+.icon-bookmark:before {
+  content: "\e940";
+}
+.icon-email:before {
+  content: "\e942";
+}
+.icon-exchange:before {
+  content: "\e943";
+}
+.icon-flag:before {
+  content: "\e944";
+}
+.icon-glasses:before {
+  content: "\e945";
+}
+.icon-Harvard-Business-Review-Home:before {
+  content: "\e946";
+}
+.icon-Harvard-Business-Review-Home-1 .path1:before {
+  content: "\e947";
+  color: rgb(255, 255, 255);
+}
+.icon-Harvard-Business-Review-Home-1 .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path3:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path4:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path5:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path6:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path7:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path8:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path9:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path10:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path11:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path12:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path13:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path14:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path15:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path16:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path17:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path18:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path19:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path20:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path21:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path22:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path23:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-Harvard-Business-Review-Home-1 .path24:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(5, 5, 5);
+}
+.icon-headphones:before {
+  content: "\e961";
+}
+.icon-instagram:before {
+  content: "\e962";
+}
+.icon-line:before {
+  content: "\e963";
+}
+.icon-linkedin:before {
+  content: "\e964";
+}
+.icon-Navigation-Menu:before {
+  content: "\e965";
+}
+.icon-newspaper:before {
+  content: "\e966";
+}
+.icon-previous:before {
+  content: "\e967";
+}
+.icon-previous1:before {
+  content: "\e983";
+}
+.icon-previous2:before {
+  content: "\e984";
+}
+.icon-previous3:before {
+  content: "\e985";
+}
+.icon-rss:before {
+  content: "\e970";
+}
+.icon-Search-Menu:before {
+  content: "\e971";
+}
+.icon-shopping-bag-1:before {
+  content: "\e972";
+}
+.icon-svgexport-1:before {
+  content: "\e973";
+}
+.icon-svgexport-4:before {
+  content: "\e975";
+  color: #050505;
+}
+.icon-svgexport-5:before {
+  content: "\e976";
+  color: #050505;
+}
+.icon-svgexport-6:before {
+  content: "\e977";
+  color: #050505;
+}
+.icon-svgexport-7:before {
+  content: "\e978";
+  color: #050505;
+}
+.icon-vip:before {
+  content: "\e97a";
+}
+.icon-youtube:before {
+  content: "\e97b";
+}
+.icon-bar-qaraph:before {
+  content: "\e900";
+}
+.icon-black-envelope:before {
+  content: "\e901";
+}
+.icon-clock:before {
+  content: "\e902";
+}
+.icon-uniE903:before {
+  content: "\e903";
+}
+.icon-calendar:before {
+  content: "\e904";
+}
+.icon-yahoo-logo:before {
+  content: "\e905";
+}
+.icon-gears:before {
+  content: "\e906";
+}
+.icon-google-plus:before {
+  content: "\e907";
+}
+.icon-google-plusB:before {
+  content: "\e908";
+}
+.icon-icon-alert:before {
+  content: "\e909";
+}
+.icon-icon-arrows-alt:before {
+  content: "\e90a";
+}
+.icon-icon-bars:before {
+  content: "\e90b";
+}
+.icon-icon-caret-down:before {
+  content: "\e90c";
+}
+.icon-icon-caret-left:before {
+  content: "\e90d";
+}
+.icon-icon-caret-right:before {
+  content: "\e90e";
+}
+.icon-icon-caret-up:before {
+  content: "\e90f";
+}
+.icon-icon-check:before {
+  content: "\e910";
+}
+.icon-icon-circle:before {
+  content: "\e911";
+}
+.icon-icon-comment-o:before {
+  content: "\e912";
+}
+.icon-icon-download-pdf:before {
+  content: "\e913";
+}
+.icon-icon-executive-summary:before {
+  content: "\e914";
+}
+.icon-icon-facebook:before {
+  content: "\e915";
+}
+.icon-icon-file-text-o:before {
+  content: "\e916";
+}
+.icon-icon-follow-this:before {
+  content: "\e917";
+}
+.icon-icon-full-article:before {
+  content: "\e918";
+}
+.icon-icon-information:before {
+  content: "\e919";
+}
+.icon-icon-linkedin:before {
+  content: "\e91a";
+}
+.icon-icon-load-more:before {
+  content: "\e91b";
+}
+.icon-icon-mail:before {
+  content: "\e91c";
+}
+.icon-icon-minus:before {
+  content: "\e91d";
+}
+.icon-icon-organize:before {
+  content: "\e91e";
+}
+.icon-icon-play:before {
+  content: "\e91f";
+}
+.icon-icon-print:before {
+  content: "\e920";
+}
+.icon-icon-question-circle:before {
+  content: "\e921";
+}
+.icon-icon-question-mark:before {
+  content: "\e922";
+}
+.icon-icon-refresh:before {
+  content: "\e923";
+}
+.icon-icon-reload:before {
+  content: "\e924";
+}
+.icon-icon-save:before {
+  content: "\e925";
+}
+.icon-icon-search:before {
+  content: "\e926";
+}
+.icon-icon-share:before {
+  content: "\e927";
+}
+.icon-icon-shield:before {
+  content: "\e928";
+}
+.icon-icon-shield-reverse:before {
+  content: "\e929";
+}
+.icon-icon-shopping-cart:before {
+  content: "\e92a";
+}
+.icon-icon-text-height:before {
+  content: "\e92b";
+}
+.icon-icon-thumbs-down:before {
+  content: "\e92c";
+}
+.icon-icon-thumbs-up:before {
+  content: "\e92d";
+}
+.icon-icon-times:before {
+  content: "\e92e";
+}
+.icon-icon-twitter:before {
+  content: "\e92f";
+}
+.icon-icon-unfollow-this:before {
+  content: "\e930";
+}
+.icon-icon-user:before {
+  content: "\e931";
+}
+.icon-icon-video-camera:before {
+  content: "\e932";
+}
+.icon-icon-view-more:before {
+  content: "\e933";
+}
+.icon-icon-zoom:before {
+  content: "\e934";
+}
+.icon-magazine:before {
+  content: "\e935";
+}
+.icon-padlock:before {
+  content: "\e936";
+}
+.icon-plurk-logo:before {
+  content: "\e937";
+}
+.icon-svgBook:before {
+  content: "\e938";
+}
+.icon-svgKnot:before {
+  content: "\e93a";
+}
+.icon-svgPurse:before {
+  content: "\e93b";
+}
+.icon-svgRocket:before {
+  content: "\e93c";
+}
+.icon-giftbox:before {
+  content: "\e93d";
+}
+.icon-edit:before {
+  content: "\e948";
+}
+.icon-delete-button:before {
+  content: "\e949";
+}
+.icon-icon-hbrlogo .path1:before {
+  content: "\e981";
+  color: rgb(255, 255, 255);
+}
+.icon-icon-hbrlogo .path2:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(35, 24, 21);
+}
+.icon-icon-more:before {
+  content: "\e987";
+}
+.icon-icon-play1:before {
+  content: "\e988";
+}
+.icon-icon-play_video:before {
+  content: "\e989";
+}
+.icon-icon-share1:before {
+  content: "\e98a";
+}
+.icon-icon-talk:before {
+  content: "\e98b";
+}
+.icon-icon-video:before {
+  content: "\e98c";
+}
+.icon-icon-voice_off:before {
+  content: "\e98d";
+}
+.icon-icon-voice_on:before {
+  content: "\e98e";
+}
+.icon-m-vp:before {
+  content: "\e990";
+}
+.icon-m-menu:before {
+  content: "\e991";
+}
+.icon-m-area:before {
+  content: "\e992";
+}
+.icon-m-home:before {
+  content: "\e993";
+}
+.icon-m-popular:before {
+  content: "\e994";
+}
+.icon-icon_icon-fixed:before {
+  content: "\e995";
+}
+.icon-m-video2:before {
+  content: "\e996";
+}
+.icon-hbrlogo-3:before {
+  content: "\e997";
+}
+.icon-word:before {
+  content: "\e998";
+}
+.icon-visibility-off:before {
+  content: "\e999";
+}
+.icon-visibility:before {
+  content: "\e99a";
+}
+.icon-twitter1:before {
+  content: "\e99b";
+}
+.icon-tip:before {
+  content: "\e99c";
+}
+.icon-success:before {
+  content: "\e99d";
+}
+.icon-subscriber:before {
+  content: "\e99e";
+}
+.icon-Slider:before {
+  content: "\e99f";
+}
+.icon-refresh:before {
+  content: "\e9a0";
+}
+.icon-qa:before {
+  content: "\e9a1";
+}
+.icon-printer:before {
+  content: "\e9a2";
+}
+.icon-plus:before {
+  content: "\e9a3";
+}
+.icon-pen:before {
+  content: "\e9a4";
+}
+.icon-newsletter:before {
+  content: "\e9a5";
+}
+.icon-new_window:before {
+  content: "\e9a6";
+}
+.icon-message:before {
+  content: "\e9a7";
+}
+.icon-member:before {
+  content: "\e9a8";
+}
+.icon-logo-all:before {
+  content: "\e9a9";
+}
+.icon-help:before {
+  content: "\e9aa";
+}
+.icon-google1:before {
+  content: "\e9ab";
+}
+.icon-free .path1:before {
+  content: "\e9ac";
+  color: rgb(5, 1, 1);
+}
+.icon-free .path2:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(5, 1, 1);
+}
+.icon-free .path3:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(5, 1, 1);
+}
+.icon-free .path4:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(4, 0, 0);
+}
+.icon-enlarge:before {
+  content: "\e9b0";
+}
+.icon-download:before {
+  content: "\e9b1";
+}
+.icon-date:before {
+  content: "\e9b2";
+}
+.icon-comment .path1:before {
+  content: "\e9b3";
+  color: rgb(4, 0, 0);
+}
+.icon-comment .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(35, 24, 21);
+}
+.icon-comment .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(35, 24, 21);
+}
+.icon-close_b:before {
+  content: "\e9b6";
+}
+.icon-bookmarks-1:before {
+  content: "\e9b7";
+}
+.icon-arrow_c:before {
+  content: "\e9b8";
+}
+.icon-add_circle:before {
+  content: "\e9b9";
+}
+.icon-move:before {
+  content: "\e9ba";
+}
+.icon-later:before {
+  content: "\e9bb";
+}
+.icon-history:before {
+  content: "\e9bc";
+}
+.icon-folder:before {
+  content: "\e9bd";
+}
+.icon-add_folder:before {
+  content: "\e9be";
+}
+.icon-quote:before {
+  content: "\e9bf";
+}
+.icon-quoteB:before {
+  content: "\e9c0";
+}
+.icon-share:before {
+  content: "\e9c1";
+}
+.icon-menu:before {
+  content: "\e9c2";
+}
+.icon-clock1:before {
+  content: "\e9c3";
+}
+.icon-font-size:before {
+  content: "\e9c4";
+}
+.icon-Digital_Print .path1:before {
+  content: "\e9c5";
+  color: rgb(35, 24, 21);
+}
+.icon-Digital_Print .path2:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Digital:before {
+  content: "\e9c7";
+}
+.icon-Print:before {
+  content: "\e9c8";
+}

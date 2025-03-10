@@ -1,0 +1,172 @@
+<section class="digitBox">
+    <div class="container">
+        <div class="info">
+            <img src="assets/img/digit.png" alt="哈佛商業評論數位版" class="desktopImg">
+            <img src="assets/img/digitMobile.png" alt="哈佛商業評論數位版" class="mobileImg">
+            <h2>哈佛商業評論<span>數位版</span></h2>
+            <a href="" title="立即開始訂閱">立即開始訂閱</a>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container-fluid">
+        <div class="topFooter">
+            <div class="left">
+                <a href="hp.html">
+                    <img src="assets/img/logo_white.png" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <div id="accordion" class="accordionItemBox">
+                    <div class="item">
+                        <a class="title collapsed" data-toggle="collapse" href="#collapseOne">
+                            內容分類
+                        </a>
+                        <div id="collapseOne" class="collapse " data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="new.html" title="">最新文章</a></li>
+                                    <li><a href=audiovisual.html" title="">影音專區</a></li>
+                                    <li><a href="" title="">台灣CEO</a></li>
+                                    <li><a href="hot.html" title="">熱門文章</a></li>
+                                    <li><a href="" title="">職場新手進修</a></li>
+                                    <li><a href="sort.html" title="">主題分類</a></li>
+                                    <li><a href="" title="">人資專區</a></li>
+                                    <li><a href="study.html" title="">個案研究</a></li>
+                                    <li><a href="teacher.html" title="">導師講座</a></li>
+                                    <li><a href="idea.html" title="">觀念圖解</a></li>
+                                    <li><a href="college.html" title="">個人學院</a></li>
+                                    <li><a href="magazine.html" title="">雜誌/特刊/書籍</a></li>
+                                    <li><a href="choice.html" title="">精選專題</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseTwo">
+                            會員說明中心
+                        </a>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="" title="">網站(數位版)會員說明</a></li>
+                                    <li><a href="" title="">紙本訂戶常見問題</a></li>
+                                    <li><a href="" title="">數位版常見問題</a></li>
+                                    <li><a href="" title="">電子雜誌常見問題</a></li>
+                                    <li><a href="" title="">什麼是授課文章購買</a></li>
+                                    <li><a href="" title="">聯絡我們</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseThree">
+                            訂閱哈佛商業評論
+                        </a>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="" title="">訂閱數位版</a></li>
+                                    <li><a href="" title="">授課文章購買</a></li>
+                                    <li><a href="" title="">訂閱紙本雜誌</a></li>
+                                    <li><a href="" title="">企業組織合作方案</a></li>
+                                    <li><a href="" title="">訂閱電子雜誌</a></li>
+                                    <li><a href="" title="">大專院校合作方案</a></li>
+                                    <!-- <li><a href="" title="">海外訂閱</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item special">
+                        <a class="title collapsed " data-toggle="collapse" href="#collapseFour">
+                            關於我們
+                        </a>
+                        <div id="collapseFour" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="https://www.hbrtaiwan.com/event/leader2022spring/edm/index.html"
+                                            title="遠見．HBR領導者學程" target="_blank">遠見．HBR領導者學程</a></li>
+                                    <li><a href="https://www.hbrtaiwan.com/event/2020twceo/index.html"
+                                            title="台灣CEO 100強" target="_blank">台灣CEO 100強</a></li>
+                                    <li><a href="https://www.hbrtaiwan.com/event/2021_hbrdx/" title="數位轉型鼎革獎"
+                                            target="_blank">數位轉型鼎革獎</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="" title="">關於我們</a></li>
+                                    <li><a href="" title="">著作權聲明</a></li>
+                                    <li><a href="" title="">隱私權政策</a></li>
+                                    <li><a href="" title="">個資保護聲明</a></li>
+                                    <li><a href="" title="">讀者信箱</a></li>
+                                    <li><a href="" title="">廣告合作</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <div class="left">
+                <div class="logoBox">
+                    <img src="assets/img/cause.png" alt="">
+                    <span class="desktopNone">Copyright©1999~2021 All rights reserved.</span>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li>哈佛商業評論全球繁體中文版</li>
+                        <li class="mobileNone">Copyright©1999~2021 </li>
+                        <li>遠見天下文化出版股份有限公司.</li>
+                        <li class="mobileNone">All rights reserved.</li>
+
+                    </ul>
+                    <ul>
+                        <li>讀者服務專線</li>
+                        <li><a href="tel:0226620012">電話：+886 2 2662 0012 </a></li>
+                        <li>時間：週一至週五9:00～12:30；13:30～17:00</li>
+                        <li><a href="mailto:hbrtaiwan@cwgv.com.tw">信箱：hbrtaiwan@cwgv.com.tw</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <a href="newsletter.html" title="" class="subscription">
+                        <img src="assets/img/footerSbscription.png" alt="">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="" title=""><i class="icon-facebook"></i></a></li>
+                    <li><a href="" title=""><i class="icon-line"></i></a></li>
+                    <li><a href="" title=""><i class="icon-instagram"></i></a></li>
+                    <li><a href="" title=""><i class="icon-youtube"></i></a></li>
+                    <li><a href="" title=""><i class="icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--chart tool-->
+<div class="chart-tool">
+    <div class="dropdownBoxSet dropup">
+        <a href="javascript:void(0)" title="" data-toggle="dropdown" class="dropdownToggle">
+            <img src="assets/img/svg/advisory.svg">
+        </a>
+        <div class="dropdown-menu">
+            <div class="chartItem line">
+                <a href="javascript:void(0)" target="_blank" title="">
+                    <img src="assets/img/svg/line2-white.svg">
+                </a>
+            </div>
+            <div class="chartItem fb">
+                <a href="javascript:void(0)" target="_blank" title="">
+                    <img src="assets/img/svg/fb_message.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fb messenger  -->
+<!-- <div id="fb-root"></div>
+<div class="fb-customerchat" attribution="setup_tool" page_id="151218364989028">
+</div> -->

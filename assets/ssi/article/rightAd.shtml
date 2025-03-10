@@ -1,0 +1,7 @@
+<div class="rightAd adBox ad-6">
+    <a href="">
+        <!--廣告版位 m-6 / d-6 -->
+        <img src="https://dummyimage.com/300x600/777/ccc" alt="" class="adPC">
+        <img src="https://dummyimage.com/300x250/777/ccc" alt="" class="adMobile">
+    </a>
+</div>

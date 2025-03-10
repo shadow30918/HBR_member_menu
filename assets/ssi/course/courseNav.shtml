@@ -1,0 +1,333 @@
+<nav>
+  <div class="navBox">
+    <div class="fullAd adBox">
+      <div class="container-fluid">
+        <!--廣告版位 -->
+        <img src="https://dummyimage.com/970x90/777/ccc" alt="">
+        <!-- /31436032/tdesktop_allPage/desktop_allpage>top -->
+        <div id='1620289094985-0'>
+
+          <script>
+
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1620289094985-0'); });
+
+          </script>
+
+        </div>
+        <!-- /31436032/mobile_allPage/mobile_allpage>top -->
+
+        <div id='div-gpt-ad-1620289443781-0'>
+
+          <script>
+
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1620289443781-0'); });
+
+          </script>
+
+        </div>
+      </div>
+    </div>
+    <div class="navB">
+      <div class="leftMenu">
+        <div class="dropdownBoxSet">
+          <a href="javascript:void(0)" title="選單" data-toggle="dropdown" class="dropdownToggle leftMenuIcon">
+            <i class="icon-icon_icon-fixed"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menuSet">
+            <div class="leftMenuCtn ">
+              <ul>
+                <li>
+                  <a href="courseHome.html" title="HBR全服務">HBR全服務</a>
+                </li>
+                <li>
+                  <a href="https://www.hbrtaiwan.com/" title="內容訂閱" target="_blank">內容訂閱</a>
+                </li>
+                <li>
+                  <a href="https://linktr.ee/hbrtaiwan_podcast" title="Podcast" target="_blank">Podcast</a>
+                </li>
+                <li>
+                  <a href="courseIntro.html" title="領導者學程">領導者學程</a>
+                  <ul class="menuLv2">
+                    <li>
+                      <a href="courseIntro.html?id=new-class" title="報名學程">
+                        報名學程
+                      </a>
+                    </li>
+                    <li>
+                      <a href="courseIntro.html" title="學程介紹">
+                        學程介紹
+                      </a>
+                    </li>
+                    <li>
+                      <a href="courseTeacher.html" title="黃金導師">
+                        黃金導師
+                      </a>
+                    </li>
+                    <li>
+                      <a href="courseStudent.html" title="學員見證">
+                        學員見證
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="courseIntro.html?id=enter-club" title="領導者俱樂部">
+                    領導者俱樂部
+                  </a>
+                </li>
+                <li>
+                  <a href="coursePLC.html" title="企業學習服務">企業學習服務</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" data-toggle="modal" data-target="#courseContact" title="合作洽詢">合作洽詢</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logoBox">
+
+        <a href="courseHome.html" title="哈佛商業評論‧與世界一流管理接軌">
+          <img src="assets/img/logo_new/HBR-logo-square-b-2022.png" alt="哈佛商業論" class="deskImg">
+          <img src="assets/img/logo_new/HBR-logo-horizontal-b-2022.png" alt="哈佛商業論" class="mobileImg">
+        </a>
+
+      </div>
+
+      <div class="topMenuBox">
+
+        <ul class="topMenu">
+          <li class="apply">
+            <a href="courseIntro.html?id=new-class" title="報名學程">報名學程</a>
+          </li>
+          <li class="dropdownBoxSet login dropdownTriangle">
+            <a href="javascript:void(0)" title="登入/註冊">登入/註冊</a>
+            <!-- <a href="javascript:void(0)" title="個人専區" data-toggle="dropdown" class="dropdownToggle">
+              <i class="icon-Account-Menu"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+              <ul>
+                <li class="name">王小明<span>數位版訂閱會員</span></li>
+                <li><a href="membersLibrary.html" title="">個人圖書館</a></li>
+                <li><a href="membersData.html" title="">文章主題訂閱</a></li>
+                <li><a href="membersGeneral.html" title="">帳戶管理</a></li>
+                <li><a href="membersRecord.html" title="">文章購買紀錄</a></li>
+                <li><a href="membersNewsletter.html" title="">電子報訂閱</a></li>
+                <li class="signOut"><a href="membersSignIn.html" title="">登出</a></li>
+              </ul>
+              <button type="button" class="closeBtn">
+                <i class="icon-icon-times"></i>
+              </button>
+            </div> -->
+          </li>
+          <li class="dropdownBoxSet shopCart dropdownTriangle">
+            <a href="javascript:void(0)" title="購物車" data-toggle="dropdown" class="dropdownToggle">
+              <i class="icon-shopping-cart"></i>
+              <span>99</span>
+            </a>
+            <a href="" title="購物車" class="shopCart-mb">
+              <i class="icon-shopping-cart"></i>
+              <span>99</span>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+              <!-- 有資料的狀態 -->
+              <div class="ctn">
+                <h5>購物車</h5>
+                <div class="listBox">
+                  <ul class="list">
+                    <li>
+                      <a href="" title="">
+                        <ol>
+                          <li><img
+                              src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/125487_source_1592657663.png"
+                              alt=""></li>
+                          <li>
+                            <h2>利用「黑客松」激發新構想</h2>
+                            <p>數量:5</p>
+                          </li>
+                          <li>
+                            $500
+                          </li>
+                        </ol>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" title="">
+                        <ol>
+                          <li><img
+                              src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/89826_source_1573204195.png"
+                              alt=""></li>
+                          <li>
+                            <h2>合力終結棘手問題</h2>
+                            <p>數量:5</p>
+                          </li>
+                          <li>
+                            $500
+                          </li>
+                        </ol>
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" title="">
+                        <ol>
+                          <li><img
+                              src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/129059_source_1609317872.png"
+                              alt=""></li>
+                          <li>
+                            <h2>利用「黑客松」激發新構想</h2>
+                            <p>數量:5</p>
+                          </li>
+                          <li>
+                            $250
+                          </li>
+                        </ol>
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" title="">
+                        <ol>
+                          <li><img
+                              src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/129024_source_1601452022.png"
+                              alt=""></li>
+                          <li>
+                            <h2>企業的董事會成員常說，執行長接任計畫是首要任務，但上市公司董事很少將那項計畫付諸實現</h2>
+                            <p>數量:5</p>
+                          </li>
+                          <li>
+                            $250
+                          </li>
+                        </ol>
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" title="">
+                        <ol>
+                          <li><img
+                              src="https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/original/attribute_rule_images/127065_source_1604997710.png"
+                              alt=""></li>
+                          <li>
+                            <h2>腦力匯集：因為腦力激盪沒有效</h2>
+                            <p>數量:5</p>
+                          </li>
+                          <li>
+                            $250
+                          </li>
+                        </ol>
+
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="total">
+                  <li>總計</li>
+                  <li>$1,250</li>
+                </ul>
+                <a href="" class="navBtn  view">查看購物車</a>
+              </div>
+              <!-- 無的狀態 -->
+              <!-- <div class="ctn">
+                              <div class="none">
+                                  你的購物車是空的
+                              </div>
+                          </div> -->
+              <button type="button" class="closeBtn">
+                <i class="icon-icon-times"></i>
+              </button>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+      <ul class="menuList">
+        <li>
+          <a href="courseHome.html" title="HBR全服務">HBR全服務</a>
+        </li>
+        <li>
+          <a href="https://www.hbrtaiwan.com/" title="內容訂閱" target="_blank">內容訂閱</a>
+        </li>
+        <li>
+          <a href="https://linktr.ee/hbrtaiwan_podcast" title="Podcast" target="_blank">Podcast</a>
+        </li>
+
+        <li>
+          <a href="courseIntro.html" title="領導者學程">領導者學程</a>
+          <ul class="menuLv2">
+            <li>
+              <a href="courseIntro.html?id=new-class" title="報名學程">
+                報名學程
+              </a>
+            </li>
+            <li>
+              <a href="courseIntro.html" title="學程介紹">
+                學程介紹
+              </a>
+            </li>
+            <li>
+              <a href="courseTeacher.html" title="黃金導師">
+                黃金導師
+              </a>
+            </li>
+            <li>
+              <a href="courseStudent.html" title="學員見證">
+                學員見證
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="courseIntro.html?id=enter-club" title="領導者俱樂部">
+            領導者俱樂部
+          </a>
+        </li>
+        <li>
+          <a href="coursePLC.html" title="企業學習服務">企業學習服務</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#courseContact" title="合作洽詢">合作洽詢</a>
+        </li>
+
+
+      </ul>
+    </div>
+    <!-- </div> -->
+  </div>
+  <div class="mobileNav">
+    <div class="navBottom">
+      <div class="item active">
+        <a href="courseHome.html" title="">
+          <img src="assets/img/svg/m-home.svg" alt="" class="svg">
+          <span>&nbsp;&nbsp;&nbsp;全服務&nbsp;&nbsp;&nbsp;</span>
+        </a>
+      </div>
+      <div class="item">
+        <a href="courseIntro.html" title="">
+          <img src="assets/img/svg/m-vp.svg" alt="" class="svg">
+          <span>領導者學程</span>
+        </a>
+      </div>
+      <div class="item">
+        <a href="coursePLC.html" title="">
+          <img src="assets/img/svg/book.svg" alt="" class="svg">
+          <span>企業學習服務</span>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#" data-toggle="modal" data-target="#courseContact" title="">
+          <img src="assets/img/svg/send.svg" alt="" class="svg">
+          <span>合作洽詢</span>
+        </a>
+      </div>
+      <div class="item menu " data-toggle="modal" data-target="#myMenu">
+        <a href="javascript:void(0)" title="">
+          <img src="assets/img/svg/m-menu.svg" alt="" class="svg">
+          <span>&nbsp;&nbsp;&nbsp;選單&nbsp;&nbsp;&nbsp;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

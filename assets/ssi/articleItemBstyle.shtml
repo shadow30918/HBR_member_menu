@@ -1,0 +1,121 @@
+<!-- 若沒有圖請加 noneImg-->
+<div class="articleItem noneImg">
+    <div class="container-xl">
+        <div class="articleItemLeft">
+            <div class="heighH3">
+                <h3>
+                    <a href="magazineArticle.html" title="">
+                        見情國她美童成處成的一來油座致我為最人可國古才華要大學權易，於那山型，不一聲先資間價富說！我人頭外想特因美的：因正常河用的人，聞保合！李交兒設同間造裡理司。報人明問清政、如深外會的出證先還客夫線獨到
+                    </a>
+                </h3>
+            </div>
+            <h4 class="small"><a href="author.html" title="">鄧嘉玲簡鄧</a><a href="author.html" title="">李小明</a></h4>
+            <ul class="listItem">
+                <li><a href="sortList.html" title="">台灣CEO</a></li>
+                <li>紙本文章2020年7月號</li>
+            </ul>
+            <div class="heighP">
+                <p>
+                    <a href="magazineArticle.html" title="">
+                        就公教我謝居中以或明空底，走色標港神建獨失帶發高發星聲作能半小、大那下子出我一表己格大輕的己是小友總子們官以反水如不想燈命燈大經金急前；但境減量意經決以，計廠好保也，好決師居毒：相陽自定假負失親問公這組有器、深工都也記來得雄好會人況教象收天為爭住我住黑所義歡比同步其是是考，接球師一失一的喜吃他費復每緊，色術黨的海這驗想的可族的毒命業名運天能走我報度燈時中子求次個真果多起小口雙你象表民工物想照社，她寫燈花造位上往二上看過沒在望都居選
+                    </a>
+                </p>
+            </div>
+            <ul class="clickItem">
+                <li class=" favorite">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i class="icon-bookmark"></i>收藏本文</a>
+                </li>
+                <li class=" share">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i class="icon-icon-share"></i>分享</a>
+                </li>
+            </ul>
+        </div>
+        <div class="articleItemRight">
+            <div class="imgBox itemthumb">
+                <a href="magazineArticle.html" title="">
+                    <img src="https://hbr.org/resources/images/article_assets/2021/01/Jan21_12_HBRStaff-01-383x215.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="articleItem">
+    <div class="container-xl">
+        <div class="articleItemLeft">
+            <div class="heighH3">
+                <h3>
+                    <a href="" title="">
+                        規畫不確定的未來
+                    </a>
+                </h3>
+            </div>
+            <h4 class="small"><a href="author.html" title="">鄧嘉玲簡鄧</a></h4>
+            <ul class="listItem">
+                <li><a href="sortList.html" title="">台灣CEO</a></li>
+                <li>紙本文章2020年7月號</li>
+            </ul>
+            <div class="heighP">
+                <p>
+                    <a href="magazineArticle.html" title="">
+                        他旗下一位負責重大專案的經理，突然轉投競爭公司懷抱。他擔心開高價慰留，會引發其他員工要求改善薪資，但這位經理是該領域
+                    </a>
+                </p>
+            </div>
+            <ul class="clickItem">
+                <li class=" favorite">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i class="icon-bookmark"></i>收藏本文</a>
+                </li>
+                <li class=" share">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i class="icon-icon-share"></i>分享</a>
+                </li>
+            </ul>
+        </div>
+        <div class="articleItemRight">
+            <div class="imgBox itemthumb">
+                <a href="magazineArticle.html" title="">
+                    <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010175.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="articleItem">
+    <div class="container-xl">
+        <div class="articleItemLeft">
+            <div class="heighH3">
+                <h3>
+                    <a href="magazineArticle.html" title="">
+                        哈佛教你做出聰明決策領導人可在許多方面展現氣概，像是在制定策
+                    </a>
+                </h3>
+            </div>
+            <h4 class="small"><a href="author.html" title="">鄧嘉玲簡鄧</a></h4>
+            <ul class="listItem">
+                <li><a href="sortList.html" title="">台灣CEO</a></li>
+                <li>紙本文章2020年7月號</li>
+            </ul>
+            <div class="heighP">
+                <p>
+                    <a href="magazineArticle.html" title="">
+                        領導人可在許多方面展現氣概，像是在制定策略、激勵人心等方面，但決定
+                    </a>
+                </p>
+            </div>
+            <ul class="clickItem">
+                <li class=" favorite">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i class="icon-bookmark"></i>收藏本文</a>
+                </li>
+                <li class=" share">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i class="icon-icon-share"></i>分享</a>
+                </li>
+            </ul>
+        </div>
+        <div class="articleItemRight">
+            <div class="imgBox itemthumb">
+                <a href="magazineArticle.html" title="">
+                    <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010174.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

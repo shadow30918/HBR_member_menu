@@ -1,0 +1,172 @@
+<!-- 小版選單 -->
+<div class="modal fade myMenu" id="myMenu">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="logo">
+                    <a href="hp.html" title="">
+                        <img src="assets/img/logo-c.png" alt="">
+                    </a>
+                </div>
+                <ul class="right">
+                    <!-- <li class="shopCart dropdownBoxSet"><a href="" title=""><i class="icon-shopping-cart"></i>
+                        <span>99</span>
+                    </a>
+                    </li> -->
+                    <!-- <li class="search">
+                        <a href="javascript:void(0)" title=""><i class="icon-Search-Menu"></i>
+                        </a>
+                    </li> -->
+                </ul>
+                <button type="button" data-dismiss="modal" class="closeBtnModal">
+                    <img src="assets/img/svg/m-close.svg" alt="">
+                    <span>關閉</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- <div class="searchBox">
+                    <div class="input-group ">
+                        <input type="text" class="form-control" placeholder="Search hbrtaiwan.com">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit" onclick="location.href='search.html'">搜尋</button>
+                        </div>
+                    </div>
+                </div> -->
+                <ul class="mobileMenuList">
+                    <li>
+                        <a href="subject.html" title="趨勢文章">趨勢文章</a>
+                    </li>
+                    <li>
+                        <a href="new.html" title="最新文章">最新文章</a>
+                    </li>
+                    <li>
+                        <a href="sort.html" title="主題分類">主題分類</a>
+                    </li>
+                    <li>
+                        <a href="teacher.html" title="導師講座">導師講座</a>
+                    </li>
+                    <li>
+                        <a href="college.html" title="個人學院">個人學院</a>
+                    </li>
+                    <li>
+                        <a href="choice.html" title="精選専題">精選専題</a>
+                    </li>
+                    <li>
+                        <a href="audiovisual.html" title="影音">影&nbsp;&nbsp;音</a>
+                    </li>
+                    <li>
+                        <a href="study.html" title="個案研究">個案研究</a>
+                    </li>
+                    <li>
+                        <a href="idea.html" title="觀念研究">觀念研究</a>
+                    </li>
+                    <li>
+                        <a href="magazine.html" title="雜誌/書籍">雜誌/書籍</a>
+                    </li>
+                    <li>
+                        <a href="sortList.html" title="台灣CEO">台灣CEO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 收藏 -->
+<div class="modal lightBoxModal mySave fade" id="mySave">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">收藏至</h4>
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="saveBox">
+                    <ul>
+                        <li class="check">
+                            <i class="icon-later"></i>稍後再讀
+                        </li>
+                        <li>
+                            測試資料夾
+                        </li>
+                        <li>
+                            未分類
+                        </li>
+                        <li class="add ">新增資料夾 <i class="icon-add"></i>
+
+                        </li>
+                    </ul>
+                    <div class="addForm">
+                        <form>
+                            <div class="form-group">
+                                <div class="input-item">
+                                    <input class="form-control" type="text" placeholder="資料夾名稱">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-item">
+                                    <textarea class="form-control" rows="2" placeholder="資料夾描述"></textarea>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- 資料夾名稱若無輸入文字 屬性請加 disabled-->
+                    <button type="button" class="lightBoxBtn ">收藏</button>
+                </div>
+                <div class="saveTo">
+                    <a href="" title="">查看個人圖書館</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 分享 -->
+<div class="modal lightBoxModal myShare fade" id="myShare">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h4 class="modal-title">分享<span>"這部接人我經資久明身風。工法痛花是，很然不生希過維心司我臺花"</span></h4>
+                <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="shareUrl">
+                    <span>URL</span>
+                    <input type="text" value="https://www.hbrtaiwan.com/coronavirus.html" disabled>
+                </div>
+                <div class="shareTab">
+                    <ul class="nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#home">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu1">Twitter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu2">LinkedIn</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="home" class=" tab-pane active">
+                            <i class="icon-facebook"></i>
+                            <button type="button" class="shareBtn">分享至Facebook</button>
+                        </div>
+                        <div id="menu1" class=" tab-pane fade">
+                            <i class="icon-twitter"></i>
+                            <button type="button" class="shareBtn">分享至Twitter</button>
+                        </div>
+                        <div id="menu2" class=" tab-pane fade">
+                            <i class="icon-icon-linkedin"></i>
+                            <button type="button" class="shareBtn">分享至LinkedIn</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

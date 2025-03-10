@@ -1,0 +1,72 @@
+<section class="furtherReading">
+    <div class="container-xl">
+        <div class="otherTitle">
+            延伸閱讀
+        </div>
+        <div class="furtherReadingItemBox">
+            <div class="furtherReadingItem">
+                <div class="imgBox itemthumb">
+                    <a href="digit.html" title="">
+                        <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010183.jpg" alt="">
+                    </a>
+                </div>
+                <div class="heighH3">
+                    <h3><a href="digit.html" title=""> 紅呢沒大血？或水量所、所強陽長直使減東在；走中士節同力定是使細音去古親作區求樂生壓節視了口</a></h3>
+                </div>
+                <div class="heighP">
+                    <p>
+                        <a href="author.html" title="">李大明</a>
+                    </p>
+                    <p>
+                        <a href="author.html" title="">第二個作者</a>
+                    </p>
+                </div>
+            </div>
+            <div class="furtherReadingItem">
+                <div class="imgBox itemthumb">
+                    <a href="digit.html" title="">
+                        <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010209.jpg" alt="">
+                    </a>
+                </div>
+                <div class="heighH3">
+                    <h3><a href="digit.html" title="">打造你的復原力</a></h3>
+                </div>
+                <div class="heighP">
+                    <p>
+                        <a href="author.html" title="">王月新</a>
+                    </p>
+                </div>
+            </div>
+            <div class="furtherReadingItem">
+                <div class="imgBox itemthumb">
+                    <a href="digit.html" title="">
+                        <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010184.jpg" alt="">
+                    </a>
+                </div>
+                <div class="heighH3">
+                    <h3><a href="digit.html" title=""> AVM誕生以管理創新提升獲利</a></h3>
+                </div>
+                <div class="heighP">
+                    <p>
+                        <a href="author.html" title="">艾倫．傑克遜  Alan Jackson </a>
+                    </p>
+                </div>
+            </div>
+            <div class="furtherReadingItem">
+                <div class="imgBox itemthumb">
+                    <a href="digit.html" title="">
+                        <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010145.jpg" alt="">
+                    </a>
+                </div>
+                <div class="heighH3">
+                    <h3><a href="digit.html" title=""> 紅當你身處職涯早期，不乏有人給你建議，幫助你摸索如何找工作、建立好印象，以及如何實現你最狂野的抱負等等。但比較少談到的，是你不該聽從哪些建</a></h3>
+                </div>
+                <div class="heighP">
+                    <p>
+                        <a href="author.html" title="">李杲痘</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

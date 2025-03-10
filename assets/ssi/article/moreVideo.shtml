@@ -1,0 +1,377 @@
+<section class="moreVideoBox">
+    <div class="container-xl">
+        <div class="audiovisualContainer">
+            <div class="VideoListSearch">
+                <div class="form-inline between">
+                    <h5>接下來想觀看</h5>
+                    <div class="selectStyleBox">
+                        <select class="full-mb">
+                            <option value="">從新到舊</option>
+                            <option value="">熱門影片
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="VideoList">
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010279.jpg" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        一個人住的自在美好！
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/articles_images/AR0009896.jpg" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        第公吸定山比色導，事資向目內展和前車著毛了病究算。做人作後岸公情生八發文的一代還你大，戰趣前顧，花理設日我視拿種只！怕可食義大斷地因是我度，用個事客調他王命太展處一我要。
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--廣告 加insideAd adBox-->
+                <div class="VideoListItem insideAd adBox ad-10">
+                        <a href="" title="">
+                            <!--廣告版位 m-10 / d-10 -->
+                            <img src="https://dummyimage.com/300x250/777/ccc" alt="">
+                        </a>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/60/20260/preview/thumb/20260.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        罹癌後一週捨一物！50+讀者Lily
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/32/19932/preview/thumb/19932.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        76歲仍是飛躍羚羊
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/85/19985/preview/thumb/19985.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        一個作者是蘋果的副總裁，同時也是蘋果企業內大學的校長
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010279.jpg" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        一個人住的自在美好！
+                                    </a>
+                                </h3>
+                            </div>
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/articles_images/AR0009896.jpg" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        第公吸定山比色導，事資向目內展和前車著毛了病究算。做人作後岸公情生八發文的一代還你大，戰趣前顧，花理設日我視拿種只！怕可食義大斷地因是我度，用個事客調他王命太展處一我要。
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/91/20291/preview/thumb/20291.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        如何優雅地變老？
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/60/20260/preview/thumb/20260.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        罹癌後一週捨一物！50+讀者Lily
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/32/19932/preview/thumb/19932.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        76歲仍是飛躍羚羊
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="VideoListItem">
+                    <div class="articleItem ">
+                        <div class="imgBox itemthumb ">
+                            <a href="audiovisualFilm.html" title="">
+                                <img src="https://imgs.cwgv.com.tw/articles/85/19985/preview/thumb/19985.png" alt="">
+                                <i class="icon-play-button1"></i>
+                            </a>
+                        </div>
+                        <div class="videoInfo">
+                            <div class="heighH3">
+                                <h3>
+                                    <a href="audiovisualFilm.html" title="">
+                                        一個作者是蘋果的副總裁，同時也是蘋果企業內大學的校長
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <ul class="clickItem">
+                                <li class=" favorite">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#mySave"><i
+                                            class="icon-bookmark"></i>收藏本文</a>
+                                </li>
+                                <li class=" share">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#myShare"><i
+                                            class="icon-icon-share"></i>分享</a>
+                                </li>
+                                <li>2020/6/20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moreBtn moreBtnB ">
+                <a href="javascript:void(0)" title="">
+                    <div class="txt">
+                        <i class="icon-icon-load-more"></i>瀏覽所有主題影片
+                    </div>
+                    <div class="loader"></div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>

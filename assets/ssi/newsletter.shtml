@@ -1,0 +1,106 @@
+<div class="newsletter">
+    <div class="container-xl">
+        <div class="pageTitle">
+            <h2>電子報</h2>
+            <p>每天不同主題給訂戶最有助益最優質的內容</p>
+        </div>
+        <div class="newsletterList">
+            <div class="newsItem">
+                <div class="newsItemB">
+                    <div class="topInfo">
+                        <div class="imgBox itemthumb">
+                            <img src="https://hbr.org/resources/images/article_assets/2020/12/A_Jan21_13_177322553-383x215.jpg" alt="">
+                        </div>
+                        <div class="followBtn">
+                            <a href="javascript:void(0)" class="follow">訂閱<i
+                                    class="icon-icon-follow-this"></i></a>
+                            <a href="javascript:void(0)" class="followCheck">已訂閱<i
+                                    class="icon-icon-check"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="bottomInfo">
+                        <h4>每週一發報</h4>
+                        <h2>每周熱門文章電子報</h2>
+                        <p>提供數位版會員，每週哈佛商業評論網站上的最熱門點閱文章。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="newsItem">
+                <div class="newsItemB">
+                    <div class="topInfo">
+                        <div class="imgBox itemthumb">
+                            <img src="https://www.hbrtaiwan.com/images/thumb/300_AR0010175.jpg" alt="">
+                        </div>
+                        <div class="followBtn">
+                            <a href="javascript:void(0)" class="follow">訂閱<i
+                                    class="icon-icon-follow-this"></i></a>
+                            <a href="javascript:void(0)" class="followCheck">已訂閱<i
+                                    class="icon-icon-check"></i></a>
+                        </div>
+                        <div class="limitBox">
+                            <div class="limit">
+                                <i class="icon-hbrlogo-3"></i>訂戶限定
+                            </div>
+                            <img src="assets/img/triangle.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bottomInfo">
+                        <h4>每週二發報</h4>
+                        <h2>訂戶專屬編輯主題報</h2>
+                        <p>由HBR編輯策畫執行，深入探索與讀者最相關、最有助益的重要精選內容。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="newsItem">
+                <div class="newsItemB">
+                    <div class="topInfo">
+                        <div class="imgBox itemthumb">
+                            <img src="https://dummyimage.com/90x90/555/fff" alt="">
+                        </div>
+                        <div class="followBtn">
+                            <a href="javascript:void(0)" class="follow">訂閱<i
+                                    class="icon-icon-follow-this"></i></a>
+                            <a href="javascript:void(0)" class="followCheck">已訂閱<i
+                                    class="icon-icon-check"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottomInfo">
+                        <h4>每週三發報</h4>
+                        <h2>哈佛嚴選主題報</h2>
+                        <p>挑選熱門主題與文章，讓讀者能夠有系統、深度地快速掌握核心管理觀念。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="newsItem">
+                <div class="newsItemB">
+                    <div class="topInfo">
+                        <div class="imgBox itemthumb">
+                            <img src="https://hbr.org/resources/images/article_assets/2021/01/Jan21_05hero.jpg" alt="">
+                        </div>
+                        <div class="followBtn">
+                            <a href="javascript:void(0)" class="follow">訂閱<i
+                                    class="icon-icon-follow-this"></i></a>
+                            <a href="javascript:void(0)" class="followCheck">已訂閱<i
+                                    class="icon-icon-check"></i></a>
+                        </div>
+                    </div>
+                    <div class="bottomInfo">
+                        <h4>每週四發報</h4>
+                        <h2>職場新手進修電子報</h2>
+                        <p>為職場新手遭遇的各式問題提供解答，每週提供最新文章。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="moreBtn moreBtnB">
+            <a href="javascript:void(0)" title="">
+                    訂閱更多電子報<i class="icon-icon-caret-right"></i>
+            </a>
+        </div>
+    </div>
+</div>

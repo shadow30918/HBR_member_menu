@@ -1,0 +1,114 @@
+<!-- <div class="mobileBtn">
+    <i class="icon-menu"></i>
+</div> -->
+<div class="articleMenu">
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet dropright">
+            <a href="javascript:void(0)" title="" data-toggle="dropdown" class="dropdownToggle">
+                <i class="icon-bookmark"></i><span>收藏</span>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+                <div class="modal lightBoxModal mySave fade show">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">收藏至</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="saveBox">
+                                    <ul>
+                                        <li class="check">
+                                            <i class="icon-later"></i>稍後再讀
+                                        </li>
+                                        <li>
+                                            測試資料夾
+                                        </li>
+                                        <li>
+                                            未分類
+                                        </li>
+                                        <li class="add ">新增資料夾 <i class="icon-add"></i>
+
+                                        </li>
+                                    </ul>
+                                    <div class="addForm">
+                                        <form>
+                                            <div class="form-group">
+                                                <div class="input-item">
+                                                    <input class="form-control" type="text" placeholder="資料夾名稱">
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-item">
+                                                    <textarea class="form-control" rows="2"
+                                                        placeholder="資料夾描述"></textarea>
+
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- 資料夾名稱若無輸入文字 屬性請加 disabled-->
+                                    <button type="button" class="lightBoxBtn ">收藏</button>
+                                </div>
+                                <div class="saveTo">
+                                    <a href="" title="">查看個人圖書館</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="closeBtn">
+                    <i class="icon-icon-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="" class="dropdownToggle">
+                <i class="icon-icon-executive-summary"></i><span>評論</span>
+            </a>
+        </div>
+    </div> -->
+    <div class="articleMenuItem">
+        <div class="dropdownBoxSet ">
+            <a href="javascript:void(0)" title="" class="dropdownToggle fontBtn">
+                <i class="icon-font-size"></i><span class="big">放大</span><span class="small">縮小</span>
+            </a>
+        </div>
+    </div>
+    <div class="articleMenuItem articleMenuItemShare">
+        <div class="dropdownBoxSet dropright">
+            <a href="javascript:void(0)" title="" data-toggle="dropdown" class="dropdownToggle">
+                <i class="icon-share"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menuSet">
+                <div class="modal lightBoxModal myShare  fade show">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">分享</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li><a href="javascript:void(0)" title=""><i
+                                                class="icon-facebook1"></i><span>Post</span></a></li>
+                                    <li><a href="javascript:void(0)" title=""><i
+                                                class="icon-twitter1"></i><span>Tweet</span></a></li>
+                                    <li><a href="javascript:void(0)" title=""><i
+                                                class="icon-linkedin"></i><span>Share</span></a></li>
+                                    <li><a href="javascript:void(0)" title=""><i
+                                                class="icon-line"></i><span>Share</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="closeBtn">
+                    <i class="icon-icon-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

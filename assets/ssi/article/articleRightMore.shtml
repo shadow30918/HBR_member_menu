@@ -1,0 +1,38 @@
+<div class="articleRightMore">
+    <div class="articleRightTitle">
+        閱讀更多
+    </div>
+    <div class="provenanceArticleItem">
+        <div class="left">
+            <div class="imgBox itemthumb">
+                <a href="magazineArticle.html" title="">
+                    <img src="https://www.hbrtaiwan.com/images/cover_images/HBR148.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="heighH2">
+                <h2><a href="" title="">發往臺那！有間期人到不、知再行指會節一美朋學為口父如研住聽難無引有廠車，什處一訴望色久負大高錢有再見保陽在</a></h2>
+            </div>
+            <p><a href="magazineArticle.html">2021年1月號</a></p>
+        </div>
+    </div>
+    <div class="provenanceArticleItem">
+        <div class="left">
+            <div class="imgBox itemthumb">
+                <a href="magazineArticle.html" title="">
+                    <img src="https://www.hbrtaiwan.com/images/cover_images/HS1509.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="heighH2">
+                <h2><a href="magazineArticle.html" title="">與競爭者共舞</a></h2>
+            </div>
+            <p><a href="magazineArticle.html">2021年12月號</a></p>
+        </div>
+    </div>
+    <a href="magazine.html" class="articleRightBtn" title="">
+        看更多雜誌文章
+    </a>
+</div>

@@ -1,0 +1,10 @@
+<div class="footerSubscription">
+    <ul>
+        <li>
+            <a href="membersSignIn.html" title="">
+                <!-- <img src="assets/img/ico/msapplication-large.png" alt="">  -->
+                免費加入會員 · 每月讀<span>3</span>篇
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,196 @@
+body {
+    
+    
+
+    
+}
+
+.memberCenterBanner {
+    .info {
+        .textCtn {
+            
+            .nav-scroll-container {
+                position: relative;
+                width: 100%;
+
+                .arrow {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    //font-size: 24px;
+                    cursor: pointer;
+                    z-index: 10; 
+                    display: none;
+                    width: 24px;
+                    height: 100%;
+                    background-color: #aaa;
+
+                    &::after,&::before {
+                        content: "";
+                        position: absolute;
+                        width: 10px;
+                        height: 3px;
+                        border-radius: 99em;
+                        background-color: #333;
+                        top: 50%;
+                        left: 50%;
+                        transform-origin: left;
+                        transform: translate(-50%,calc(-50% - 0.5px)) rotate(45deg);
+                    }
+                    &:after {
+                        transform: translate(-50%,calc(-50% + 0.5px)) rotate(-45deg);
+                    }
+
+                    &.disabled {
+                        cursor: not-allowed; 
+                        opacity: 0.5;
+                    }
+                }
+                
+                ._left {
+                    left: -15px; /* 左箭头位置 */
+                }
+                
+                ._right {
+                    transform: translateY(-50%) rotate(180deg);
+                    right: -15px; /* 右箭头位置 */
+                }
+
+                .nav-tabs.type-01 {
+                    flex-wrap: nowrap;
+                    width: 100%;
+                    overflow-x: auto;
+                    white-space: nowrap;
+                    //flex-grow: 1; /* 使可滚动区域占据剩余空间 */
+                    transition: scroll-left 0.3s ease; /* 添加过渡效果 */
+
+                    &.scrollable {
+                        /* 自定义滚动条 */
+                        &::-webkit-scrollbar {
+                            width: 0px; /* 滚动条的宽度 */
+                            height: 0px; /* 滚动条的高度 */
+                        }
+
+                        /* 滚动条轨道 */
+                        &::-webkit-scrollbar-track {
+                            background: #f1f1f1; /* 轨道的背景颜色 */
+                        }
+
+                        /* 滚动条滑块 */
+                        &::-webkit-scrollbar-thumb {
+                            background: #888; /* 滑块的颜色 */
+                            border-radius: 6px; /* 滑块的圆角 */
+                        }
+
+                        /* 滑块在悬停时的样式 */
+                        &::-webkit-scrollbar-thumb:hover {
+                            background: #555; /* 悬停时滑块的颜色 */
+                        }
+                    }
+
+                    .nav-item {
+                        .nav-link {
+                            min-width: max-content;
+                        }
+                    }
+                }
+                .container-xl {
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body.fixedHeader {
+        .memberCenterBanner {
+            .info {
+                .textCtn {
+                    .nav-scroll-container {
+                        position: fixed;
+                        z-index: 3;
+                        top: 46px;
+                        left: 0;
+                        width: 100%;
+                        background-color: #2b2b2b;
+
+                        ._left {
+                            left: 0;
+                        }
+                        ._right {
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .studyBox aside {
+            top: calc(46px + 48px);
+        }
+
+        &.modal-openB .studyBox aside {
+            top: 46px;
+        }
+    }
+
+    .memberCenterBanner {
+        z-index: 2;
+
+        .info {
+            .textCtn {
+                
+                .nav-scroll-container {
+
+                    .nav-tabs.type-01 {
+                        gap: 16px;
+    
+                        .nav-item {
+                            flex-basis: auto;
+                            flex-grow: 1;
+
+                            .nav-link {
+                                font-size: 14px;
+                                line-height: 24px;
+                                padding: 12px 8px;
+
+                                &.active {
+                                    &:before {
+                                        height: 4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .container-xl {
+    
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ManageItem {
+    .detail {
+        .cardInfo {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            p {
+                margin: 0;
+                padding-right: 20px;
+            }
+
+            a {
+                color: #0787b1;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+<!-- 小版選單 -->
+<div class="modal fade myMenu" id="myMenu">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="logo">
+                    <a href="hp.html" title="">
+                        <img src="assets/img/logo-c.png" alt="">
+                    </a>
+                </div>
+                <ul class="right">
+                    <!-- <li class="shopCart dropdownBoxSet"><a href="" title=""><i class="icon-shopping-cart"></i>
+                        <span>99</span>
+                    </a>
+                    </li> -->
+                    <!-- <li class="search">
+                        <a href="javascript:void(0)" title=""><i class="icon-Search-Menu"></i>
+                        </a>
+                    </li> -->
+                </ul>
+                <button type="button" data-dismiss="modal" class="closeBtnModal">
+                    <img src="assets/img/svg/m-close.svg" alt="">
+                    <span>關閉</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- <div class="searchBox">
+                    <div class="input-group ">
+                        <input type="text" class="form-control" placeholder="Search hbrtaiwan.com">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit" onclick="location.href='search.html'">搜尋</button>
+                        </div>
+                    </div>
+                </div> -->
+                <ul class="mobileMenuList">
+                    <li>
+                        <a href="courseHome.html" title="HBR全服務">HBR全服務</a>
+                    </li>
+                    <li>
+                        <a href="https://www.hbrtaiwan.com/" title="內容訂閱">內容訂閱</a>
+                    </li>
+                    <li>
+                        <a href="https://linktr.ee/hbrtaiwan_podcast" title="Podcast">Podcast</a>
+
+                    </li>
+                    <li class="hasLv2">
+                        <a href="javascript:void(0)" title="領導者學程">領導者學程</a>
+                        <ul class="menuLv2">
+                            <li>
+                                <a href="courseIntro.html?id=new-class" title="報名學程">
+                                    報名學程
+                                </a>
+                            </li>
+                            <li>
+                                <a href="courseIntro.html" title="學程介紹">
+                                    學程介紹
+                                </a>
+                            </li>
+                            <li>
+                                <a href="courseTeacher.html" title="黃金導師">
+                                    黃金導師
+                                </a>
+                            </li>
+                            <li>
+                                <a href="courseStudent.html" title="學員見證">
+                                    學員見證
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="courseIntro.html?id=enter-club" title="領導者俱樂部">
+                            領導者俱樂部
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coursePLC.html" title="企業學習服務">企業學習服務</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#courseContact"
+                            title="合作洽詢">合作洽詢</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 合作洽詢 -->
+<div class="modal sqlModal courseContactModal fade" id="courseContact">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="infoInputBox">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <div class="course-sub-title">
+                        <h3>
+                            合作洽詢
+                        </h3>
+                    </div>
+                    <p>客製化學習計畫．專班合作諮詢表單</p>
+                    <form>
+                        <div class="course-contact-form">
+                            <div class="input-row row">
+                                <div class="col-md-6 md-mb-20">
+                                    <div class="input-item">
+                                        <input class="form-control" type="text" id="name" required="">
+                                        <label for="name">姓名</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item">
+                                        <input class="form-control" type="text" id="job-unit" required="">
+                                        <label for="job-unit" class="">任職單位</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-row row">
+                                <div class="col-md-6 md-mb-20">
+                                    <div class="input-item">
+                                        <input class="form-control" type="text" id="phone" required="">
+                                        <label for="phone">手機</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="globalphoneBox">
+                                        <div class="cellphoneInput input-item">
+                                            <input class="form-control" type="text" id="job-name" required="">
+                                            <label for="job-name" class="">職稱</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-row row">
+                                <div class="col-md-12">
+                                    <div class="input-item">
+                                        <input class="form-control" type="email" id="email" required="">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" title="確認送出" class="btn btn-round-line">確認送出</a>
+                            <span class="mark">完成表單送出代表您同意接受遠見天下文化事業群隱私權政策</span>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

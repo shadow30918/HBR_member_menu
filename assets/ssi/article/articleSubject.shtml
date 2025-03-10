@@ -1,0 +1,23 @@
+<div class="articleSubject">
+    <div class="articleSubjectBox">
+        <div class="articleSubjectItem">
+            <h3>本篇文章主題</h3>
+            <h2><a href="sortList.html" title="">策略</a></h2>
+            <div class="followBtn">
+                <a href="javascript:void(0)" class="follow">追踨<i class="icon-icon-follow-this"></i></a>
+                <a href="javascript:void(0)" class="followCheck">已追踨<i class="icon-icon-check"></i></a>
+            </div>
+        </div>
+        <div class="articleSubjectItem">
+            <h3>更多關聯主題</h3>
+            <ul>
+                <li>
+                    <a href="sortList.html" title="">評估績效</a>
+                </li>
+                <li>
+                    <a href="sortList.html" title="">協作</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

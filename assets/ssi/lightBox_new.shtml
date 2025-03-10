@@ -1,0 +1,305 @@
+<!-- 註冊成功-->
+<div class="modal sqlModal signUp fade" id="signUp">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="successBox">
+                    <h4 class="title">感謝您加入會員</h4>
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <div class="detail">
+                        <h5>會員帳號已驗證成功!</h5>
+                        <p>請重新登入，即可免費每月瀏覽<span class="txt-red">三篇文章</span></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <a class="btn btn-red" href="digit.html">立即登入</a>
+                        </div>
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 重新設定密碼成功-->
+<div class="modal sqlModal reset fade" id="reset">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="successBox">
+                    <h4 class="title">重新設定密碼成功</h4>
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <div class="detail">
+                        <h5>歡迎回來！!</h5>
+                        <p>請重新登入，繼續閱讀哈佛商業評論</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <a class="btn btn-red" href="membersSignIn.html">以新密碼登入</a>
+                        </div>
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 新增授權使用者-->
+<div class="modal sqlModal addNewUser fade" id="addNewUser">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="infoInputBox">
+                    <h4 class="title">填寫資料</h4>
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <form>
+                        <div class="formContainer">
+                            <div class="input-group input-row">
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="userUnit01">
+                                    <label for="userUnit01">使用單位</label>
+                                </div>
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="className01">
+                                    <label for="className01">課程名稱</label>
+                                </div>
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="teacher01">
+                                    <label for="teacher01">授課老師</label>
+                                </div>
+                            </div>
+                            <div class="input-row radio-row md-column">
+                                <span>使用日期
+                                </span>
+                                <div class="radioBox radioStyle inputStyle">
+                                    <label class="radio-inline"><input type="radio" name="optradio" checked=""
+                                            id="timeInterval">時間區間</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio"
+                                            id="semester">學年學期</label>
+                                </div>
+                            </div>
+                            <div class="selectTimeBox">
+                                <div class="input-row md-column show" id="timeIntervalBox">
+                                    <div class="input-item col-03">
+                                        <input class="form_date form-control" type="text" id="startTime01">
+                                        <span><i class="icon-date"></i></span>
+                                    </div>
+                                    <div class="text">至</div>
+                                    <div class="input-item  col-03">
+                                        <input class="form_date form-control" type="text" id="endTime01">
+                                        <span><i class="icon-date"></i></span>
+                                    </div>
+                                </div>
+                                <div class="input-row md-column" id="semesterBox01">
+                                    <div class="input-item col-03">
+                                        <div class="selectStyleBox">
+                                            <select class="">
+                                                <option value="109">109</option>
+                                                <option value="110">110</option>
+                                                <option value="111">111</option>
+                                                <option value="112">112</option>
+                                                <option value="113">113</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text">學年度</div>
+                                    <div class="input-item col-03">
+                                        <div class=" selectStyleBox">
+                                            <select class="">
+                                                <option value="2">第2</option>
+                                                <option value="1">第1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text">學期</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-group">
+                            <button class="btn btn-white-line btn-height cancel" title="close"
+                                data-dismiss="modal">取消</button>
+                            <button class="btn btn-black btn-height submit" type="submit" title="submit">儲存</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 購買者使用資料-->
+<div class="modal sqlModal addPurchaser fade" id="addPurchaser">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="infoInputBox">
+                    <h4 class="title">使用資料</h4>
+                    <div class="subtitle">
+                        <p>尊重您的個人隱私權，所有資料皆以密碼保護。<br />以下皆為必填欄位</p>
+                        <div class="input-row">
+                            <div class=" selectStyleBox">
+                                <select class="">
+                                    <!--常用資料顯示格式：(單位 - 課程 - 老師)-->
+                                    <option value="">國立政治大學EMBA-生醫產業創新管理-宋皇志</option>
+                                    <option value="">新增資料</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <form>
+                        <div class="formContainer">
+                            <div class="input-group input-row">
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="userUnit">
+                                    <label for="userUnit">使用單位</label>
+                                </div>
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="className">
+                                    <label for="className">課程名稱</label>
+                                </div>
+                                <div class="input-item col-03">
+                                    <input class="form-control" type="text" id="teacher">
+                                    <label for="teacher">授課老師</label>
+                                </div>
+                            </div>
+                            <div class="input-row radio-row md-column">
+                                <span>使用日期
+                                </span>
+                                <div class="radioBox radioStyle inputStyle">
+                                    <label class="radio-inline"><input type="radio" name="optradio" checked=""
+                                            id="timeInterval01">時間區間</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio"
+                                            id="semester01">學年學期</label>
+                                </div>
+                            </div>
+                            <div class="selectTimeBox">
+                                <div class="input-row md-column show" id="timeInterval01Box">
+                                    <div class="input-item col-03">
+                                        <input class="form_date form-control" type="text" id="startTime">
+                                        <span><i class="icon-date"></i></span>
+                                    </div>
+                                    <div class="text">至</div>
+                                    <div class="input-item  col-03">
+                                        <input class="form_date form-control" type="text" id="endTime">
+                                        <span><i class="icon-date"></i></span>
+                                    </div>
+                                </div>
+                                <div class="input-row md-column" id="semester01Box">
+                                    <div class="input-item col-03">
+                                        <div class="selectStyleBox">
+                                            <select class="">
+                                                <option value="109">109</option>
+                                                <option value="110">110</option>
+                                                <option value="111">111</option>
+                                                <option value="112">112</option>
+                                                <option value="113">113</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text">學年度</div>
+                                    <div class="input-item col-03">
+                                        <div class=" selectStyleBox">
+                                            <select class="">
+                                                <option value="2">第2</option>
+                                                <option value="1">第1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="text">學期</div>
+                                </div>
+                            </div>
+                            <!-- <div class="input-row radio-row md-column ">
+                                <span>使用日期
+                                </span>
+                                <div class="radioBox radioStyle inputStyle">
+                                    <label class="radio-inline"><input type="radio" name="Purchaserradio"
+                                            checked="">時間區間</label>
+                                    <label class="radio-inline"><input type="radio" name="Purchaserradio">學年學期</label>
+                                </div>
+                            </div>
+                            <div class="input-row md-column ">
+                                <div class="input-item col-03">
+                                    <div class=" selectStyleBox">
+                                        <select class="">
+                                            <option value="109">109</option>
+                                            <option value="110">110</option>
+                                            <option value="111">111</option>
+                                            <option value="112">112</option>
+                                            <option value="113">113</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="text">學年度</div>
+                                <div class="input-item col-03">
+                                    <div class=" selectStyleBox">
+                                        <select class="">
+                                            <option value="2">第2</option>
+                                            <option value="1">第1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="text">學期</div>
+                            </div> -->
+                            <div class="input-row md-column">
+                                <div class="form-check type-01">
+                                    <label class="custom-check">
+                                        儲存為常用資料
+                                        <input class="form-check-input" type="checkbox" value="" name="check-often">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="button-group">
+                            <button class="btn btn-white-line btn-height cancel" title="close"
+                                data-dismiss="modal">取消</button>
+                            <button class="btn btn-black btn-height submit" type="submit" title="submit">確認</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--mobile 購物車數量提醒-->
+<div class="modal sqlModal shopping-tip fade" id="shopping-tip">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="successBox">
+                    <button type="button" class="close" data-dismiss="modal"><i class="icon-icon-times"></i></button>
+                    <div class="detail">
+                        <p>請依據實際授課的人數(包含老師)選擇份數<br />最低購買份數為<span class="point large">5</span>份</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <a class="btn btn-white-line" data-dismiss="modal">我知道了</a>
+                        </div>
+                        <div class="col-md-3 col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

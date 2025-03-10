@@ -1,0 +1,75 @@
+<section class="otherBuyers">
+    <div class="container-xl">
+        <div class="title-store-type01">
+            <div class="title">
+                其他人也買了
+            </div>
+        </div>
+        <div class="otherBuyersItemBox">
+            <div class="otherBuyersItem">
+                <div class="imgBox itemthumb">
+                    <a href="" title="">
+                        <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010087_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="otherBuyersItemText">
+                    <h3><a href="" title=""> <span class="p-tag">課程</span>淨零碳排實作工作坊</a></h3>
+                    <p>
+                        <a href="" title="">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</a>
+                    </p>
+                    <p>
+                        <a href="" title="" class="price">NT$ 36,000</a>
+                    </p>
+                </div>
+            </div>
+            <div class="otherBuyersItem">
+                <div class="imgBox itemthumb">
+                    <a href="" title="">
+                        <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010181.jpg" alt="">
+                    </a>
+                </div>
+                <div class="otherBuyersItemText">
+                    <h3><a href="" title=""> <span class="p-tag">文章</span>淨零碳排實作工作坊</a></h3>
+                    <p>
+                        <a href="" title="">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</a>
+                    </p>
+                    <p>
+                        <a href="" title="" class="price">NT$ 35000 - 36,000</a>
+                    </p>
+                </div>
+            </div>
+            <div class="otherBuyersItem">
+                <div class="imgBox itemthumb">
+                    <a href="" title="">
+                        <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010087_1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="otherBuyersItemText">
+                    <h3><a href="" title=""> <span class="p-tag">雜誌</span>淨零碳排實作工作坊</a></h3>
+                    <p>
+                        <a href="" title="">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</a>
+                    </p>
+                    <p>
+                        <a href="" title="" class="price">NT$ 36,000</a>
+                    </p>
+                </div>
+            </div>
+            <div class="otherBuyersItem">
+                <div class="imgBox itemthumb">
+                    <a href="" title="">
+                        <img src="https://www.hbrtaiwan.com/images/articles_images/AR0010181.jpg" alt="">
+                    </a>
+                </div>
+                <div class="otherBuyersItemText">
+                    <h3><a href="" title=""> <span class="p-tag">書籍</span>淨零碳排實作工作坊</a></h3>
+                    <p>
+                        <a href="" title="">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明</a>
+                    </p>
+                    <p>
+                        <a href="" title="" class="price">NT$ 36,000</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

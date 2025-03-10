@@ -1,0 +1,250 @@
+<section class="footerMemberDescribe">
+    <div class="container-xl">
+        <h3>線上會員獨享</h3>
+        <div class="row">
+            <div class="col-lg-3 col-6 item">
+                <div class="icon">
+                    <img src="assets/img/memberService01.png" alt="">
+                </div>
+                <div class="detail">
+                    <h5>訂戶無限暢讀</h5>
+                    <p>數位版訂戶可享無限制瀏覽全站文章、影音內容
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 item">
+                <div class="icon">
+                    <img src="assets/img/memberService02.png" alt="">
+                </div>
+                <div class="detail">
+                    <h5>每月3篇免費</h5>
+                    <p>一般免費讀者也可每月挑選三篇文章免費閱讀</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 item">
+                <div class="icon">
+                    <img src="assets/img/memberService03.png" alt="">
+                </div>
+                <div class="detail">
+                    <h5>管理電子報</h5>
+                    <p>管理你的電子報訂閱</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 item">
+                <div class="icon">
+                    <img src="assets/img/memberService04.png" alt="">
+                </div>
+                <div class="detail">
+                    <h5>收藏分類</h5>
+                    <p>收藏你的喜愛文章，自建資料夾，清楚分類</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="teacherApplicationProcess">
+    <div class="container-xl mobileNone">
+        <ul class="nav nav-tabs type-02" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab-01" role="tab" aria-controls="tab-01"
+                    aria-selected="true" title="資格說明">資格說明</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-02" role="tab" aria-controls="tab-02"
+                    aria-selected="false" title="教師會員權限">教師會員權益</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab-03" role="tab" aria-controls="tab-03"
+                    aria-selected="false" title="申請流程">申請流程</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="nav nav-tabs type-02 mobileShow" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tab-01" role="tab" aria-controls="tab-01"
+                aria-selected="true" title="資格說明">資格說明</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-02" role="tab" aria-controls="tab-02" aria-selected="false"
+                title="教師會員權限">教師會員權益</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tab-03" role="tab" aria-controls="tab-03" aria-selected="false"
+                title="申請流程">申請流程</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tab-01" role="tabpanel" aria-labelledby="tab-01">
+            <div class="container-xl">
+                <div class="tabinner">
+                    <div class="row">
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num01.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>專任教師資格</h5>
+                                <p>您必須擁有教育部所屬之公私立大專院校專任教師資格。
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>擁有HBR會員帳號</h5>
+                                <p>您需要先註冊一個HBR一般會員帳號(免費)，再申請將該帳號升等成為教師會員帳號。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>提供教師介紹網頁網址</h5>
+                                <p>需填寫您在所屬之公私立大專院校網站上的教師介紹網頁網址。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="tab-02" role="tabpanel" aria-labelledby="tab-02">
+            <div class="container-xl">
+                <div class="tabinner">
+                    <div class="row">
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num01.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>有效期一年</h5>
+                                <p>成功將帳號升等為教師會員帳號後，有效期限為一年。
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>訂閱優惠</h5>
+                                <p>可享《哈佛商業評論》紙本雜誌或數位版訂閱優惠。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>文章購買優惠</h5>
+                                <p>可享《哈佛商業評論》文章購買優惠。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="tab-03" role="tabpanel" aria-labelledby="tab-03">
+            <div class="container-xl">
+                <div class="tabinner">
+                    <div class="row">
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num01.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>登入HBR帳號</h5>
+                                <p>您需要先登入HBR帳號，以該帳號申請升等為教師會員帳號。
+                                </p>
+                                <a class="txt-red" href="membersRegister.html">前往登入/註冊<span><i
+                                            class="icon-icon-caret-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num02.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>填寫資料並驗證學校信箱</h5>
+                                <p>請填寫：姓名、就任學校、系別、職稱、所屬大專院校的教師介紹網頁網址，並須完成就任學校信箱(edu)驗證。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="icon">
+                                <img src="assets/img/num03.png" alt="">
+                            </div>
+                            <div class="detail">
+                                <h5>等待審核</h5>
+                                <p>送出申請後，需要3個工作天審查資料，系統將會發送申請成功通知信，請耐心等待。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer_login">
+    <div class="container-fluid">
+        <div class="bottomFooter">
+            <div class="left">
+                <div class="info">
+                    <ul>
+                        <li>哈佛商業評論全球繁體中文版</li>
+                        <li class="mobileNone">Copyright©1999~2020 </li>
+                        <li>遠見天下文化出版股份有限公司.</li>
+                        <li class="mobileNone">All rights reserved.</li>
+
+                    </ul>
+                    <ul>
+                        <li>讀者服務部</li>
+                        <li><a href="tel:0226620012">電話：(02)2662-0012 </a></li>
+                        <li>時間：週一至週五9:00～12:30；13:30～17:00</li>
+                        <li><a href="mailto:hbrtaiwan@cwgv.com.tw">信箱：hbrtaiwan@cwgv.com.tw</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="helpBox">
+                    <a href="javascript:void(0)" title="" class="help">需要協助嗎<span><i class="icon-help"></i></span></a>
+                    <div class="helpInnerBox">
+                        <div class="left">
+                            <div class="textBox">
+                                <div class="icon">
+                                    <i class="icon-qa"></i>
+                                </div>
+                                <div class="text">
+                                    <p>查看數位版訂戶</p>
+                                    <p><a href="" title="">常見問題</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="textBox">
+                                <div class="icon">
+                                    <i class="icon-message"></i>
+                                </div>
+                                <div class="text">
+                                    <p>透過留言<a href="" title="">聯繫我們</a></p>
+                                    <p>告知你所希望的協助</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:void(0)" class="close"><i class="icon-icon-times"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>

@@ -1,0 +1,40 @@
+<div class="addToCart">
+  <div class="addToCartPrice">
+    <div class="price discount">
+      <div class="text">定價<span>NT$ 48,000</span></div>
+    </div>
+    <div class="price">
+      <div class="text">定價<span>NT$ 48,000</span></div>
+    </div>
+    <div class="price tag">
+      <div class="discount-tag"><span>75</span>折</div>
+      <div class="text">早鳥優惠<span>NT$ 36,000</span></div>
+    </div>
+    <div class="price tag">
+      <div class="discount-tag"><span>73</span>折</div>
+      <div class="text">雙人優惠<span>NT$ 35,000</span></div>
+    </div>
+    <div class="price tag">
+      <div class="discount-tag"><span>7</span>折</div>
+      <div class="text">3人以上<span>NT$ 32,000</span></div>
+
+    </div>
+  </div>
+  <div class="addToCartType">
+    <h6>
+      實體
+    </h6>
+  </div>
+  <div class="addToCartBox">
+    <div class="addToCartRow">
+      <h6>
+        數量：
+      </h6>
+      <input id="" class="form-control inputNumber" type="text" value="1" min="1" max="" style="text-align: center;">
+    </div>
+    <button href="" class="btn btn-full btn-red" type="submit" title="">加入購物車</button>
+    <p>
+      請直接填寫人數，系統將自動帶入折扣
+    </p>
+  </div>
+</div>

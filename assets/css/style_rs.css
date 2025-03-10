@@ -1,0 +1,3988 @@
+/* only ios */
+
+@supports (-webkit-touch-callout:none) {
+    .bannerBox .info .text h2,
+    .bannerBox.spBanner .info .text h1 {
+        letter-spacing: -1px;
+    }
+}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {
+    nav .topMenuBox {
+        width: calc(100% - 250px);
+        margin-left: 250px;
+    }
+    nav .topMenuBox>.topMenu>li.search .dropdown-menu {
+        width: calc(100% + 250px);
+        left: -250px!important;
+    }
+    footer .container-fluid {
+        padding-left: 55px;
+    }
+    footer .topFooter {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    footer .topFooter .left {
+        width: 25%;
+    }
+    footer .topFooter .right {
+        width: 75%;
+    }
+    footer .topFooter .accordionItemBox {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    footer .topFooter .item {
+        width: calc(33.33% - 80px);
+        margin: 0 40px;
+    }
+    footer .topFooter .item .collapse {
+        display: block!important;
+    }
+    footer .topFooter .item .collapsing {
+        height: auto!important;
+    }
+    footer .topFooter .item a.title {
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        display: block;
+        padding: 0 0 10px 0;
+        cursor: auto;
+        color: #fff;
+    }
+    footer .topFooter .item.special {
+        position: absolute;
+        left: 0;
+        bottom: -135px;
+        margin: 0;
+        width: auto;
+    }
+    footer .topFooter .item.special a.title {
+        display: none;
+    }
+    footer .topFooter .item.special .card-body {
+        padding: 0
+    }
+    footer .topFooter .item.special .card-body ul li {
+        width: auto;
+        margin: 0 40px 0 0;
+        position: relative;
+    }
+    footer .topFooter .item.special .card-body ul li:after {
+        position: absolute;
+        content: "";
+        display: block;
+        right: -20px;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 1px;
+        height: 18px;
+        background: rgba(255, 255, 255, .5);
+        z-index: 1;
+    }
+    footer .topFooter .item.special .card-body ul li:last-of-type:after {
+        display: none;
+    }
+    footer .topFooter .item.special .card-body ul li a {
+        font-size: 1rem;
+        color: rgba(255, 255, 255, .9);
+    }
+    footer .bottomFooter {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 20px 0 0 0;
+        justify-content: space-between;
+    }
+    footer .bottomFooter .desktopNone {
+        display: none;
+    }
+    footer .bottomFooter .left {
+        width: 75%;
+    }
+    footer .bottomFooter .left img {
+        margin: 0 0 85px 0
+    }
+    footer .bottomFooter .left ul li {
+        display: inline-block;
+        margin: 0 10px 0 0;
+    }
+    footer .bottomFooter .left ul li:last-of-type {
+        margin: 0;
+    }
+    footer .bottomFooter .right {
+        width: 25%;
+        padding: 0 40px;
+    }
+    .studyBox aside .dropdown .dropdown-toggle {
+        display: none;
+    }
+    .studyBox aside .dropdown-menu {
+        display: block!important;
+        position: static!important;
+    }
+    article .pagination {
+        padding: 0 15px
+    }
+    .thingBox.ideaBox .articleItem h4 {
+        margin-top: -12px;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare {
+        margin: 20px 0 0 0;
+        position: relative;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare a.dropdownToggle {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .dropdown-menu {
+        display: block;
+        margin: 0;
+        position: static;
+        transform: none;
+        box-shadow: none;
+        border: none;
+        width: auto;
+        min-width: 0;
+        background-color: transparent;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-header {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .closeBtn {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .dropdown-menu:after,
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .dropdown-menu:before {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal-content {
+        background-color: transparent;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal {
+        background: transparent;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-body {
+        margin: 0
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-body ul {
+        list-style: none;
+        padding: 0px;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-body ul li {
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-body ul li i {
+        color: #333;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare .modal.lightBoxModal .modal-body ul li span {
+        display: block;
+        font-size: .85rem;
+        line-height: 1;
+    }
+    .readArticle .slick-track {
+        width: auto!important;
+    }
+    .readArticle .slick-slide {
+        min-height: 0;
+        width: 100%!important;
+    }
+    .readArticle .slick-slide>div {
+        height: 100%;
+    }
+    .collegeArticle .slick-track {
+        width: auto!important;
+    }
+    .collegeArticle .collegeArticleItem {
+        min-height: 0;
+        width: 100%!important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .container-xl {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (min-width:1440px) {}
+
+@media screen and (max-width:1440px) {
+    body {
+        margin-top: 88px;
+    }
+    body,
+    .layout_inner {
+        min-height: calc(100vh - 88px)
+    }
+    nav .menuList li a {
+        padding: 10px 0;
+        font-size: .95rem;
+    }
+    body.fixedHeader nav .topMenuBox {
+        padding: 0
+    }
+    body.fixedHeader nav .topMenuBox .topMenu>li.shopCart a span {
+        top: 2px;
+    }
+    nav .logoBox a img.deskImg {
+        width: 100px;
+    }
+    body.fixedHeader nav .logoBox a img.mobileImg {
+        width: 115px;
+    }
+    nav .topMenuBox {
+        padding: 2px 0
+    }
+    body.fixedHeader nav .topMenuBox {
+        padding: 2px 0
+    }
+    nav .topMenuBox>.topMenu>li>a {
+        padding: 8px 25px;
+        font-size: .95rem;
+    }
+    nav .topMenuBox>.topMenu>li>a>i {
+        font-size: 1.5rem;
+    }
+    nav .topMenuBox .lastest {
+        display: none;
+    }
+    nav .topMenuBox .lastest a img {
+        height: 55px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu {
+        top: 55px!important;
+    }
+    nav .topMenuBox .dropdownTriangle.show>a:after,
+    nav .topMenuBox .dropdownTriangle.show>a:before {
+        bottom: -8px;
+    }
+    body.fixedHeader nav .topMenuBox>.topMenu>li.show>a:after,
+    body.fixedHeader nav .topMenuBox>.topMenu>li.show>a:before {
+        bottom: -6px;
+    }
+    body.fixedHeader .logoBox a img {
+        width: 110px;
+    }
+    body.fixedHeader nav .leftMenu .dropdown-menu {
+        top: 43px!important;
+        height: calc(100vh - 38px);
+    }
+    body.fixedHeader nav .leftMenu a.leftMenuIcon i {
+        font-size: 1.5rem;
+    }
+    body.fixedHeader.hideUp nav .leftMenu .dropdown-menu {
+        height: calc(100vh - 93px);
+    }
+    nav .topMenuBox .dropdownTriangle .dropdown-menu {
+        margin-top: 6px;
+    }
+    body.fixedHeader nav .topMenuBox .dropdownTriangle .dropdown-menu {
+        margin: 0
+    }
+    .articleItem ul.clickItem li {
+        margin-right: 15px;
+    }
+    .articleItem h3 a,
+    .recommendLearnItem h3 a,
+    .furtherReadingItem h3 a {
+        font-size: 1.25rem;
+    }
+    .bannerSection .left {
+        width: 65%;
+    }
+    .bannerSection .left .articleItem h3 a,
+    .bannerSection .left .articleItem h1 a {
+        margin: 0 0 15px 0;
+    }
+    .bannerSection .left .articleItem p a {
+        margin: 0 0 15px 0;
+    }
+    .bannerSection .left .articleItem .imgBox.itemthumb img {
+        height: 420px;
+    }
+    .bannerSection .right {
+        width: 35%;
+    }
+    .bannerSection .right .articleItem {
+        padding: 25px 30px 10px 0;
+        overflow: hidden;
+    }
+    .hotSection {
+        padding-top: 40px;
+        margin-top: -40px;
+    }
+    .hotSection .left {
+        width: 65%;
+    }
+    .hotSection .left .articleItem {
+        padding: 25px 40px;
+    }
+    .hotSection .right {
+        width: 35%;
+    }
+    .hotSection .right h2 {
+        font-size: 1.8rem;
+    }
+    .hotSection .articleItem .articleItemRight {
+        padding: 0 0 0 40px;
+    }
+    .hotSection .articleItem.sponsorItem .articleItemRight {
+        padding: 0 40px 0 0;
+    }
+    .hotSubject .hotSubjectItem h3 a {
+        font-size: 2rem;
+    }
+    .hotClick .articleItem {
+        padding: 0 30px 0 70px;
+    }
+    .hotClick .articleItem .articleItemRight {
+        padding: 0;
+    }
+    .hotClick .articleItem .articleItemLeft {
+        width: calc(100% - 95px);
+    }
+    .fullSub .imgBox.desktopImg img {
+        object-position: 75% bottom;
+    }
+    .halfSubBox .halfSub.subC {
+        padding: 40px;
+    }
+    .halfSubBox .halfSub.subC .articleItem {
+        padding: 20px 50px 60px 50px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox:after {
+        right: 0
+    }
+    .halfSubBox .halfSub.subC .articleItemBox ul.slick-dots {
+        bottom: -40px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .articleItem .number {
+        left: 20px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .articleItem ul.clickItem {
+        left: 50px
+    }
+    .hpVideo .left {
+        width: 65%;
+    }
+    .hpVideo .left .imgBox img {
+        height: 450px;
+    }
+    .hpVideo .right {
+        width: 25%;
+    }
+    .hpVideo .right .articleItem .imgBox img {
+        height: 170px;
+    }
+    .hpVideo .right .moreBtn {
+        bottom: 20px;
+    }
+    .audio .left .imgBox img {
+        height: 180px;
+    }
+    .hpOther .mainCtn {
+        padding: 0 25px;
+    }
+    .hpOther .right img.magzine {
+        right: 0;
+        max-width: 350px;
+    }
+    footer .container-fluid {
+        padding-left: 25px;
+    }
+    footer .topFooter .item {
+        width: calc(33.33% - 30px);
+        margin: 0 15px;
+    }
+    footer .bottomFooter .right {
+        padding: 0 15px
+    }
+    footer .bottomFooter .right ul li a {
+        width: 40px;
+        height: 40px;
+    }
+    footer .bottomFooter .right ul li a i {
+        line-height: 40px;
+        font-size: 1.25rem;
+    }
+    .footerSubscription ul li,
+    .footerSubscription ul li a {
+        font-size: 1.25rem;
+    }
+    .footerSubscription ul li {
+        padding: 0px 30px;
+    }
+    .bannerBox .imgBox img.desktopImg {
+        object-position: 75% bottom;
+    }
+    body.fixedProgress .subjectFilter,
+    body.fixedProgress .recommendFilter,
+    body.fixedProgress .tabBox,
+    body.fixedProgress .collegeTab {
+        top: 43px;
+    }
+    body.fixedHeader .subjectFilter ul li a {
+        padding: 8px 40px 8px 0;
+    }
+    .teacherBox .imgBox img {
+        height: 230px;
+    }
+    .teacherList .teacherListItem .imgBox img {
+        height: 230px;
+    }
+    .teacherBox .styleHotSubject {
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, .5);
+        line-height: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+        z-index: 1;
+    }
+    .teacherBox .styleHotSubject.slick-prev {
+        left: 20px;
+    }
+    .teacherBox .styleHotSubject.slick-next {
+        right: 20px
+    }
+    .studyBox aside .dropdown-menu .box:first-of-type .title {
+        padding-top: 50px;
+    }
+    .twoColumn .mainCtn article {
+        padding: 50px 0 80px 0;
+        width: calc(100% - 360px);
+    }
+    .articleItem.audioItem .articleItemLeft {
+        width: calc(100% - 60px);
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .imgBox img {
+        height: 150px;
+    }
+    .articleCtn .articleCenter {
+        padding: 0 60px 0 60px;
+    }
+    .articleCtn .articleMenu {
+        left: 0px
+    }
+    .edit .convexRow .spBox .info {
+        transform: translate(0px, 0);
+        padding: 0 0 0 40px;
+    }
+    .edit .convexRow .spBox h2:after {
+        left: -40px
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle span {
+        font-size: .85rem;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare:after {
+        top: -30px;
+    }
+    .articleCtn.articleTop {
+        margin: 20px 0 0 0;
+    }
+    .mainTopStyle .sponsor {
+        margin: 0 0 30px 0
+    }
+    body.ideaPicStyle .mainTopStyle .imgBox img {
+        padding-left: 60px;
+    }
+    .mainTopStyle h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    .mainTopStyle .headStyle:after{
+        height: 20px;
+        top: -20px;
+    }
+    body.fullVersion .articleCtn .edit {
+        padding: 0 0 0 60px;
+    }
+    body.fixedProgress.fullVersion .edit {
+        padding-top: 150px;
+        margin-top: -150px;
+    }
+    body.fixedProgress .fixedMenuTitle .fixedMenuTitleBox h2 {
+        font-size: 1.2rem;
+    }
+    body.fixedProgress .fixedMenuTitle {
+        top: 21px;
+        width: 40%;
+    }
+    body.fixedProgress .titleFullVersion .titleFullVersionLine {
+        top: 43px
+    }
+    .titleFullVersion .titleFullVersionLine a {
+        padding: 8px 60px 8px 15px;
+    }
+    .readArticleBox.show,
+    .collegeArticleBox.show {
+        height: calc(100vh - 86px);
+    }
+    body.fixedHeader .readArticleBox.show,
+    body.fixedHeader .collegeArticleBox.show {
+        height: calc(100vh - 42px);
+    }
+    body.hideUp .readArticleBox.show,
+    body.hideUp .collegeArticleBox.show {
+        height: calc(100vh - 98px);
+    }
+    .selflearnBox .selflearnItem .detailInfo .right {
+        padding: 0 0 0 20px;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right .column {
+        width: calc(50% - 10px);
+    }
+
+    .shopping-snackbar{
+        top:55px
+    }
+   
+  @-webkit-keyframes fadein-out {
+    0%{top: 0; opacity: 0;}
+    20%{top: 55px; opacity: 1;}
+    80%{top: 55px; opacity: 1;}
+    100%{top: 0; opacity: 0;}
+}
+
+@keyframes fadein-out {
+  0%{top: 0; opacity: 0;}
+    20%{top: 55px; opacity: 1;}
+    80%{top: 55px; opacity: 1;}
+    100%{top: 0; opacity: 0;}
+}
+}
+
+@media screen and (max-width:1280px) {
+    body.fixedProgress .fixedMenuTitle {
+        width: 35%;
+    }
+    .titleFullVersionCtn {
+        padding: 0 40px;
+    }
+    .titleFullVersionCtn .provenanceBtn.slick-prev {
+        left: 0
+    }
+    .titleFullVersionCtn .provenanceBtn.slick-next {
+        right: 0
+    }
+    .titleFullVersion .titleFullVersionLine a h2 {
+        font-size: 1rem;
+    }
+    .teacherBannerBox .imgBox img {
+        height: 450px;
+        object-position: 60% center;
+    }
+    .bodyheadStyle .articleCtn .articleCenter {
+        padding-left: 160px;
+    }
+    .mainTopStyle .headStyle {
+        left: 70px;
+    }
+    body.ideaPicStyle .mainTopStyle {
+        padding-left: 60px;
+    }
+    .selflearnBox .selflearnItem .mainInfo {
+        padding: 25px
+    }
+    .selflearnBox .selflearnItem .detailInfo {
+        padding: 60px 0 40px 0;
+    }
+    .selflearnBox .selflearnItem .detailInfo .left {
+        width: 25%;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right {
+        width: 75%;
+    }
+    body.ideaPicStyle .mainTopStyle .imgBox img {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    body {
+        margin-top: 86px;
+    }
+    body,
+    .layout_inner {
+        min-height: calc(100vh - 86px)
+    }
+    body.hideUp .cookie {
+        bottom: 80px;
+    }
+    nav .logoBox {
+        width: 130px;
+    }
+    nav .logoBox a img {
+        width: 100px;
+    }
+    nav .menuList {
+        margin-left: 130px;
+        width: calc(100% - 130px);
+    }
+    nav .menuList li a {
+        font-size: .9rem;
+    }
+    nav .topMenuBox .dropdownTriangle .dropdown-menu {
+        margin-top: 4px;
+    }
+    body.fixedHeader nav .logoBox {
+        left: 120px;
+    }
+    body.fixedHeader nav .logoBox a img.mobileImg {
+        margin-left: 35px;
+    }
+    .articleItem ul.listItem li {
+        margin: 1px 20px 1px 0;
+    }
+    .articleItem ul.listItem li:after {
+        right: -11px;
+    }
+    .bannerSection .left {
+        width: 60%;
+    }
+    .bannerSection .left .articleItem h3 a,
+    .bannerSection .left .articleItem h1 a {
+        font-size: 2.4rem;
+    }
+    .bannerSection .right {
+        width: 40%;
+    }
+    .hotSection .left {
+        width: 60%;
+    }
+    .hotSection .left .articleItem {
+        padding: 25px 25px
+    }
+    .hotSection .left .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 100px;
+    }
+    .thingBox .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 160px
+    }
+    .hotSection .articleItem .articleItemRight {
+        padding: 0 0 0 25px;
+    }
+    .thingBox .articleItem .articleItemRight {
+        padding: 0 0 0 25px;
+    }
+    .hotSection .left .borderBottomStyle {
+        border-bottom: none;
+    }
+    .hotSection .left .articleItem.sponsorItem {
+        padding: 25px 60px 25px 25px;
+    }
+    .hotSection .left .moreBtn a {
+        border-bottom: 1px solid #ddd;
+        padding: 0px 0 30px 0;
+    }
+    .hotSection .articleItem.sponsorItem .articleItemRight {
+        padding: 0 25px 0 0
+    }
+    .hotSection .articleItem.sponsorItem .articleItemRight .imgBox a {
+        position: static;
+    }
+    .hotSection .articleItem .articleItemRight .imgBox .sponsor {
+        left: auto;
+        right: 0;
+        height: auto;
+        padding: 10px 0 30px 0
+    }
+    .hotSection .right {
+        width: 40%;
+    }
+    .hotClick .articleItem {
+        padding: 0 25px 0 70px;
+    }
+    .hotClick .articleItem:last-of-type {
+        margin-bottom: 30px;
+    }
+    .hotClick .articleItem .articleItemRight {
+        padding: 0;
+    }
+    .hotSubjectBox .hotSubjectWhite {
+        margin: 50px 70px 70px 70px;
+    }
+    .hotSubject .hotSubjectItem h3 a {
+        font-size: 1.8rem;
+        margin: 0px 0 20px 0;
+    }
+    .hotSubject .hotSubjectItem hr {
+        margin: 0 auto 20px auto;
+    }
+    .hotSubjectBox .hotSubject .styleHotSubject {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .hotSubjectBox .hotSubject .styleHotSubject.slick-prev {
+        left: -70px;
+    }
+    .hotSubjectBox .hotSubject .styleHotSubject.slick-next {
+        right: -70px;
+    }
+    .fullSub .container:after {
+        background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.7) 50%);
+        background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.7) 50%);
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.7) 50%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b3ffffff', GradientType=1);
+    }
+    .halfSubBox .halfSub .limitBox {
+        left: 40px
+    }
+    .halfSubBox .halfSub.subB {
+        padding: 80px 0 60px 40px
+    }
+    .goBtn {
+        margin: 30px 0 0 0;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .articleItem {
+        border-right: none;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox:after {
+        display: none;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox ul.slick-dots {
+        bottom: -20px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .styleHotSubject {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .hpVideo .left {
+        width: 60%;
+    }
+    .hpVideo .left .imgBox img {
+        height: 350px
+    }
+    .hpVideo .left .articleItem .info {
+        margin: 20px 10% 20px 10%;
+    }
+    .hpVideo .right {
+        width: 30%;
+    }
+    .hpVideo .right .articleItem .imgBox img {
+        height: 160px;
+    }
+    .hpOther .right img.magzine {
+        max-width: 280px;
+    }
+    footer {
+        padding: 40px 0 110px 0
+    }
+    footer .topFooter {
+        margin: 0 0 40px 0;
+    }
+    footer .topFooter .left img {
+        width: 150px;
+        height: auto;
+        margin: 0 0 60px 0
+    }
+    footer .topFooter .item.special {
+        bottom: -155px;
+    }
+    footer .topFooter .item .card-body {
+        padding: 10px 0 0 0
+    }
+    footer .bottomFooter .right {
+        padding: 0;
+    }
+    .newsletterList .newsItemB {
+        padding: 20px
+    }
+    .newsletterList .newsItem .topInfo .limitBox {
+        right: -20px;
+        top: -20px;
+    }
+    .teacherMaster .teacherMasterCtn .imgBox img {
+        height: 500px;
+    }
+    .teacherBox .imgBox img {
+        height: 200px;
+    }
+    .teacherList .teacherListItem .imgBox img {
+        height: 200px;
+    }
+    .sortBox ul.sortList li i {
+        opacity: 1;
+    }
+    .bannerBox.spBanner .info .text h3 {
+        font-size: 3rem;
+    }
+    .choiceSubject .choiceSubjectB .left {
+        width: calc(50% - 15px);
+    }
+    .choiceSubject .choiceSubjectB .left .choiceItem .articleItem h3 a {
+        font-size: 2rem;
+    }
+    .choiceSubject .choiceSubjectB .left .verticalBox .verticalItem a h2 {
+        font-size: 1.125rem;
+    }
+    .choiceSubject .choiceSubjectB .left .verticalBox .verticalItem a span {
+        font-size: 1.75rem;
+    }
+    .choiceSubject .choiceSubjectB .right {
+        width: calc(50% - 15px);
+    }
+    .twoColumn .mainCtn article {
+        width: calc(100% - 340px);
+    }
+    article .thingBox .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 130px;
+    }
+    .thingBox.ideaBox .articleItem .articleItemRight .imgBox.itemthumb img,
+    .studyBox .thingBox .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 100px;
+    }
+    .studyBox aside .dropdown-menu .box ul li a {
+        padding: 8px 25px 8px 0
+    }
+    .studyBox aside .dropdown-menu .box .title {
+        padding-top: 30px;
+    }
+    .SearchInfo {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    .provenanceArticleItem .right {
+        padding: 15px 0 60px 15px;
+    }
+    .provenanceArticleItem .right h2 a {
+        font-size: 1.25rem;
+    }
+    .provenanceArticleItem .right a.magazineBtn {
+        left: 15px;
+    }
+    a.magazineBtn {
+        padding: 8px 15px;
+    }
+    .provenanceArticleItem .right h2 a {
+        -webkit-line-clamp: 3
+    }
+    .toggleBox {
+        padding: 40px 40px 40px 40px;
+    }
+    .expandable .spTitle h2 span {
+        position: static;
+        display: inline-block;
+        transform: none;
+    }
+    .articleCtn .articleCenter {
+        padding: 0 60px 0 80px;
+    }
+    body.fixedProgress .fixedMenuTitle {
+        display: none;
+    }
+    .limitUPBox.limitUPBoxStyleB {
+        padding: 40px 0 20px 0
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox button .right {
+        padding: 0 20px 0 0
+    }
+    .limitUPBoxStyleB .limitUPBoxStyleCtnBox button .right i {
+        right: 0px
+    }
+    .limitUPBoxStyleB .limitUPBoxStyleCtnBox button .right:after {
+        left: -10px;
+        transform: rotate(15deg);
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn {
+        width: 50%;
+        border-right: 1px solid #ddd;
+        padding: 20px 15px;
+        margin: 0;
+        border-bottom: none;
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn:last-of-type {
+        border-right: none
+    }
+    .teacherBannerBox .imgBox img {
+        height: 450px;
+        object-position: 70% center;
+    }
+    .teacherBannerBox .info h1 {
+        font-size: 2.5rem;
+    }
+    .teacherBannerBox.whiteText .info h2 {
+        font-size: 2rem;
+    }
+    .readArticleBox {
+        width: 400px;
+    }
+    .collegeArticleBox.show {
+        width: 400px;
+    }
+    .readArticleBox .title {
+        font-size: 1.25rem;
+    }
+    .readArticleBox .title span {
+        font-size: 2rem;
+    }
+    .collegeArticleScroll.dropdown-menu {
+        padding: 0 30px 0 30px;
+    }
+    .collegeArticleBox .selflearnItem {
+        padding: 0px 0 0px 0;
+    }
+    .magazineBox .magazineItem .left {
+        width: 150px;
+    }
+    .magazineBox .magazineItem .right {
+        width: 150px;
+    }
+    .magazineBox.magazineBookBox .magazineItem .right {
+        width: 250px;
+    }
+    .magazineBox .magazineItem .info {
+        width: calc(100% - 300px)
+    }
+    .magazineBox.magazineBookBox .magazineItem .info {
+        width: calc(100% - 400px)
+    }
+    .edit .countryColumn {
+        margin-top: 40px;
+    }
+    .edit .countryColumn .left {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0px;
+    }
+    .edit .countryColumn .left h2:first-of-type {
+        margin-top: 0;
+    }
+    .edit .countryColumn .right {
+        width: 100%;
+        padding: 0px;
+        border-left: none;
+    }
+    .edit .countryColumn .right .rightItem {
+        padding-top: 20px;
+    }
+    .edit .countryColumn .right .rightItem:first-of-type h2:first-of-type {
+        margin-top: 0;
+    }
+    .edit .countryColumn .right .rightItem p {
+        margin-bottom: 20px;
+    }
+    .selflearnBox .selflearnItem .detailInfo .left {
+        width: 100%;
+        float: none;
+        margin: 0 0 60px 0
+    }
+    .selflearnBox .selflearnItem .detailInfo .right {
+        width: 100%;
+        float: none;
+        padding: 0
+    }
+    .articleMenuItem .modal.mySave .saveBox ul{
+        height: 300px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .container-xl{
+        max-width: none;
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .hpVideo .left .imgBox img {
+        height: 300px
+    }
+    .hpVideo .right .articleItem .imgBox img {
+        height: 130px;
+    }
+}
+@media screen and (max-width:1280px) and (max-height:800px) {
+    .articleMenuItem .dropdown-menu{
+        margin-top: -0px;
+    }
+    .articleMenuItem .dropdown-menu:before{
+        top: 4px;
+    }
+    .articleMenuItem .dropdown-menu:after{
+        top: 5px;
+        border-color: transparent #EFF0F0 transparent transparent;
+    }
+    .articleMenuItem .modal.mySave .saveBox ul{
+        height: 250px;
+    }
+}
+@media screen and (max-width:991px) {
+    .container-xl{
+        padding: 0 15px;
+    }
+    nav .logoBox {
+        z-index: 999999999;
+    }
+    body.modal-open .fb_dialog,
+    body.modal-openB .fb_dialog,
+    body.modal-openC .fb_dialog {
+        z-index: 0!important;
+    }
+    body {
+        margin-top: 49px;
+        min-height: calc(100vh - 120px);
+    }
+    nav .menuList {
+        display: none;
+    }
+    body.fixedHeader nav .leftMenu {
+        display: none;
+    }
+    nav .topMenuBox>.topMenu>li {
+        display: none;
+    }
+    nav .topMenuBox>.topMenu>li>a {
+        padding: 10px 15px 10px 15px;
+    }
+    nav .topMenuBox>.topMenu>li.sub>a {
+        padding-right: 5px;
+    }
+    nav .topMenuBox>.topMenu>li.shopCart .dropdownToggle{display: none;}
+    nav .topMenuBox>.topMenu>li.shopCart .shopCart-mb{display: flex;}
+    /* nav .topMenuBox>.topMenu li.sub {
+        display: block;
+    } */
+    nav .topMenuBox .topMenu>li.mobileSearch {
+        display: block;
+    }
+    nav .topMenuBox .topMenu>li.mobileSearch button {
+        background: #999;
+        border-color: #999;
+    }
+    nav .topMenuBox .topMenu>li.mobileSearch.show i {
+        transform: rotate(45deg);
+    }
+    nav .topMenuBox .topMenu>li.mobileSearch.show i:before {
+        content: "\e97e";
+    }
+    nav .topMenuBox .topMenu>li.mobileSearch .dropdown-menu {
+        width: 100%;
+        transform: none !important;
+        left: auto!important;
+        right: 0;
+        border-radius: 0;
+        top: 46px!important;
+        position: absolute;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+        padding: 15px;
+    }
+    nav .topMenuBox .lastest a img {
+        height: 50px;
+    }
+    nav .logoBox {
+        width: auto;
+        left: 20px;
+    }
+    body.fixedHeader nav .logoBox {
+        left: 20px
+    }
+    body.modal-open nav .logoBox a img.mobileImg {
+        display: none;
+    }
+    nav .topMenuBox .lastest .dropdown-menu {
+        width: 100%;
+        top: 50px!important;
+        max-height: 460px;
+        overflow: auto;
+        padding: 35px 25px 40px 25px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn {
+        position: relative;
+        padding-bottom: 70px;
+    }
+    body.fixedHeader nav .topMenuBox .lastest .dropdown-menu {
+        top: 59px!important;
+    }
+    nav .topMenuBox .lastest .dropdown-menu button.closeBtn {
+        right: 0px;
+        top: 0px
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info {
+        width: 100%;
+        text-align: center;
+        position: static;
+        padding-bottom: 0px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info h2 {
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info p {
+        margin: 0px;
+        padding: 0;
+        border-bottom: 0;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info p b {
+        margin-left: 0;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info p span {
+        display: none;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info .navBtnGroup {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        bottom: 0px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info .navBtnGroup a.navBtn {
+        width: calc(50% - 5px);
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .imgBox {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .imgBox img {
+        max-width: 150px;
+    }
+    nav .mobileNav {
+        display: block;
+    }
+    nav .mobileNav .navBottom {
+        background: #F2F3F5;
+        position: fixed;
+        bottom: 0;
+        z-index: 99999;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .9);
+        -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .9);
+    }
+    nav .mobileNav .navBottom .item {
+        width: 1%;
+        display: table-cell;
+        text-align: center;
+    }
+    nav .mobileNav .navBottom>.item a>span {
+        display: block;
+        font-size: .85rem;
+        white-space: nowrap;
+        font-weight: 600;
+    }
+    nav .mobileNav .navBottom .item a {
+        display: block;
+        padding: 10px 0 10px 0;
+        position: relative;
+    }
+    nav .mobileNav .navBottom .item a:after {
+        position: absolute;
+        width: 1px;
+        height: 20px;
+        background: rgba(0, 0, 0, .3);
+        content: "";
+        display: block;
+        right: 0px;
+        top: 15px;
+        z-index: 1;
+    }
+    nav .mobileNav .navBottom .item:nth-last-child(-n+2) a:after {
+        display: none;
+    }
+    nav .mobileNav .navBottom .item.active {
+        position: relative;
+    }
+    nav .mobileNav .navBottom .item.active:after {
+        width: 100%;
+        height: 2px;
+        background: #cd2300;
+        content: "";
+        display: block;
+        left: 0;
+        top: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    nav .mobileNav .navBottom .item.active a {
+        color: #cd2300;
+    }
+    nav .mobileNav .navBottom .item>a .svg {
+        width: 25px;
+        height: auto;
+        margin: 0 0 8px 0
+    }
+    nav .mobileNav .navBottom .item.active .svg * {
+        fill: #cd2300
+    }
+    nav .mobileNav .navBottom .item.menu {
+        background: #1E1F24;
+    }
+    nav .mobileNav .navBottom .item.menu>a {
+        color: #fff;
+    }
+    nav .mobileNav .navBottom .item.menu>a span {
+        font-weight: normal;
+    }
+    nav .mobileNav .navBottom .item.menu .dropdown-menu {
+        width: 100%;
+        height: 50vh;
+        position: fixed!important;
+        left: 0!important;
+        top: 0!important;
+        padding: 0px;
+        margin: 0;
+        transform: none!important;
+    }
+    a.navBtn {
+        padding: 10px 0;
+    }
+    nav .logoBox a img {
+        width: 160px;
+    }
+    nav .logoBox a img.deskImg {
+        display: none;
+    }
+    nav .logoBox a img.mobileImg {
+        display: block;
+    }
+    body.fixedHeader .logoBox a img {
+        width: 160px;
+    }
+    body.fixedHeader nav .logoBox a img.mobileImg {
+        margin-left: 0;
+        width: 120px;
+    }
+    ul.slick-dots {
+        bottom: -80px;
+    }
+    .myMenu .modal-dialog {
+        margin: 0;
+        width: 100%;
+        max-width: none;
+    }
+    .myMenu .modal-dialog .modal-content {
+        border-radius: 0;
+        height: 100vh;
+        padding: 0 0 73px 0
+    }
+    .myMenu .modal-header {
+        padding: 0;
+        height: 70px;
+        display: inline-flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(0, 0, 0, .3);
+        position: relative;
+        z-index: 9999;
+        justify-content: space-between;
+        overflow: hidden;
+        border-radius: 0;
+    }
+    .myMenu .modal-header .logo {
+        margin-left: 20px;
+    }
+    .myMenu .modal-header .logo img {
+        width: 90px;
+        height: auto;
+    }
+    .myMenu .modal-header .right {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        height: 100%;
+        position: absolute;
+        right: 60px;
+        top: 0;
+    }
+    .myMenu .modal-header .right li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .myMenu .modal-header .right li a {
+        position: relative;
+        padding: 0 20px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .myMenu .modal-header .right li a i {
+        font-size: 1.5rem;
+    }
+    .myMenu .modal-header .right li.shopCart a span {
+        background: #cd2300;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        color: #fff;
+        right: 7px;
+        top: 9px;
+        line-height: 18px;
+        font-size: .75rem;
+        text-align: center;
+    }
+    .myMenu .modal-header .closeBtnModal {
+        width: 60px;
+        height: 70px;
+        background: #1E1F24;
+        opacity: 1;
+        color: #fff;
+        border: none;
+        overflow: hidden;
+    }
+    .myMenu .modal-header .closeBtnModal span {
+        display: block;
+        font-size: .85rem;
+        white-space: nowrap;
+    }
+    .myMenu .modal-header .closeBtnModal img {
+        width: 25px;
+        height: auto;
+    }
+    .myMenu .modal-body {
+        padding: 10px 20px 20px 20px;
+        height: 100vh;
+        overflow: auto;
+    }
+    .myMenu .modal-body .mobileMenuList {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+    .myMenu .modal-body .mobileMenuList li a {
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        padding: 15px 15px;
+        display: block;
+        line-height: 1;
+        font-size: 1.125rem;
+        position: relative;
+    }
+    .myMenu .modal-body .mobileMenuList li a:after {
+        position: absolute;
+        right: 15px;
+        display: block;
+        top: 50%;
+        transform: translate(0, -50%);
+        z-index: 1;
+        width: auto;
+        height: 100%;
+        color: rgba(0, 0, 0, .3);
+        font: 1.25rem 'icomoon'!important;
+        content: "\e967";
+        text-align: right;
+        display: flex;
+        align-items: center;
+    }
+    .myMenu .modal-body .mobileMenuList li:last-child a {
+        border-bottom: none;
+    }
+    .myMenu .modal-body .searchBox {
+        margin: 10px 0 10px 0;
+        display: none;
+    }
+    .myMenu .modal-body .searchBox input {
+        padding: 5px 15px
+    }
+    .myMenu .modal-body .searchBox .btn-success {
+        background: #999;
+        border-color: #999;
+    }
+    .cookie {
+        width: 100%;
+        right: 0;
+        bottom: 108px;
+        padding: 15px;
+    }
+    body.hideUp .cookie {
+        bottom: 73px;
+    }
+    .cookie h2 {
+        padding: 0 0 10px 0;
+        margin: 0 0 10px 0;
+        font-size: 1.25rem;
+    }
+    .cookie button {
+        padding: 5px 12px;
+        font-size: .9rem;
+    }
+    .cookie p {
+        font-size: .95rem;
+    }
+    .cookie p a {
+        font-size: .95rem;
+    }
+    .articleItem ul.clickItem li {
+        margin-right: 8px;
+    }
+    .bannerSection {
+        margin: 0;
+    }
+    .bannerSection .left {
+        width: 100%;
+        float: none;
+        padding: 0
+    }
+    .bannerSection .left .articleItem {
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        -webkit-box-orient: vertical;
+    }
+    .bannerSection .left .articleItem h3 a,
+    .bannerSection .left .articleItem h1 a {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    .bannerSection .left .articleItem .articleItemLeft {
+        padding: 30px 15px 15px 15px;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        margin: 0 0 30px 0;
+    }
+    .bannerSection .left .articleItem>div:nth-child(1) {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+    }
+    .bannerSection .left .articleItem>div:nth-child(2) {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+    }
+    .bannerSection .left .articleItem .imgBox.itemthumb img {
+        margin: 0;
+        height: 250px;
+    }
+    .bannerSection .right {
+        width: 100%;
+        float: none;
+        padding: 0 15px 0 15px;
+    }
+    .bannerSection .right .articleItem {
+        padding: 25px 0px 10px 0
+    }
+    .hotSection {
+        border-bottom: none;
+    }
+    .hotSection .left {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    .hotSection .left .articleItem {
+        padding: 15px;
+    }
+    .thingBox .articleItem {
+        padding: 15px 0
+    }
+    .hotSection .right {
+        width: 100%;
+        float: none;
+    }
+    .hotSection .articleItem .articleItemLeft,
+    .thingBox .articleItem .articleItemLeft {
+        width: 100%;
+        float: none;
+    }
+    .hotSection .articleItem .articleItemLeft h3 a,
+    .thingBox .articleItem .articleItemLeft h3 a {
+        width: calc(100% - 160px);
+        min-height: 90px;
+    }
+
+    .thingBox.magazineList .articleItem .articleItemLeft h3 a {
+        min-height: auto;
+    }
+    .hotSection .articleItem.noneImg .articleItemLeft h3 a,
+    .thingBox .articleItem.noneImg .articleItemLeft h3 a {
+        width: 100%;
+        /* min-height: 0px; */
+    }
+    .hotSection .articleItem .articleItemRight,
+    .thingBox .articleItem .articleItemRight {
+        padding: 0;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        width: 140px;
+    }
+    .hotSection .left .articleItem.sponsorItem {
+        padding: 15px 60px 15px 15px
+    }
+    .hotSection .articleItem.sponsorItem .articleItemRight {
+        right: auto;
+        left: 15px;
+    }
+    .hotSection .left .articleItem .articleItemRight .imgBox.itemthumb img,
+    .thingBox .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 85px;
+    }
+    .thingBox .articleItem h3 a {
+        -webkit-line-clamp: 3;
+    }
+    .hotSection .articleItem .articleItemRight .imgBox .sponsor {
+        display: none;
+    }
+    .hotSection .articleItem .mobileSponsor {
+        display: block;
+        left: auto;
+        right: 0;
+        height: auto;
+        padding: 10px 0 30px 0
+    }
+    .hotSection .left .articleItem.sponsorItem .articleItemLeft {
+        float: none;
+    }
+    .hotSection .articleItem.sponsorItem .articleItemRight {
+        float: none;
+        width: 140px;
+        padding: 0;
+    }
+    .hotSection .articleItem.sponsorItem .articleItemLeft h3 a {
+        padding-right: 0px;
+        padding-left: 160px;
+        width: 100%;
+    }
+    .hotSection .articleItem.sponsorItem.noneImg .articleItemLeft h3 a {
+        padding-left: 0px;
+    }
+    .moreBtn a {
+        padding: 30px 0 0 0
+    }
+    .middleAd {
+        padding: 30px 0 0 0
+    }
+    .thingBox .middleAd {
+        padding: 0
+    }
+    .hotSection .right h2 {
+        margin: 0;
+        padding: 25px 15px;
+    }
+    .hotClick .articleItem {
+        padding: 0 15px 0 50px;
+    }
+    .hotClick .articleItem .number {
+        left: 15px
+    }
+    .hotClick .articleItem .articleItemRight {
+        width: 75px;
+    }
+    .hotClick .articleItem .articleItemLeft h3 a {
+        padding-right: 0px;
+        min-height: 0;
+        width: calc(100% - 90px);
+        margin: 0 0 20px 0;
+    }
+    .hotClick .articleItem .articleItemRight .imgBox {
+        position: absolute;
+        right: 15px;
+        top: 0px;
+        width: auto;
+    }
+    .hotClick .articleItem .articleItemRight {
+        float: right;
+        position: static;
+    }
+    .hotSubjectBox .hotSubjectWhite {
+        margin: 30px 50px 70px 50px;
+    }
+    .hotSubjectBox .hotSubjectWhiteB,
+    .HotSubjectAd .hotSubject .hotSubjectItem .hotSubjectItemB {
+        padding: 25px 15px
+    }
+    .hotSubjectBox .hotSubject .styleHotSubject.slick-prev {
+        left: -55px
+    }
+    .hotSubjectBox .hotSubject .styleHotSubject.slick-next {
+        right: -55px
+    }
+    .fullSub {
+        padding: 0 0 40px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+    .fullSub .container {
+        max-width: none;
+    }
+    .fullSub .container:after {
+        display: none;
+    }
+    .fullSub .articleItemBox {
+        margin: 40px 0 0 0
+    }
+    .fullSub .articleItemBox .articleItem {
+        width: 100%;
+        padding: 0 30px 60px 50px
+    }
+    .fullSub .articleItemBox .articleItem:last-of-type {
+        padding-bottom: 0
+    }
+    .fullSub .articleItemBox .articleItem ul.clickItem {
+        position: static;
+    }
+    .fullSub .imgBox.desktopImg img {
+        object-position: left top;
+    }
+    .fullSub h2 {
+        position: relative;
+        z-index: 1;
+        margin: 0 0 0 -15px;
+        min-height: 100px;
+        width: calc(100% + 30px);
+        display: flex;
+    }
+    .fullSub h2 a {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 15px;
+        font-size: 2rem;
+    }
+    .fullSub .imgBox.mobileTitleImg {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        height: 100%;
+    }
+    .fullSub .imgBox.mobileTitleImg img {
+        min-height: 100px;
+        object-position: right bottom;
+        height: 100%;
+        border-bottom: 2px solid #fff;
+    }
+    .halfSubBox .halfSub {
+        width: 100%;
+    }
+    .halfSubBox .halfSub .limitBox {
+        left: 0
+    }
+    .limitBox .limit {
+        padding: 2px 5px
+    }
+    .halfSubBox .halfSub.subB {
+        padding: 0
+    }
+    .halfSubBox .halfSub.subB .titleBox {
+        padding: 0 15px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+    .halfSubBox .halfSub.subB .titleBox h2 {
+        display: flex;
+        min-height: 100px;
+        margin: 0
+    }
+    .halfSubBox .halfSub.subB .titleBox h2 a {
+        font-size: 2rem;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto
+    }
+    .halfSubBox .halfSub.subB .titleBox hr {
+        display: none;
+    }
+    .halfSubBox .halfSub.subB .imgBox img {
+        object-position: right bottom;
+    }
+    .halfSubBox .halfSub.subB .articleItemBox {
+        width: 60%
+    }
+    .halfSubBox .halfSub.subB .articleItemBox .articleItem {
+        padding: 40px 0px 60px 15px;
+    }
+    .goBtn {
+        max-width: 180px;
+    }
+    .halfSubBox .halfSub.subC {
+        padding: 20px 15px 40px 15px;
+    }
+    .halfSubBox .halfSub.subC .titleBox h2 {
+        white-space: normal
+    }
+    .halfSubBox .halfSub.subC .titleBox h2 a {
+        font-size: 2rem;
+    }
+    .halfSubBox .halfSub.subC .titleBox {
+        display: block;
+        text-align: center;
+        width: calc(100% + 30px);
+        margin: 0 0 0 -15px;
+        padding: 0 15px 15px 15px;
+    }
+    .halfSubBox .halfSub.subC .titleBox p {
+        margin: 0
+    }
+    .halfSubBox .halfSub.subC .articleItem {
+        padding: 20px 35px 60px 35px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .articleItem ul.clickItem {
+        left: 35px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .styleHotSubject.slick-prev {
+        left: -10px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .styleHotSubject.slick-next {
+        right: -10px;
+    }
+    .halfSubBox .halfSub.subC .articleItemBox .articleItem .number {
+        left: 8px
+    }
+    .hpVideo h2 {
+        padding: 30px 0
+    }
+    .hpVideo h2 a {
+        font-size: 2rem;
+    }
+    .hpVideo .left {
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .hpVideo .left .articleItem .info {
+        margin: 20px 15px 40px 55px;
+    }
+    .hpVideo .left .imgBox img {
+        height: 180px;
+    }
+    .hpVideo .right {
+        width: 100%;
+        padding: 0
+    }
+    .hpVideo .right .articleItem {
+        border-top: 1px solid #ddd;
+    }
+    .hpVideo .right .articleItem .imgBox {
+        width: 150px;
+        float: left;
+    }
+    .hpVideo .right .articleItem .imgBox img {
+        height: 90px;
+    }
+    .hpVideo .right .articleItem .imgBox a i {
+        font-size: 2.4rem;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .hpVideo .right .articleItem .info {
+        width: calc(100% - 150px);
+        float: left;
+        margin: 0
+    }
+    .hpVideo .right .articleItem .info {
+        padding: 15px 15px 0px 15px
+    }
+    .hpVideo .right i.iconStyle {
+        display: none;
+    }
+    .hpVideo .right .moreBtn,
+    .audio .right a.moreBtn {
+        position: static;
+        text-align: center;
+        display: block;
+        padding: 10px 0 30px 0;
+        line-height: 1;
+    }
+    .audio .mainAudio {
+        padding: 0
+    }
+    .audio .left {
+        width: 100%;
+        float: none;
+    }
+    .audio .right {
+        width: 100%;
+        float: none;
+        padding: 15px 15px 0px 60px;
+    }
+    .audio .right .iconStyle {
+        font-size: 2.4rem;
+        left: -50px
+    }
+    .audio .right a.moreBtn {
+        width: calc(100% + 90px);
+        margin-left: -75px;
+    }
+    .hpOther .mainCtn {
+        padding: 0 15px;
+    }
+    .hpOther .mainCtn h2 {
+        font-size: 2rem;
+    }
+    .hpOther .limitBox {
+        left: 0
+    }
+    .hpOther .left {
+        width: 100%;
+        float: none;
+    }
+    .hpOther .left a.info {
+        display: block;
+    }
+    .hpOther .left a.info p {
+        margin: 0;
+    }
+    .hpOther .left a.info h2 {
+        white-space: normal;
+    }
+    .hpOther .right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .hpOther .right .form-inline {
+        justify-content: center;
+    }
+    .hpOther .right .info {
+        margin: 40px 0 0 0;
+    }
+    .hpOther .right img.magzine {
+        position: static;
+    }
+    .digitBox {
+        padding: 30px 0 30px 0;
+        position: relative;
+    }
+    .digitBox .info {
+        display: block;
+    }
+    .digitBox .info img {
+        display: block;
+        width: 260px;
+    }
+    .digitBox .info h2 {
+        display: inline-block;
+        font-size: 2rem;
+        letter-spacing: 0;
+        transform: translate(0px, 5px);
+    }
+    .digitBox .info img.mobileImg {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .digitBox .info img.desktopImg {
+        display: none;
+    }
+    .digitBox .info a {
+        margin: 0px 0 0 20px;
+        padding: 12px 20px;
+    }
+    footer {
+        padding: 250px 0 100px 0;
+        position: relative;
+    }
+    .footerSubscription {
+        z-index: 9;
+        bottom: 73px;
+        min-height: 35px;
+    }
+    body.LimitGray .footerSubscription {
+        bottom: 73px;
+    }
+    footer .topFooter {
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        -webkit-box-orient: vertical;
+    }
+    footer .topFooter .left {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        margin: 60px 0 0 0;
+        padding-left: 30px;
+        width: 100%;
+    }
+    footer .topFooter .right {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        width: 100%;
+    }
+    footer .topFooter .item {
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+    footer .topFooter .item .card-body ul li a {
+        font-size: 1rem;
+    }
+    footer .topFooter .item .card-body ul li {
+        margin: 0 0 10px 0;
+    }
+    footer .topFooter .item a.title {
+        display: block;
+        padding: 8px 15px;
+        position: relative;
+    }
+    footer .topFooter .item a.title:after {
+        position: absolute;
+        font: 1.25rem 'icomoon'!important;
+        content: "\e967";
+        display: block;
+        right: 15px;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 50px;
+        height: auto;
+        text-align: right;
+        line-height: 50px;
+        z-index: 1;
+    }
+    footer .topFooter .item a.title[aria-expanded="true"]:after {
+        font: 1.25rem 'icomoon'!important;
+        content: "\e983";
+    }
+    footer .topFooter .item a.title:hover,
+    footer .topFooter .item a.title:focus {
+        color: #fff;
+    }
+    footer .topFooter .item .card-body {
+        padding: 10px 0 50px 15px
+    }
+    footer .topFooter .left img {
+        margin: 0;
+    }
+    footer .bottomFooter .left {
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        -webkit-box-orient: vertical;
+    }
+    footer .bottomFooter .left {
+        padding-left: 30px;
+    }
+    footer .bottomFooter .left .logoBox {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        width: 100%;
+    }
+    footer .bottomFooter .left .info {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        width: 100%;
+    }
+    footer .bottomFooter .left ul li {
+        margin: 0 0 5px 0;
+    }
+    footer .bottomFooter .left ul li.mobileNone {
+        display: none;
+    }
+    footer .bottomFooter .left img {
+        margin-top: 30px;
+    }
+    footer .bottomFooter .left .logoBox .desktopNone {
+        font-size: .8rem;
+        margin: 20px 0 0 0;
+        display: block;
+        color: rgba(255, 255, 255, .5);
+        letter-spacing: 2;
+        text-transform: uppercase
+    }
+    footer .bottomFooter .right {
+        position: absolute;
+        left: calc(50% - 15px);
+        transform: translate(-50%, 0);
+        top: 30px;
+        width: 100%;
+        max-width: 320px;
+    }
+    footer .bottomFooter .right img {
+        max-width: 320px;
+    }
+    footer .bottomFooter .right ul {
+        margin: 20px auto 0 auto;
+        max-width: 300px;
+        transform: translate(10px, 0);
+    }
+    footer .bottomFooter .right ul li a {
+        width: 45px;
+        height: 45px;
+    }
+    footer .bottomFooter .right ul li a i {
+        line-height: 45px;
+        font-size: 1.5rem;
+    }
+    .footerSubscription ul li {
+        padding: 0px 10px;
+    }
+    .footerSubscription ul li a,
+    .footerSubscription ul li {
+        font-size: .8rem;
+    }
+    .footerSubscription ul li img {
+        margin-right: 8px;
+        width: 25px;
+    }
+    .footerSubscription ul li span {
+        font-size: 1.2rem;
+        margin: 0 8px;
+        transform: translate(0, -2px);
+    }
+    .thingBox {
+        margin: 20px 0 0 0;
+    }
+    .newsletter {
+        margin: 0 0 20px 0
+    }
+    .newsletterList .newsItem {
+        width: calc(50% - 20px);
+        margin: 0 10px 20px 10px;
+    }
+    .newsletterList .newsItem .bottomInfo h2 {
+        position: absolute;
+        width: calc(100% - 135px);
+        left: 135px;
+        top: 40px;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .newsletterList .newsItem .topInfo .followBtn {
+        bottom: -10px;
+    }
+    .bannerBox {
+        padding: 0 0 30px 0
+    }
+    .bannerBox .info nav {
+        padding: 30px 0 0 0;
+    }
+    .bannerBox .imgBox img {
+        object-position: center bottom;
+    }
+    .bannerBox img.mobileImg {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: -10px 0 -30px 0;
+        position: relative;
+        z-index: 0;
+    }
+    .bannerBox .info .textCtn {
+        padding: 0px 0 0px 0;
+        position: relative;
+        z-index: 1;
+    }
+    .bannerBox .info .textCtn .text {
+        width: 100%;
+        display: block;
+    }
+    .bannerBox .info .textCtn .text .left {
+        margin: 0;
+        text-align: center;
+        white-space: normal;
+        display: flex;
+        justify-content: center;
+    }
+    .bannerBox.spBanner .info .textCtn .text .left {
+        display: block;
+    }
+    .bannerBox.spBanner .info .text .followBtn {
+        padding: 0
+    }
+    .bannerBox .info .textCtn .text .left h3 {
+        margin: 0 8px 0 0;
+    }
+    .bannerBox .info .textCtn .text h1,
+    .bannerBox .info .text h1.onlyCh {
+        text-align: center;
+    }
+    .bannerBox .info .textCtn .text h2 {
+        margin: 0 0 15px 0;
+        font-size: 3.5rem;
+    }
+    .bannerBox .info .textCtn .text .right h3 {
+        margin: -40px 0px 20px 0;
+    }
+    .bannerBox .info .text .right h3:after {
+        background: -moz-linear-gradient(left, rgba(136, 136, 136, 0) 0%, rgba(136, 136, 136, 0.65) 50%, rgba(136, 136, 136, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(136, 136, 136, 0) 0%, rgba(136, 136, 136, 0.65) 50%, rgba(136, 136, 136, 0) 100%);
+        background: linear-gradient(to right, rgba(136, 136, 136, 0) 0%, rgba(136, 136, 136, 0.65) 50%, rgba(136, 136, 136, 0) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00888888', endColorstr='#00888888', GradientType=1);
+    }
+    body.fixedProgress .subjectFilter,
+    body.fixedProgress .recommendFilter,
+    body.fixedProgress .tabBox,
+    body.fixedProgress .collegeTab {
+        top: 46px
+    }
+    .subjectFilter ul li a {
+        padding: 10px 20px 10px 0;
+    }
+    body.fixedHeader .subjectFilter ul li a {
+        padding: 8px 20px 8px 0
+    }
+    .subjectFilter ul li a:after {
+        right: 10px;
+        height: 15px;
+    }
+    .teacherMaster .teacherMasterCtn .articleItem h2 a {
+        font-size: 3rem;
+    }
+    .teacherMaster .teacherMasterCtn .articleItem h3 a {
+        font-size: 1.35rem;
+    }
+    .teacherBox .imgBox img {
+        height: 180px;
+    }
+    .teacherList .teacherListItem .imgBox img {
+        height: 180px;
+    }
+    .teacherList .teacherListItem:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    .teacherList .teacherListItem .imgBox span {
+        font-size: 1.25rem;
+    }
+    .sortBox ul.sortList li {
+        width: 33.333%;
+    }
+    .sortBox ul.sortList li:nth-child(4n+1) a {
+        padding-left: 20px;
+    }
+    .sortBox ul.sortList li:nth-child(4n+4) a {
+        border-right: 1px solid #ddd;
+    }
+    .sortBox ul.sortList li:nth-child(3n+1) a {
+        padding-left: 0px;
+    }
+    .sortBox ul.sortList li:nth-child(3n+3) a {
+        border-right: 1px solid transparent;
+    }
+    .sortBox {
+        padding: 40px 0;
+    }
+    .sortBox.sortBoxB {
+        padding-bottom: 80px;
+    }
+    .recommendFilter ul li a {
+        font-size: 1rem;
+        padding: 15px 0 15px 0
+    }
+    body.fixedProgress .recommendFilter ul li a {
+        padding: 10px 0 10px 0;
+    }
+    .bannerBox.spBanner .info .text h3 {
+        font-size: 2.5rem;
+    }
+    .sortBox .sortTitle h2,
+    .recommend h2 {
+        padding: 0 0 10px 0;
+        text-align: center;
+    }
+    .sortBox .sortTitle h2 span:after,
+    .recommend h2 span:after {
+        bottom: -10px;
+        width: 100%;
+    }
+    .recommend h2 {
+        margin: 0 0 30px 0;
+    }
+    .HotSubjectAd {
+        padding: 30px 0 60px 0
+    }
+    .HotSubjectAd .hotSubject .hotSubjectItem {
+        width: 100%;
+        margin: 0 0 40px 0
+    }
+    .HotSubjectAd h2 {
+        text-align: center;
+        padding: 0 0 20px 0
+    }
+    .hotSubject .hotSubjectItem p a {
+        margin: 0 0 30px 0
+    }
+    .choiceSubject {
+        margin: 0px 0 0 0;
+        position: relative;
+        padding: 320px 0 0 0
+    }
+    .choiceSubject .choiceSubjectB {
+        display: inline!important;
+    }
+    .choiceSubject .choiceSubjectB .left {
+        width: 100%;
+    }
+    .choiceSubject .choiceSubjectB .right {
+        width: 100%;
+    }
+    .choiceSubject .choiceSubjectB .right .imgBox {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        height: auto;
+    }
+    .choiceSubject .choiceSubjectB .right .imgBox a img {
+        height: 300px;
+    }
+    .choiceItem .articleItem .info {
+        margin: 20px 0 0 0;
+        width: 100%;
+        padding: 0;
+    }
+    .bannerBox.bannerBoxB .info .text .right .form-inline {
+        justify-content: center;
+    }
+    .magazineList.thingBox {
+        margin: 0 0 30px 0
+    }
+    .magazineList h2 {
+        font-size: 1.5rem;
+    }
+    .twoColumn .mainCtn aside {
+        width: 100%;
+        float: none;
+    }
+    .twoColumn .mainCtn article {
+        width: 100%;
+        float: none;
+        padding: 20px 0 60px 0
+    }
+    .studyBox aside .dropdown .dropdown-toggle {
+        border: 1px solid #cd2300;
+        color: #cd2300;
+        border-radius: 0;
+        width: 100%;
+        margin: 20px 0 0 0
+    }
+    body.fixedHeader .studyBox aside .dropdown .dropdown-toggle {
+        margin: 0;
+        border: none;
+        border-bottom: 1px solid #cd2300;
+    }
+    article .studyRightBox.thingBox .articleItem .articleItemRight {
+        right: 0
+    }
+    article .studyRightBox.thingBox .articleItem .articleItemRight .imgBox.itemthumb img {
+        height: 85px;
+    }
+    aside {
+        z-index: 1;
+    }
+    body.fixedHeader .studyBox aside {
+        position: fixed;
+        width: 100%;
+        top: 46px;
+        left: 0;
+        background: #fff;
+        z-index: 4;
+    }
+    body.fixedHeader.modal-openB .studyBox aside {
+        z-index: 9999999;
+        padding-bottom: 60px;
+        min-height: 100vh;
+    }
+    body.modal-openB aside .closeBtn {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 6px;
+        line-height: 1;
+        height: auto;
+        padding: 10px;
+        border: none;
+        background: none;
+        z-index: 10;
+    }
+    body.modal-openB aside .closeBtn.closeSearchBtn {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        color: #fff;
+        padding: 12px 0 12px 0;
+        background: #cd2300;
+    }
+    body.modal-openB aside:after {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        content: "";
+        display: block;
+        z-index: 0;
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, .07);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .07);
+    }
+    .studyBox article .title .bottomTitle ul li a {
+        margin: 0 15px 0 0
+    }
+    body.modal-openB aside {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999999;
+        padding: 0 15px;
+        background: #fff;
+        width: 100%;
+        max-height: 100vh;
+        overflow: auto;
+    }
+    body.modal-openB .studyBox aside .reBtn {
+        display: none;
+    }
+    body.modal-openB .studyBox aside .dropdown-menu {
+        transform: none!important;
+        position: static!important;
+        display: block!important;
+    }
+    .studyBox aside .dropdown-menu {
+        display: none!important;
+    }
+    .studyBox aside .dropdown-menu .box:first-of-type .title {
+        padding-top: 60px;
+    }
+    body.fixedHeader .studyBox aside .dropdown-menu .box:first-of-type .title {
+        padding-top: 20px;
+    }
+    .studyBox aside .dropdown-menu .box ul li.active a {
+        color: #0786af;
+    }
+    .thingBox.bigImg .imgBox {
+        width: calc(100% + 30px);
+        margin: 0 0 15px -15px;
+    }
+    .thingBox.bigImg .articleItem {
+        display: -moz-box;
+        display: -webkit-box;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        -webkit-box-orient: vertical;
+        width: 100%;
+    }
+    .thingBox.bigImg .articleItem .heighH3 {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+    }
+    .thingBox.bigImg .articleItem .heighH3 h3 {
+        margin: 0 0 0px 0;
+    }
+    .thingBox.bigImg .articleItem h4 {
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        width: 100%;
+    }
+    .thingBox.bigImg .articleItem .imgBox {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+    }
+    .thingBox.bigImg .articleItem .listItem {
+        -webkit-box-ordinal-group: 4;
+        -moz-box-ordinal-group: 4;
+        width: 100%;
+    }
+    .thingBox.bigImg .articleItem .heighP {
+        -webkit-box-ordinal-group: 5;
+        -moz-box-ordinal-group: 5;
+        width: 100%;
+    }
+    .thingBox.bigImg .articleItem .clickItem {
+        -webkit-box-ordinal-group: 6;
+        -moz-box-ordinal-group: 6;
+        width: 100%;
+    }
+    .searchTagBox.searchGroup {
+        padding: 30px 0px 0px 0px;
+    }
+    .searchTagBox.searchGroup .searchBox {
+        margin-bottom: 20px;
+    }
+    .searchTagBox.searchGroup .searchBox input::-webkit-input-placeholder {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .searchTagBox.searchGroup .searchBox input:-moz-placeholder {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .searchTagBox.searchGroup .searchBox input:-ms-input-placeholder {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .searchTagBox.searchGroup .searchBox input {
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    .articleItem.audioItem .articleItemLeft h3 a {
+        width: calc(100% - 55px);
+    }
+    .sortBox.sortSearchBox {
+        margin-bottom: 50px;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .left {
+        width: calc(40% - 20px);
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .right {
+        width: 60%;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .left .imgBox img {
+        height: 85px;
+    }
+    .otherTitle {
+        margin: 0 0 30px 0;
+    }
+    .recommendLearnBox {
+        padding: 30px 0;
+    }
+    .furtherReading {
+        padding: 30px 0;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .imgBox img {
+        height: 120px;
+    }
+    .provenanceBox {
+        padding: 30px 0 60px 0
+    }
+    .articleSubject {
+        margin: 0 0 60px 0;
+    }
+    .articleCtn .articleCenter {
+        width: 100%;
+        padding: 0
+    }
+    .articleCtn .articleRight {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto
+    }
+    .articleCtn .articleRight .rightAd {
+        display: none;
+    }
+    .articleCtn.articleBottom .articleSet {
+        display: block;
+    }
+    .edit,
+    .edit p,
+    .edit blockquote,
+    .edit a,
+    .questionBox {
+        line-height: 1.8;
+    }
+    .edit.fontBig,
+    .edit.fontBig a {
+        line-height: 1.9;
+    }
+    .edit blockquote {
+        padding: 0 0px 40px 0px;
+    }
+    .edit blockquote,
+    .edit blockquote a {
+        font-size: 1.25rem;
+    }
+    .edit.fontBig blockquote,
+    .edit.fontBig blockquote a {
+        font-size: 1.35rem;
+    }
+    .edit .toggleBox {
+        padding: 35px 0 0px 0;
+    }
+    .edit .expandable .spTitle h2 span {
+        position: static;
+        transform: none;
+        display: inline-block;
+    }
+    .edit .expandable .expand-bar:after {
+        width: 40px;
+        height: 40px;
+        border-width: 0 0 40px 40px;
+    }
+    .edit .expandable .expand-bar i:after {
+        width: 45px;
+        height: 45px;
+    }
+    .edit table tr td,
+    .edit table tr th {
+        padding: 6px
+    }
+    .edit .twocolumn .left {
+        width: 100%;
+    }
+    .edit .twocolumn .toggleBox {
+        padding-left: 0;
+    }
+    .edit blockquote.blockquoteBstyle {
+        margin: 0px 0 40px 0px;
+        padding: 30px;
+    }
+    .edit blockquote.blockquoteBstyle:after {
+        top: 10px;
+        left: 10px
+    }
+    .edit .questionItem .left,
+    .questionBox .questionItem .left {
+        font-size: 2rem;
+        width: 40px;
+        line-height: 1.5;
+    }
+    .edit .questionItem .right,
+    .questionBox .questionItem .right {
+        width: calc(100% - 40px);
+        padding: 0 0 0 15px;
+    }
+    .edit .convexRow {
+        border-top: none;
+        padding: 0
+    }
+    .edit .convexRow .spBox {
+        width: 100%;
+        float: none;
+        margin: 0 0 50px 0;
+        transform: none;
+        padding: 20px 0 0 0px
+    }
+    .edit .convexRow .spBox:after,
+    .edit .convexRow .spBox:before {
+        display: none;
+    }
+    .edit .convexRow .spBox h2 {
+        margin: 20px 0 20px 0
+    }
+    .edit .caseBox ul li {
+        padding-left: 40px;
+    }
+    .edit .markBox {
+        padding: 20px;
+    }
+    .edit .otherStyle {
+        padding: 20px;
+    }
+    .articleCtn .articleMenu {
+        position: static;
+        opacity: 1;
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 15px 0;
+        width: 100%;
+        justify-content: space-between;
+        -o-transition: all .20s linear;
+        -webkit-transition: all .20s linear;
+        -moz-transition: all .20s linear;
+        transition: all .20s linear;
+        display: none;
+        z-index: 1;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+        align-items: center;
+        transform: none;
+    }
+    body.modal-openC .articleCtn .articleMenu {
+        z-index: 99999;
+    }
+    .articleCtn .articleMenu.articleMenuOpen {
+        display: block;
+    }
+    .articleCtn .articleMenu .articleMenuItem {
+        padding: 0 10px;
+        margin: 0;
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle i {
+        font-size: 24px
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle span {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle.fontBtn span.big {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle.fontBtn.fontBtnChange span.small {
+        display: none;
+    }
+    .articleCtn .articleMenu .articleMenuItem.articleMenuItemShare {
+        margin: 0px 0 0 0;
+    }
+    body.modal-openC {
+        overflow: hidden;
+    }
+    .mobileBtn {
+        -o-transition: all .20s linear;
+        -webkit-transition: all .20s linear;
+        -moz-transition: all .20s linear;
+        transition: all .20s linear;
+        display: block;
+        bottom: 148px;
+        position: fixed;
+        right: 26px;
+        z-index: 2;
+        width: 58px;
+        height: 58px;
+        background: #fff;
+        border-radius: 50%;
+        line-height: 1;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+    body.fixedProgress .mobileBtn {
+        opacity: 1;
+    }
+    /* body.hideUp .mobileBtn {
+        bottom: 145px;
+        cursor: pointer;
+    } */
+    .mobileBtn i {
+        color: #cd2300;
+        font-size: 1.5rem;
+    }
+    .mobileBtn.mobileBtnOpen {
+        box-shadow: none;
+    }
+    .mobileBtn.mobileBtnOpen i {
+        color: #000;
+    }
+    .mobileBtn.mobileBtnOpen i:before {
+        font: 1rem 'icomoon'!important;
+        content: "\e92e";
+    }
+    .articleMenuItem .dropdownBoxSet.dropright .dropdown-menu {
+        position: fixed!important;
+        transform: none!important;
+        margin: 0;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        min-height: 100vh;
+        z-index: 9999999;
+    }
+    .articleMenuItem .dropdownBoxSet.dropright .dropdown-menu .modal-body {
+        height: calc(100vh - 65px);
+        overflow: auto;
+    }
+    .articleMenuItem .modal.myShare .modal-body ul {
+        margin: 40px 30px 30px 30px;
+        padding: 0px;
+        list-style: none;
+    }
+    .articleMenuItem .modal.myShare .modal-body ul li a {
+        display: block;
+        padding: 0 0 30px 0px;
+        line-height: 1;
+    }
+    .articleMenuItem .modal.myShare .modal-body ul li a i {
+        margin: 0 20px 0 0;
+        font-size: 1.75rem;
+        transform: translate(0, 6px);
+        display: inline-block;
+    }
+    body.bodyLimit .articleCtn .articleRight {
+        display: none;
+    }
+    .limitUPBox {
+        padding: 40px 0 100px 0;
+    }
+    body.LimitGray .limitUPBox.limitUPBoxBstyle {
+        margin-bottom: 20px;
+    }
+    .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn {
+        width: 100%;
+        margin: 0 15px;
+        padding: 40px 0 40px 0;
+        border-right: none;
+        border-bottom: 1px solid #ddd
+    }
+    .limitUPBoxStyle .limitUPBoxStyleCtnBox button {
+        margin-top: 0;
+    }
+    .authorTitleBox {
+        padding: 20px 0;
+    }
+    .authorTitleBox h1 {
+        font-size: 2rem;
+    }
+    .authorTitleBox hr {
+        margin: 20px 0 20px 0;
+    }
+    body.fixedProgress .titleFullVersion .titleFullVersionLine {
+        top: 46px;
+        border-bottom: 2px solid #ddd;
+    }
+    .titleFullVersionCtn {
+        padding: 0 15px;
+    }
+    .titleFullVersion .titleFullVersionLine a {
+        padding: 8px 15px 8px 70px;
+    }
+    .titleFullVersion .titleFullVersionLine a span {
+        left: 15px;
+        right: auto;
+    }
+    .readArticle .active a {
+        border-bottom: none;
+    }
+    .titleFullVersionCtn .provenanceBtn {
+        width: 30px;
+        height: 100%;
+        line-height: 30px;
+    }
+    .titleFullVersionCtn .provenanceBtn.slick-prev {
+        left: -15px;
+    }
+    .titleFullVersionCtn .provenanceBtn.slick-next {
+        right: -15px;
+    }
+    body.fullVersion .articleCtn .edit {
+        padding: 0;
+    }
+    body.fixedProgress.fullVersion .edit {
+        padding-top: 130px;
+        margin-top: -130px;
+    }
+    .teacherBannerBox {
+        /* margin-top: 55px */
+    }
+    body.bodyLimit .teacherBannerBox {
+        margin-top: 0;
+    }
+    .collegeArticleBox .title {
+        display: none;
+    }
+    .readArticleBox .title {
+        font-size: .9rem;
+        color: #000;
+        text-align: center;
+        padding: 8px 0 8px 0;
+        border-bottom: 1px solid #ddd;
+        margin: 0
+    }
+    .readArticleBox .title {
+        border-bottom: 1px solid #ddd;
+    }
+    body.hideUp .readArticleBox .title {
+        display: none;
+    }
+    .readArticleBox .title span {
+        font-size: 1.25rem;
+    }
+    .readArticleBox .title i {
+        display: none;
+    }
+    .readArticleScroll.dropdown-menu,
+    .collegeArticleScroll.dropdown-menu {
+        display: block;
+        height: 64px;
+        padding: 0
+    }
+    .collegeArticleScroll.dropdown-menu {
+        height: auto;
+    }
+    body.hideUp .readArticleBox.show,
+    body.hideUp .collegeArticleBox.show {
+        height: 64px;
+    }
+    body.fixedHeader .readArticleBox.show {
+        height: 101px;
+    }
+    body.fixedHeader .collegeArticleBox.show {
+        height: auto;
+    }
+    body.fixedHeader.hideUp .readArticleBox,
+    body.fixedHeader.hideUp .collegeArticleBox.show {
+        height: 64px;
+    }
+    .readArticleBox.show,
+    .collegeArticleBox.show {
+        height: 64px;
+    }
+    .readArticleBox:before,
+    .collegeArticleBox:before {
+        display: none;
+    }
+    .readArticleBox:after,
+    .collegeArticleBox:before {
+        display: none;
+    }
+    .readArticleBox,
+    .readArticleBox.show {
+        height: 101px;
+        bottom: auto;
+        right: auto;
+        left: 0px;
+        top: 46px;
+        width: 100%;
+        background: #fff;
+        border-bottom: 2px solid #ddd;
+        padding: 0 15px;
+        overflow: hidden;
+    }
+    .collegeArticleBox,
+    .collegeArticleBox.show {
+        position: fixed;
+        height: auto;
+        bottom: auto;
+        right: auto;
+        left: 0px;
+        top: 46px;
+        width: 100%;
+        background: #fff;
+        border-bottom: 2px solid #ddd;
+        padding: 0 15px;
+        transform: none;
+        box-shadow: none;
+    }
+    body.hideUp .collegeArticleBox {
+        height: 64px;
+    }
+    body.hideUp .collegeArticleBox .selflearnItem {
+        display: none;
+    }
+    .readArticle,
+    .collegeArticle {
+        padding: 0 15px
+    }
+    .readArticle .provenanceBtn,
+    .collegeArticle .provenanceBtn{
+        width: 30px;
+        height: 100%
+    }
+    .readArticle .provenanceBtn.slick-prev,
+    .collegeArticle .provenanceBtn.slick-prev{
+        left: -10px;
+    }
+    .readArticle .provenanceBtn.slick-next,
+    .collegeArticle .provenanceBtn.slick-next{
+        right: -10px;
+    }
+    .readArticle .slick-slide,
+    .collegeArticle .collegeArticleItem {
+        margin: 0
+    }
+    .collegeArticle .collegeArticleItem {
+        position: relative;
+    }
+    .readArticleBox .slick-slide a,
+    .collegeArticleBox .collegeArticleItem a {
+        display: inline-block;
+        height: 100%;
+        border-right: 1px solid #ddd;
+        padding: 8px 15px 8px 70px;
+        width: 100%;
+    }
+    .readArticleBox .slick-slide>div,
+    .readArticleBox .slick-slide>div>div {
+        height: 100%;
+    }
+    .readArticle .slick-slide a span {
+        font-size: 2.8rem;
+        color: #aaa;
+        padding: 5px;
+        bottom: 10px;
+        left: 15px;
+        top: auto;
+        font-style: italic;
+    }
+    .collegeArticleBox .collegeArticleItem .lesson {
+        color: #aaa;
+        padding: 5px;
+        bottom: 5px;
+        left: 15px;
+        top: auto;
+        font-style: italic;
+        position: absolute;
+        margin: 0
+    }
+    .collegeArticle .collegeArticleItem .lesson span {
+        display: block;
+    }
+    .collegeArticle .collegeArticleItem .lesson i {
+        padding: 0 5px
+    }
+    .readArticle .active a span,
+    .collegeArticle .collegeArticleItem.active .lesson i {
+        background: rgb(0, 0, 0);
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 52%, rgba(205, 35, 0, 1) 52%, rgba(205, 35, 0, 1) 53%, rgba(205, 35, 0, 1) 100%);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 52%, rgba(205, 35, 0, 1) 52%, rgba(205, 35, 0, 1) 53%, rgba(205, 35, 0, 1) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 52%, rgba(205, 35, 0, 1) 52%, rgba(205, 35, 0, 1) 53%, rgba(205, 35, 0, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cd2300', GradientType=0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        text-shadow: none;
+    }
+    .readArticleBox .active,
+    .collegeArticleBox .collegeArticleItem.active {
+        position: relative;
+    }
+    .readArticleBox .active:after,
+    .collegeArticleBox .collegeArticleItem.active:after {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 10px 10px;
+        border-color: transparent transparent #cd2300 transparent;
+        z-index: 1;
+        right: 5px;
+        bottom: 5px;
+        content: "";
+        display: block;
+    }
+    .readArticleBox .active a,
+    .collegeArticleBox .collegeArticleItem.active a {
+        display: inline-block;
+        background: #F9F9F9;
+        border-bottom: 2px solid #ddd;
+        border-right: 1px solid #F9F9F9;
+    }
+    .readArticleBox .slick-slide a .heighH2,
+    .collegeArticleBox .collegeArticleItem .heighH2 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .readArticleBox .slick-slide a h2,
+    .collegeArticleBox .collegeArticleItem h2 {
+        font-size: 1rem;
+        font-weight: 600;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        margin: 0;
+        color: #000;
+        padding: 0;
+        max-height: 50px;
+    }
+    .readArticleBox .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden,
+    .collegeArticleBox .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+        height: 100%;
+    }
+    .readArticleBox .slick-slider,
+    .collegeArticleBox .slick-slider {
+        height: 100%;
+    }
+    .readArticleBox .slick-slider .slick-list,
+    .collegeArticleBox .slick-slider .slick-list {
+        height: 100%;
+    }
+    .readArticleBox .slick-slider .slick-list .slick-track,
+    .collegeArticleBox .slick-slider .slick-list .slick-track {
+        height: 64px;
+    }
+    .collegeArticleBox .progress {
+        display: none;
+    }
+    .collegeArticleBox .collegeArticleItem .info {
+        display: none;
+    }
+    .collegeArticleBox .selflearnItem {
+        padding: 5px 0 5px 0;
+        margin: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .collegeArticleBox .selflearnItem h3 {
+        font-size: .8rem;
+        margin-bottom: 5px;
+        color: #999;
+        text-align: center;
+    }
+    .collegeArticleBox .selflearnItem h2 {
+        font-size: 1.25rem;
+        margin: 0 0 15px 0;
+        /* -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; */
+        text-align: center;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo {
+        display: flex;
+        justify-content: center;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo:after {
+        display: none;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .top {
+        padding-right: 0;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .top ul {
+        margin: 0px 0;
+        padding: 5px 0 0 0;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .top ul li {
+        margin-right: 10px;
+        font-size: .8rem;
+        color: #555;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .top ul li span {
+        color: #000;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .progress-circle {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .progress-circle span {
+        position: static;
+        transform: none;
+        color: #cd2300;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .progress-circle span i {
+        color: #000;
+    }
+    .collegeArticleBox .selflearnItem .progress-circle:before {
+        display: none;
+    }
+    .collegeArticleBox .selflearnItem .progress-circle:after {
+        display: none;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .bottom {
+        padding-right: 0;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .bottom ul {
+        margin: 0px 0;
+        padding: 5px 0 0 0;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .bottom ul li {
+        margin-right: 10px;
+        font-size: .8rem;
+        color: #555;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo .bottom ul li a {
+        font-size: .8rem;
+        color: #555;
+    }
+    body.collegeBody {
+        margin-top: 190px;
+    }
+    body.collegeBody.bodyLimit {
+        margin-top: 50px;
+    }
+    body.collegeBody .limitUPBox {
+        min-height: 40vh;
+    }
+    .magazineBox.magazineBookBox .magazineItem .right {
+        width: 150px;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .magazineBox.magazineBookBox .magazineItem .info {
+        width: calc(100% - 300px);
+    }
+    .magazineBox.magazineBookBox .magazineItem .right .magazineBtn {
+        width: 100%;
+    }
+    .magazineBox.magazineBookBox .magazineItem .right .magazineBtn:first-of-type {
+        margin: 0 0px 10px 0
+    }
+    .mainTopStyle .headStyle {
+        position: static;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        writing-mode: rl-tb;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        padding: 0px;
+        border-bottom: 4px solid #000;
+        margin: 0 0 20px -15px;
+        padding: 5px 15px 5px 15px;
+        background: #eee;
+        width: calc(100% + 30px);
+    }
+    .mainTopStyle .headStyle:after {
+        display: none;
+    }
+    .mainTopStyle .headStyle .titleStyle {
+        padding: 0;
+    }
+    .mainTopStyle .headStyle .titleStyle span {
+        margin: 0;
+    }
+    .mainTopStyle .headStyle .titleEng {
+        position: static;
+        font-size: .9rem;
+    }
+    .bodyheadStyle .articleCtn .articleCenter {
+        padding-left: 0px;
+    }
+    body.ideaPicStyle .mainTopStyle {
+        padding-left: 0;
+    }
+    .edit .ideaPicBox .left {
+        width: calc(70% - 30px);
+    }
+    .selflearnBox .selflearnItem .mainInfo {
+        padding: 15px
+    }
+    .selflearnBox .selflearnItem .topInfo {
+        min-height: 130px;
+    }
+    .selflearnBox .selflearnItem .topInfo .heighH2 h2 a {
+        font-size: 1.25rem;
+    }
+    .selflearnItem .bottomInfo .top {
+        padding-right: 60px;
+    }
+    .selflearnItem .bottomInfo .top ul li {
+        margin: 2px 10px 2px 0;
+    }
+    .selflearnItem .bottomInfo .top ul li i {
+        margin: 0 3px 0 0;
+    }
+    .selflearnItem .bottomInfo .top ul li span {
+        margin-right: 5px;
+    }
+    .selflearnItem .bottomInfo .bottom {
+        padding-right: 60px;
+    }
+    .selflearnItem .bottomInfo .bottom ul li {
+        margin: 2px 10px 2px 0;
+    }
+    .selflearnItem .bottomInfo .bottom ul li i {
+        margin-right: 3px;
+    }
+    .selflearnItem .bottomInfo .progress-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .progress-circle:before {
+        width: 40px;
+        height: 40px;
+    }
+    .progress-circle span {
+        font-size: 1.25rem;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right {
+        display: block;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right .column {
+        width: 100%;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right .column .collegeItem .info {
+        padding: 0 0 0 30px;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right .column .collegeItem .info .heigh2 h2 a {
+        font-size: 1.25rem;
+    }
+    .selflearnBox .selflearnItem .detailInfo .right .column:first-of-type .collegeItem:last-of-type {
+        margin: 0 0 50px 0;
+    }
+
+    .articleCtn .articleMenu.mobileArticleMenu{
+        display: flex !important;
+    }
+    .articleCtn .articleMenu .articleMenuItem a.dropdownToggle img{
+        width: 24px;
+        padding: 0;
+    }
+    .VideoBox .articleCtn .articleMenu,.audioBox .articleCtn .articleMenu{
+        margin-top: 10px;
+        margin-bottom: 0;
+        border: none;
+    }
+    .fullVersion .articleCtn .articleMenu{
+        border: none;
+    margin-bottom: 0;
+    }
+    .chart-tool .dropdownToggle{
+        bottom: 120px;
+        right: 10px;
+    }
+    .articleMenuItem .modal.mySave .saveBox ul{
+        height: auto;
+        max-height: calc(100vh - 150px);
+    } 
+
+    .middleAd.ad-2 .adPC{
+        display: none;
+    }
+    .middleAd.ad-2 .adMobile{
+        display: block;
+    }
+
+    .articleCtn .articleRight .rightAd.ad-6{
+        display: block;
+    }
+    .rightAd.ad-6 .adPC{
+        display: none;
+    }
+    .rightAd.ad-6 .adMobile{
+        display: block;
+    }
+  
+}
+
+@media screen and (max-width:767px) {
+    footer .topFooter .item .card-body ul li {
+        width: 100%;
+        float: none;
+        margin: 0;
+        white-space: normal;
+    }
+    .otherTitle {
+        margin: 0 0 20px 0;
+    }
+    .recommendLearnBox .recommendLearnItemBox {
+        width: 100%;
+        margin: 0
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem {
+        width: 100%;
+        margin: 0 0 40px 0;
+        position: relative;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem:last-of-type {
+        margin: 0
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .left {
+        width: 140px;
+        float: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .left .imgBox img {
+        width: 120px;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .right {
+        width: 100%;
+        float: none;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .right .heighH4 h4 {
+        padding: 0 0 0 140px;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .right .heighH4 h4 a {
+        padding: 6px 15px;
+    }
+    .recommendLearnBox .recommendLearnItemBox .recommendLearnItem .right .heighH3 h3 {
+        padding: 0 0 0 140px;
+        min-height: 60px;
+    }
+    .furtherReading .furtherReadingItemBox {
+        width: 100%;
+        margin: 0;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem {
+        width: 100%;
+        margin: 0 0 10px 0;
+        position: relative;
+        display: block;
+        min-height: 100px;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .imgBox {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 120px;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .imgBox img {
+        height: 85px;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .heighH3 h3 {
+        padding: 0 0 0 140px;
+    }
+    .furtherReading .furtherReadingItemBox .furtherReadingItem .heighP {
+        padding-left: 140px;
+        margin-top: -10px;
+    }
+    .provenanceBox {
+        padding: 30px 0 0px 0
+    }
+    .provenanceBox .provenanceArticle {
+        width: 100%;
+    }
+    .provenanceBox .provenanceArticle {
+        padding: 0 20px;
+        margin: 0 0 100px 0
+    }
+    .provenanceArticleBox .provenanceBtn,
+    .edit .questionItemBox .provenanceBtn {
+        width: 20px;
+        height: 20px;
+    }
+    .provenanceArticleBox .provenanceBtn.slick-prev {
+        left: -30px;
+    }
+    .provenanceArticleBox .provenanceBtn.slick-next {
+        right: -30px;
+    }
+    .provenanceArticleItem .left {
+        width: 120px;
+    }
+    .provenanceArticleItem .left .imgBox {
+        margin: 0;
+    }
+    .provenanceArticleItem .right {
+        padding: 0 0 50px 15px;
+        width: calc(100% - 130px);
+    }
+    a.magazineBtn {
+        padding: 5px 15px
+    }
+    .provenanceArticleItem .right h2 a {
+        -webkit-line-clamp: 2;
+    }
+    .authorBox .authorBoxItem {
+        min-height: 115px;
+    }
+    .authorBox .authorBoxItem .imgBox {
+        width: 85px;
+    }
+    .authorBox .authorBoxItem .imgBox img {
+        height: 85px;
+    }
+    .authorBox .authorBoxItem .info {
+        padding-left: 115px;
+    }
+    .articleSubject .articleSubjectBox {
+        width: 100%;
+        margin: 0
+    }
+    .articleSubject .articleSubjectBox .articleSubjectItem {
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 10px;
+    }
+    .articleSubject .articleSubjectBox .articleSubjectItem h2 a {
+        font-size: 1.35rem;
+    }
+    .articleSubject .articleSubjectBox .articleSubjectItem:last-of-type {
+        margin: 0
+    }
+    .edit .questionItem {
+        padding: 0 20px;
+    }
+    .edit .ideaPicBox .left {
+        width: 100%;
+        float: none;
+        margin: 0 0 50px 0;
+    }
+    .edit .ideaPicBox .left ul.btnDown {
+        max-width: none;
+        display: block;
+    }
+    .edit .ideaPicBox .left ul.btnDown li {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+    .edit .ideaPicBox .left ul.btnDown li:last-of-type {
+        margin: 0;
+    }
+    .edit .ideaPicBox .right {
+        width: 100%;
+        float: none;
+    }
+    .mainTopStyle h1 {
+        font-size: 1.8rem;
+    }
+    .mainTopStyle .imgBox img {
+        width: calc(100% + 30px);
+        margin: 0 0 0 -15px;
+    }
+    .wideEditImg {
+        display: none;
+    }
+    .mainTopStyle .sponsor {
+        display: inline-block;
+        margin: 0 0 15px 0;
+    }
+    .mainTopStyle .sponsor img {
+        display: block;
+        width: auto;
+        height: 40px;
+        float: left;
+        margin: 0 5px 0 0;
+    }
+    .magazineSearch {
+        margin: 40px 0 20px 0;
+    }
+    .magazineSearch .form-inline {
+        justify-content: center;
+    }
+    .magazineSearch select {
+        width: calc(100% - 55px);
+    }
+    .magazineBox {
+        margin: 0 0 60px 0
+    }
+    .magazineBox.magazineBookBox {
+        margin: 0 0 20px 0
+    }
+    .magazineBox .magazineItem {
+        padding: 40px 0;
+        position: relative;
+    }
+    .magazineBox .magazineItem .left {
+        width: 90px;
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+    .magazineBox .magazineItem .info h5 {
+        width: calc(100% - 100px);
+    }
+    .magazineBox .magazineItem .info h3 {
+        width: calc(100% - 100px);
+        font-size: 1.5rem;
+    }
+    .magazineBox .magazineItem .info h2 {
+        width: calc(100% - 100px);
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    .magazineBox.magazineBookBox .magazineItem .info h2 {
+        min-height: 120px;
+        font-size: 1.5rem;
+    }
+    .magazineBox .magazineItem .info {
+        width: 100%;
+        padding: 0 0 0 0px;
+    }
+    .magazineBox.magazineBookBox .magazineItem .info {
+        width: 100%;
+        padding: 0px;
+    }
+    .magazineBox .magazineItem .right {
+        width: 100%;
+        margin: 15px 0 0 0
+    }
+    .magazineBox.magazineBookBox .magazineItem .right {
+        width: 100%;
+        margin: 15px 0 0 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .magazineBox.magazineBookBox .magazineItem .right .magazineBtn:first-of-type {
+        margin: 0
+    }
+    .magazineBox.magazineBookBox .magazineItem .right .magazineBtn {
+        width: calc(50% - 5px);
+    }
+    .selflearnBox .selflearnItem {
+        width: 100% ;
+        margin: 0 0 20px 0;
+    }
+    .selflearnBox .selflearnItem.active .mainInfo {
+        transform: scale(1);
+    }
+    .selflearnBox .selflearnItem .topInfo {
+        min-height: 0; 
+    }
+    .selflearn .selflearnBox .selflearnItem .topInfo {
+        min-height: 130px; 
+    }
+    .selflearnItem .bottomInfo .top {
+        padding-right: 80px;
+    }
+    .selflearnItem .bottomInfo .top ul li {
+        margin: 2px 20px 2px 0;
+    }
+    .selflearnItem .bottomInfo .top ul li i {
+        margin: 0 8px 0 0;
+    }
+    .selflearnItem .bottomInfo .top ul li span {
+        margin-right: 8px;
+    }
+    .selflearnItem .bottomInfo .bottom {
+        padding-right: 80px;
+    }
+    .selflearnItem .bottomInfo .bottom ul li {
+        margin: 2px 20px 2px 0;
+    }
+    .selflearnItem .bottomInfo .bottom ul li i {
+        margin-right: 8px;
+    }
+    .selflearnItem .bottomInfo .progress-circle {
+        width: 70px;
+        height: 70px;
+    }
+    .progress-circle:before {
+        width: 60px;
+        height: 60px;
+    }
+    .progress-circle span {
+        font-size: 1.5rem;
+    }
+   .selflearnBox .slick-dots{
+       bottom: -30px;
+   }
+   .selflearnBox .selflearnItem .detailInfo,.selflearnBox .selflearnItem.active .detailInfo{
+       display: none;
+   }
+}
+
+@media screen and (max-width:640px) {
+    .bannerBox .info .textCtn .text h2 {
+        font-size: 2.2rem;
+        margin: 0 8px 0px 0;
+    }
+    .bannerBox .info .text .right h3:after {
+        bottom: -5px;
+    }
+    .bannerBox .info .textCtn .text h1 {
+        font-size: 1.75rem;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .imgBox img {
+        max-width: 120px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info p b i {
+        font-size: 1.5rem;
+    }
+    nav .topMenuBox .lastest .dropdown-menu .ctn .info h2 {
+        font-size: 1.5rem;
+    }
+    body.hideUp .cookie {
+        bottom: 73px;
+    }
+    .dialogStyle .modal-body {
+        padding: 15px 15px 30px 15px
+    }
+    .dialogStyle .modal-body h2 {
+        margin: 0 0 10px 0;
+    }
+    .dialogStyle .modal-body p {
+        margin: 0 0 15px 0;
+    }
+    .dialogStyle .modal-body img {
+        margin: 0 0 15px 0
+    }
+    .editAD {
+        width: calc(100% + 30px);
+        margin: 0px 0 40px -15px;
+        padding: 20px 0
+    }
+    .editAD>div {
+        padding: 0;
+    }
+    .digitBox .info h2 {
+        transform: translate(0, 0);
+        display: block;
+        margin: 0 0 20px 0
+    }
+    .digitBox .info a {
+        margin: 0 auto;
+        min-width: 300px;
+    }
+    .newsletterList {
+        width: 100%;
+        margin: 0
+    }
+    .newsletterList .newsItem {
+        width: 100%;
+        margin: 0 0px 20px 0px;
+    }
+    .moreBtn.moreBtnB a {
+        padding: 40px 0
+    }
+    .teacherMaster {
+        margin: 0px 0 20px 0;
+    }
+    .teacherMaster .container-xl {
+        padding: 0
+    }
+    .teacherMaster .teacherMasterCtn .imgBox img {
+        height: 150px;
+    }
+    .teacherMaster .teacherMasterCtn .articleItem {
+        width: 100%;
+        transform: none;
+        position: static;
+        padding: 0
+    }
+    .teacherMaster.whiteText .teacherMasterCtn a {
+        color: #000;
+    }
+    .teacherMaster .teacherMasterCtn .articleItem h2 {
+        position: absolute;
+        left: 15px;
+        top: 75px;
+        transform: translate(0, -50%);
+        width: 60%;
+    }
+    .teacherMaster.whiteText .teacherMasterCtn .articleItem h2 a {
+        color: #fff;
+        font-size: 1.75rem;
+    }
+    .teacherMaster .teacherMasterCtn .articleItem {
+        padding: 0 15px;
+        margin: 15px 0 0 0
+    }
+    .teacherMaster.whiteText .teacherMasterCtn .articleItem ul.listItem li {
+        color: #000;
+    }
+    .teacherMaster.whiteText .teacherMasterCtn .articleItem ul.listItem li:after {
+        background: #000;
+    }
+    .teacherBox {
+        margin: 0 0 90px 0
+    }
+    .teacherBox .container-xl {
+        padding: 0;
+    }
+    .teacherBoxB {
+        width: 100%;
+        margin: 0;
+    }
+    .teacherList .teacherListItem {
+        width: 100%;
+        margin: 0 0 0px 0;
+    }
+    .teacherList .teacherListItem .articleItem {
+        margin: 0 0 10px 0;
+    }
+    .teacherList .teacherListItem .imgBox {
+        width: calc(100% + 30px);
+        margin: 0 0 15px -15px;
+    }
+    .teacherList .teacherListItem ul.clickItem {
+        position: static;
+    }
+    .teacherListB {
+        width: calc(100% + 30px);
+        margin: 0 0 10px -15px;
+        overflow: visible;
+    }
+    .paginationBox {
+        margin: 25px 0 50px 0
+    }
+    .teacherNew .title {
+        margin: 0 0 10px 0
+    }
+    .teacherNew .titleB h2 {
+        margin: 0 0 40px 0;
+        font-size: 2rem;
+    }
+    .teacherNew .titleB .selectStyleBox {
+        position: static;
+    }
+    .teacherNew .titleB .selectStyleBox select {
+        width: 100%;
+    }
+    .page-item .page-link {
+        padding: 8px 12px;
+    }
+    .sortBox ul.sortList li {
+        width: 50%;
+    }
+    .sortBox ul.sortList li:nth-child(3n+1) a {
+        padding-left: 20px;
+    }
+    .sortBox ul.sortList li:nth-child(3n+3) a {
+        border-right: 1px solid #ddd;
+    }
+    .sortBox ul.sortList li:nth-child(2n+1) a {
+        padding-left: 0px;
+    }
+    .sortBox ul.sortList li:nth-child(2n+2) a {
+        border-right: 1px solid transparent;
+    }
+    .sortBox .sortTitle {
+        display: block;
+    }
+    .sortBox ul.sortList li a {
+        font-size: 1rem;
+    }
+    .sortBox ul.sortList li i {
+        top: 17px;
+    }
+    .sortBox .sortTitle a.view {
+        margin: 0 0 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .bannerBox.spBanner .info .text h3 {
+        font-size: 2rem;
+        margin: 30px 0 15px 0
+    }
+    .recommend {
+        margin: 30px 0 30px 0;
+    }
+    .recommend .recommendB .articleItem {
+        width: 100%;
+        padding: 0;
+    }
+    .recommend .articleItem ul.clickItem {
+        position: static;
+    }
+    .recommend .recommendB .articleItem:last-child {
+        border-left: 0px;
+        padding-left: 0px;
+    }
+    .viewBtn {
+        text-align: center;
+    }
+    .recommend .recommendB .articleItem {
+        margin: 0 0 40px 0
+    }
+    .recommend .recommendB .articleItem:last-of-type {
+        margin: 0;
+    }
+    .HotSubjectAd {
+        padding: 30px 0 30px 0
+    }
+    .choiceSubject .choiceSubjectB .right .imgBox a img {
+        height: 250px;
+    }
+    .choiceSubject {
+        padding: 270px 0 0 0
+    }
+    .choiceItemBox {
+        margin: 60px 0 30px 0;
+        padding: 0;
+    }
+    .choiceItemBox:after {
+        display: none;
+    }
+    .choiceItemBox .choiceItemBoxB {
+        width: calc(100% + 30px);
+        margin: 0 0 0px -15px;
+        overflow: hidden;
+    }
+    .choiceItemBox .choiceItemBoxB .choiceItem {
+        margin: 0 0 40px 0px;
+        width: 100%;
+    }
+    .choiceItem .articleItem .info {
+        padding: 0 15px;
+        margin: 15px 0 0 0
+    }
+    .choiceItemBox .choiceItemBoxB .choiceItem .imgBox img {
+        height: 200px;
+    }
+    .limitUPBox.limitUPBoxStyleB {
+        padding: 40px 0 0px 0
+    }
+    .limitUPBoxStyle .title h3,
+    .limitUPBoxStyle .title h3 a {
+        font-size: 1.65rem;
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn button .right {
+        padding: 0 40px 0 0
+    }
+    .limitUPBoxStyleB .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn button .right i {
+        right: 20px
+    }
+    .limitUPBoxStyleB .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn button .right:after {
+        left: -40px;
+        transform: rotate(35deg);
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn {
+        width: 100%;
+        border-right: none;
+        padding: 20px 0 20px;
+        margin: 0 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .limitUPBoxStyleB .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn:last-of-type {
+        border-bottom: none
+    }
+    .titleFullVersion .titleFullVersionLine a {
+        border-right: none;
+    }
+    .teacherBannerBox {
+        margin: 0 0 40px 0
+    }
+    .teacherBannerBox .info {
+        position: static;
+    }
+    /* .teacherBannerBox .info:after {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -20px;
+        left: 0;
+        content: "";
+        display: block;
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+    } */
+    body.bodyLimit .teacherBannerBox .info:after {
+        display: none;
+    }
+    .teacherBannerBox .imgBox img {
+        height: 220px;
+    }
+    .teacherBannerBox .info .infoDetail {
+        width: 100%;
+    }
+    .teacherBannerBox .info nav {
+        margin: 0;
+        position: absolute;
+        left: 15px;
+        top: 20px;
+        width: 65%;
+    }
+    .teacherBannerBox.whiteText {
+        color: #000;
+    }
+    .teacherBannerBox .info ul.listItem {
+        margin: 15px 0 10px 0
+    }
+    .teacherBannerBox.whiteText .info ul.listItem li:after {
+        background: #000;
+    }
+    .teacherBannerBox .info h1 {
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+    .teacherBannerBox.whiteText .info .hrStyle {
+        display: none;
+    }
+    .teacherBannerBox.whiteText .info h2 {
+        font-size: 1.75rem;
+    }
+    .teacherBannerBox.whiteText .info h3 {
+        margin: 0;
+    }
+    .teacherBannerBox.whiteText .info .smallStyle {
+        position: absolute;
+        left: 15px;
+        top: 80px;
+        color: #fff;
+        width: 65%;
+    }
+    .readArticleBox .slick-slide a,
+    .collegeArticleBox .collegeArticleItem a {
+        border-right: none;
+    }
+    .edit .countryColumn {
+        margin-top: 20px;
+    }
+    .headStyleEdit {
+        margin-bottom: 60px;
+    }
+    .collegeArticleBox .selflearnItem h3 {
+        text-align: left;
+    }
+    .collegeArticleBox .selflearnItem h2 {
+        text-align: left;
+    }
+    .collegeArticleBox .selflearnItem .bottomInfo {
+        justify-content: left;
+    }
+    .newsletterList .newsItem .imgBox.itemthumb {
+        width: 80px;
+        display: none;
+    }
+    .newsletterList .newsItem .imgBox.itemthumb img {
+        height: 80px;
+    }
+    .newsletterList .newsItem .bottomInfo h2 {
+        left: 20px
+    }
+    .newsletterList .newsItem .topInfo .followBtn {
+        bottom: -35px;
+    }
+    .newsletterList .newsItem .topInfo {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .authorBox .authorBoxItem .info p {
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+    .ie11 .authorBox .authorBoxItem .info p {
+        max-height: 54px;
+        display: block;
+    }
+    .authorBox .authorBoxItem .info {
+        padding-left: 100px;
+    }
+    .bannerBox .info .text .right p {
+        font-size: .95rem;
+    }
+    .magazineList.thingBox .articleItem .articleItemRight .imgBox{display: none;}
+    .magazineList.thingBox .articleItem .articleItemLeft h3 a{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .hpOther .selectStyleBox select,
+    .bannerBoxB .selectStyleBox select {
+        padding: 8px 45px 8px 12px;
+        font-size: .9rem;
+    }
+    .hpOther .selectStyleBox button,
+    .bannerBoxB .selectStyleBox button {
+        width: 31px;
+        height: 31px;
+        line-height: 31px;
+        padding: 0;
+    }
+    .limitUPBoxStyle .limitUPBoxStyleCtnBox .limitUPBoxStyleCtn button {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        margin-top: 47px;
+    }
+    body,
+    .layout_inner {
+        min-height: calc(100vh - 110px)
+    }
+    nav .topMenuBox .lastest a img {
+        height: 45px;
+    }
+    nav .topMenuBox .lastest .dropdown-menu {
+        top: 55px!important
+    }
+    body.fixedHeader nav .topMenuBox .lastest .dropdown-menu {
+        top: 53px!important
+    }
+    footer .container-fluid {
+        padding-left: 15px;
+    }
+    .footerSubscription ul li {
+        padding: 0px 4px;
+    }
+    .footerSubscription ul li img {
+        margin-right: 4px;
+        width: 20px;
+    }
+    .footerSubscription ul li span {
+        margin: 0 4px;
+    }
+}

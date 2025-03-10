@@ -1,0 +1,102 @@
+<section class="provenanceBox">
+    <div class="container-xl">
+        <div class="provenanceArticle ">
+            <div class="otherTitle">
+                文章出處
+            </div>
+            <div class="provenanceArticleBox provenanceArticleSlick ">
+                <div class="provenanceArticleItem">
+                    <div class="left">
+                        <div class="imgBox itemthumb">
+                            <a href="magazineArticle.html" title="">
+                                <div class="imgBoxB">
+                                    <img src="https://www.hbrtaiwan.com/images/cover_images/HBR174.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>2021年1月號</p>
+                        <div class="heighH2">
+                            <h2><a href="magazineArticle.html" title="">了說如還物加師有以出灣是流照，的他行國明輕成告美象統防有星就會在問基百使雙，山聽子稱樂來事來想往對國課因道多頭日保生都；要最引的及數觀我理展無景木指？可張商不門醫馬點不快說由石：此表照，了學然</a></h2>
+                        </div>
+                        <a href="magazineList.html" title="" class="magazineBtn">本期目錄</a>
+                    </div>
+                </div>
+                <div class="provenanceArticleItem">
+                    <div class="left">
+                        <div class="imgBox itemthumb">
+                            <a href="magazineArticle.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/cover_images/HBR173.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>2021年1月號</p>
+                        <div class="heighH2">
+                            <h2><a href="magazineArticle.html" title="">與競爭者共舞</a></h2>
+                        </div>
+                        <a href="magazineList.html" title="" class="magazineBtn">本期目錄</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="provenanceArticle ">
+            <div class="otherTitle">
+                本文收錄於
+            </div>
+            <div class="provenanceArticleBox provenanceArticleSlick ">
+                <div class="provenanceArticleItem">
+                    <div class="left">
+                        <div class="imgBox itemthumb">
+                            <a href="" title="">
+                                <img src="https://www.hbrtaiwan.com/images/cover_images/HBR148.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>2021年1月號</p>
+                        <div class="heighH2">
+                            <h2><a href="magazineArticle.html" title="">家族企業永續的祕密</a></h2>
+                        </div>
+                        <a href="magazineList.html" title="" class="magazineBtn">本期目錄</a>
+                    </div>
+                </div>
+                <div class="provenanceArticleItem">
+                    <div class="left">
+                        <div class="imgBox itemthumb">
+                            <a href="magazineArticle.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/cover_images/HBR147.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>2021年1月號</p>
+                        <div class="heighH2">
+                            <h2><a href="magazineArticle.html" title="">與競爭者共舞</a></h2>
+                        </div>
+                        <a href="" title="" class="magazineBtn">本期目錄</a>
+                    </div>
+                </div>
+                <div class="provenanceArticleItem">
+                    <div class="left">
+                        <div class="imgBox itemthumb">
+                            <a href="magazineArticle.html" title="">
+                                <img src="https://www.hbrtaiwan.com/images/cover_images/HS1509.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p>2021年1月號</p>
+                        <div class="heighH2">
+                            <h2><a href="" title="">與競爭者共舞</a></h2>
+                        </div>
+                        <a href="magazineList.html" title="" class="magazineBtn">本期目錄</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
