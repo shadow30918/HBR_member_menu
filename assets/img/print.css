@@ -1,0 +1,100 @@
+
+/*Print CSS*/
+@page{size:297mm 210mm portrait !important;margin:20mm 5mm !important;}
+@media print {
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; printer-colors: exact !important; color-adjust: exact !important; }
+	html, body { background-color: rgba(0, 0, 0, 0) !important; width: 100% !important;margin: 0;}
+	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; page-break-inside: avoid }
+	h1+p, h2+p, h3+p { page-break-before: avoid; }
+	a { page-break-inside: avoid; }
+	img { page-break-after: avoid; page-break-inside: avoid; }
+	table, blockquote { page-break-inside: avoid; }
+	ul, ol, dl { page-break-before: avoid; }
+	.print{ page-break-before: always; }
+
+    nav{display: none;}
+    .footerSubscription{display: none;opacity: 0;}
+    .articleMenu{display: none;}
+    footer{display: none;}
+    .digitBox{display: none;}
+    .chart-tool{display: none;}
+    .fixedMenuTitle{display: none;opacity: 0;position: absolute;}
+    .fixedMenuTitle h2{display: none;}
+    .recommendLearnBox{display: none;}
+    .furtherReading{display: none;}
+    .breadcrumb{display: none;}
+    .articleCtn.articleTop{margin: 0 !important;}
+    .adBox{display: none;}
+}
+/* .mainContainer{
+    overflow: visible;
+    overflow: hidden;
+} */
+.print {display: block;}
+.print .logobox{
+    width: 80px;
+    position: fixed;
+    left: 20px;
+    top: 0px;
+}
+.print .logobox img{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+.print .top_date{
+    position: fixed;
+    font-size: .9rem;
+    right: 20px;
+    top: 0;
+}
+.print .bottom_text{
+    position: fixed;
+    font-size: .9rem;
+    bottom: 0px;
+    left: 40px;
+    text-align: left;
+}
+.print .bottom_text>div{
+    display: inline-block;
+}
+.print .bottom_text .page-tag{
+    padding-left: 20px;
+    font-size: 1rem;
+}
+.container-fluid,.container-lg, .container-md, .container-sm, .container-xl{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.articleCtn.articleTop{
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+.ol.breadcrumb{
+    display: none;
+}
+.articleCtn .articleCenter{
+    padding: 0;
+    width: 100%;
+}
+.articleCtn .articleRight{
+    display: none;
+}
+.edit .expandable{
+    height: auto !important;
+}
+.edit .twocolumn .left{
+    width: 100% !important;
+}
+.edit .convexRow .spBox .info{
+    transform: none;
+}
+.articleSubject{
+    display: none;
+}
+.edit .galleryBox:after,.edit .galleryBox:before{
+    display: none;
+}
+	
